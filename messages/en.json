@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "BEST Local SEO Sofia - LocalSEO - if you're looking for Google Maps Optimization near me or Top 3 Google Ranking near me - LocalSEO is the place to be",
+    "description": "Get your business ranked in the Top 3 on Google Maps within 90 days — guaranteed. No ad spend. No pay-per-click. Long-term results for businesses in Sofia."
+  },
+  "nav": {
+    "logo": "LocalSEO",
+    "links": {
+      "advantage": "Advantage",
+      "beforeAfter": "Before / After",
+      "process": "Process",
+      "faq": "FAQ",
+      "pricing": "Pricing"
+    },
+    "phone": "+359 88 123 4567",
+    "phoneCta": "Call Us"
+  },
+  "hero": {
+    "location": "Sofia, Bulgaria",
+    "headline": "Local SEO Sofia — Top 3 on Google in 90 Days —",
+    "headlineAccent": "Guaranteed.",
+    "subheadline": "75% of all searches go to the top 3 results on Google Maps.",
+    "subheadlineExtra": "If you're not there, you're essentially invisible.",
+    "ctaPrimary": "Get a Free Analysis",
+    "ctaSecondary": "Call Us",
+    "stats": {
+      "clients": "50+",
+      "clientsLabel": "happy clients",
+      "years": "4+",
+      "yearsLabel": "years of experience",
+      "guarantee": "90",
+      "guaranteeLabel": "day guarantee"
+    }
+  },
+  "advantage": {
+    "badge": "The Advantage",
+    "title": "Why Google Maps",
+    "titleAccent": "Optimization?",
+    "cards": {
+      "visibility": {
+        "title": "Visibility",
+        "description": "75% of potential customers choose from the top 3 results. If you're not there, they go to your competitor. Every single day."
+      },
+      "free": {
+        "title": "Free",
+        "description": "No pay-per-click. No massive ad budgets for Google Ads or Meta Ads. Organic results that work for you around the clock."
+      },
+      "longTerm": {
+        "title": "Long-Term Strategy",
+        "description": "Once you're in the top 3, you stay there for years. No additional monthly ad spend. An investment, not an expense."
+      }
+    }
+  },
+  "beforeAfter": {
+    "badge": "Before / After",
+    "title": "SEO Results — The",
+    "titleAccent": "Difference.",
+    "tabs": {
+      "before": "Before",
+      "after": "After"
+    },
+    "business": {
+      "name": "Plumbing Service Sofia",
+      "address": "45 Vitosha Blvd, 1000 Sofia"
+    },
+    "metrics": {
+      "ranking": "Average Ranking",
+      "marketShare": "Market Share",
+      "clicks": "Clicks per Month",
+      "customers": "Customers per Month"
+    },
+    "before": {
+      "ranking": "86",
+      "marketShare": "1%",
+      "clicks": "5",
+      "customers": "1-2"
+    },
+    "after": {
+      "ranking": "2",
+      "marketShare": "82%",
+      "clicks": "80",
+      "customers": "15+"
+    }
+  },
+  "process": {
+    "badge": "How Does It Work?",
+    "title": "Google Maps Ranking — it's pretty",
+    "titleAccent": "easy.",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Free Analysis",
+        "description": "Choose a suitable package and fill out a short form. We analyse your current position on Google Maps."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Onboarding",
+        "description": "We send you detailed instructions for secure access to your profile. The entire process takes under 15 minutes."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Execution",
+        "description": "Our team optimises your profile step by step. We don't just fill your calendar — we overflow it."
+      },
+      "step4": {
+        "number": "04",
+        "title": "What Works?",
+        "description": "We track the data to see what actually works. And then we do more of it."
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQs",
+    "title": "Local SEO — Frequently Asked",
+    "titleAccent": "Questions",
+    "items": {
+      "q1": {
+        "question": "What is the difference between SEO and Google Ads?",
+        "answer": "Google Ads is paid advertising — you pay for every click and when your budget runs out, you disappear. Google Maps SEO is organic — once you're in the top 3, you stay there long-term without paying per click."
+      },
+      "q2": {
+        "question": "Which companies do you work with?",
+        "answer": "We work with local businesses in Sofia — plumbers, dentists, auto repair shops, restaurants, accountants and anyone who serves customers locally. If your clients search for you on Google — we can help."
+      },
+      "q3": {
+        "question": "How much time will I need to invest?",
+        "answer": "Under 15 minutes for the initial setup. After that, we handle everything. You focus on your business, we focus on your visibility on Google."
+      },
+      "q4": {
+        "question": "What are the contract terms?",
+        "answer": "Monthly plans have a 3-month initial commitment, after which you can cancel anytime. The quarterly plan renews every 3 months. No hidden fees."
+      },
+      "q5": {
+        "question": "How can we get started?",
+        "answer": "Choose a package, fill out the free analysis form, and we'll call you within 24 hours. Or simply call us directly."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Packages",
+    "title": "SEO Packages for more",
+    "titleAccent": "Clients",
+    "tiers": {
+      "minimum": {
+        "name": "Minimum",
+        "price": "€250",
+        "period": "/ month",
+        "commitment": "3-month commitment. Cancellable monthly thereafter.",
+        "description": "First page on Google within 90 days.",
+        "noGuarantee": "No money-back guarantee.",
+        "visibility": "Visible on 30% of search results.",
+        "features": [
+          "Full competitor's analysis",
+          "Updates every two weeks",
+          "No money-back guarantee",
+          "Ranking for main search term",
+          "Limited website optimisation",
+          "High-quality authority signals"
+        ],
+        "cta": "Get Started",
+        "ctaCall": "Call"
+      },
+      "standard": {
+        "name": "Standard",
+        "price": "€330",
+        "period": "/ month",
+        "commitment": "3-month commitment. Cancellable monthly thereafter.",
+        "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
+        "visibility": "Visible on 75%+ of search results.",
+        "features": [
+          "Full competitor's analysis",
+          "Updates every two weeks",
+          "Money-back guarantee",
+          "Ranking for main search term",
+          "Full website optimisation",
+          "High-quality authority signals"
+        ],
+        "cta": "Get Started",
+        "ctaCall": "Call",
+        "recommended": true
+      },
+      "quarterly": {
+        "name": "Quarterly (3 Months)",
+        "saveBadge": "Save €150",
+        "price": "€840",
+        "period": "/ quarter",
+        "commitment": "Cancellable every 3 months.",
+        "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
+        "visibility": "Visible on 75%+ of search results.",
+        "features": [
+          "Full competitor's analysis",
+          "Updates every two weeks",
+          "Money-back guarantee",
+          "Ranking for main search term",
+          "Full website optimisation",
+          "High-quality authority signals"
+        ],
+        "cta": "Get Started",
+        "ctaCall": "Call"
+      }
+    }
+  },
+  "footer": {
+    "logo": "LocalSEO",
+    "tagline": "Dominate your local market.",
+    "nap": {
+      "name": "LocalSEO",
+      "street": "100 Vitosha Blvd",
+      "city": "1000 Sofia",
+      "country": "Bulgaria",
+      "phone": "+359 88 123 4567",
+      "email": "info@localseo.bg"
+    },
+    "mapTitle": "Find Us",
+    "links": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "© 2026 LocalSEO. All rights reserved.",
+    "email": "info@localseo.bg"
+  }
+}
