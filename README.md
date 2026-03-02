@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Local SEO Landing Page - Sofia, Bulgaria
+
+High-conversion landing page for a Local SEO service targeting local businesses in Sofia. The goal is to rank client businesses in the Top 3 on Google Maps within 90 days.
+
+## Tech Stack
+
+
+| Layer           | Technology                                             |
+| --------------- | ------------------------------------------------------ |
+| Framework       | Next.js 16 (App Router)                                |
+| Language        | TypeScript (strict)                                    |
+| Styling         | Tailwind CSS v4 (`@theme` in CSS)                      |
+| Animations      | Framer Motion                                          |
+| i18n            | next-intl (Bulgarian default, English secondary)       |
+| Fonts           | Syne, Playfair Display, DM Sans via `next/font/google` |
+| Package manager | pnpm                                                   |
+
+
+## Project Structure
+
+```
+├── messages/
+│   ├── bg.json                        # Bulgarian translations
+│   └── en.json                        # English translations
+├── src/
+│   ├── app/
+│   │   ├── [locale]/
+│   │   │   ├── layout.tsx             # Root layout (fonts, metadata, i18n provider)
+│   │   │   └── page.tsx               # Landing page (all sections composed)
+│   │   └── globals.css                # Tailwind v4 @theme design tokens
+│   ├── components/
+│   │   ├── sections/                  # Hero, Advantage, BeforeAfter, Process, FAQ, Pricing
+│   │   ├── layout/                    # Navbar, Footer
+│   │   └── ui/                        # Button, SectionWrapper
+│   ├── i18n/
+│   │   ├── routing.ts                 # Locale config (bg default, en secondary)
+│   │   ├── request.ts                 # next-intl getRequestConfig
+│   │   └── navigation.ts             # Locale-aware Link, redirect, useRouter
+│   ├── lib/
+│   │   └── cn.ts                      # clsx + tailwind-merge utility
+│   └── proxy.ts                       # Locale detection (Next.js 16 convention)
+├── public/
+│   └── reference/                     # Design reference screenshots
+├── next.config.ts                     # next-intl plugin
+└── tsconfig.json                      # Path alias @/ → src/
+```
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the Bulgarian version. Visit [http://localhost:3000/en](http://localhost:3000/en) for English.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Routing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` serves Bulgarian content without a `/bg` prefix (`localePrefix: 'as-needed'`)
+- `/en` serves English content
+- The proxy (`src/proxy.ts`) handles locale negotiation and redirects
 
-## Learn More
+## Design System
 
-To learn more about Next.js, take a look at the following resources:
+- **Background**: warm beige `#F5F0EB` page surface with white `#FFFFFF` content cards
+- **CTA**: olive-green `#7C9A2D` for conversion buttons
+- **Icons**: accent blue `#1A56DB`
+- **Typography**: Syne (display) + Playfair Display (italic serif accents) + DM Sans (body)
+- **Layout**: no dark sections — beige surface with white cards throughout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+See `.cursor/rules/design.mdc` for the full design specification.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scripts
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Command      | Description              |
+| ------------ | ------------------------ |
+| `pnpm dev`   | Start development server |
+| `pnpm build` | Production build         |
+| `pnpm start` | Start production server  |
+| `pnpm lint`  | Run ESLint               |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
