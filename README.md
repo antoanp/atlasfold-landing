@@ -1,4 +1,4 @@
-# Local SEO Landing Page - Sofia, Bulgaria
+# Local SEO Landing Page - AtlasFold
 
 High-conversion landing page for a Local SEO service targeting local businesses in Sofia. The goal is to rank client businesses in the Top 3 on Google Maps within 90 days.
 
@@ -52,11 +52,11 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the Bulgarian version. Visit [http://localhost:3000/en](http://localhost:3000/en) for English.
+Open [http://localhost:3000/bg](http://localhost:3000) to view the Bulgarian version. Visit [http://localhost:3000/en](http://localhost:3000/en) for English.
 
 ## Routing
 
-- `/` serves Bulgarian content without a `/bg` prefix (`localePrefix: 'as-needed'`)
+- `/bg` serves Bulgarian content
 - `/en` serves English content
 - The proxy (`src/proxy.ts`) handles locale negotiation and redirects
 
