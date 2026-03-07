@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-page: #F5F0EB;
-  --color-card: #FFFFFF;
-  --color-accent: #1A56DB;
-  --color-cta: #7C9A2D;
-  --color-text-primary: #0A0A0A;
-  --color-text-secondary: #6B7280;
-  --color-success: #16A34A;
+  --color-page: #f5f0eb;
+  --color-card: #ffffff;
+  --color-accent: #1a56db;
+  --color-cta: #7c9a2d;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #6b7280;
+  --color-success: #16a34a;
 
   --font-display: var(--font-syne);
   --font-accent: var(--font-playfair-display);
