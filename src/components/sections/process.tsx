@@ -1,22 +1,22 @@
-'use client';
+"use client";
 
-import { useTranslations } from 'next-intl';
-import { SectionWrapper } from '@/components/ui/section-wrapper';
+import { useTranslations } from "next-intl";
+import { SectionWrapper } from "@/components/ui/section-wrapper";
 
 export function Process() {
-  const t = useTranslations('process');
+  const t = useTranslations("process");
 
-  const steps = ['step1', 'step2', 'step3', 'step4'] as const;
+  const steps = ["step1", "step2", "step3", "step4"] as const;
 
   return (
     <SectionWrapper id="process">
       <div className="flex flex-col items-center text-center">
         <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1.5 font-body text-sm">
-          {t('badge')}
+          {t("badge")}
         </span>
         <h2 className="font-display text-3xl font-extrabold lg:text-5xl">
-          {t('title')}{' '}
-          <span className="font-accent italic">{t('titleAccent')}</span>
+          {t("title")}{" "}
+          <span className="font-accent italic">{t("titleAccent")}</span>
         </h2>
       </div>
       <div className="mt-12 flex flex-col gap-4">

@@ -1,72 +1,57 @@
-import { useTranslations } from 'next-intl';
-
-const MAPS_EMBED_URL =
-  'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11730.508769498776!2d23.3218675!3d42.6977082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8682cb317bf5%3A0x400a01269bf5e60!2sSofia!5e0!3m2!1sen!2sbg!4v1709000000000';
+import { useTranslations } from "next-intl";
 
 export function Footer() {
-  const t = useTranslations('footer');
+  const t = useTranslations("footer");
 
   return (
     <footer className="border-t border-gray-200 bg-white py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2">
           <div>
-            <span className="font-display text-xl font-bold">{t('logo')}</span>
+            <span className="font-display text-xl font-bold">{t("logo")}</span>
             <p className="mt-2 font-body text-sm text-text-secondary">
-              {t('tagline')}
+              {t("tagline")}
             </p>
             <address className="mt-6 space-y-1 font-body text-sm not-italic leading-relaxed">
-              <p className="font-bold">{t('nap.name')}</p>
-              <p>{t('nap.street')}</p>
+              <p className="font-bold">{t("nap.name")}</p>
+              <p>{t("nap.street")}</p>
               <p>
-                {t('nap.city')}, {t('nap.country')}
+                {t("nap.city")}, {t("nap.country")}
               </p>
               <p>
                 <a
-                  href={`tel:${t('nap.phone').replace(/\s/g, '')}`}
+                  href={`tel:${t("nap.phone").replace(/\s/g, "")}`}
                   className="text-accent hover:underline"
                 >
-                  {t('nap.phone')}
+                  {t("nap.phone")}
                 </a>
               </p>
               <p>
                 <a
-                  href={`mailto:${t('nap.email')}`}
+                  href={`mailto:${t("nap.email")}`}
                   className="text-accent hover:underline"
                 >
-                  {t('nap.email')}
+                  {t("nap.email")}
                 </a>
               </p>
             </address>
-          </div>
-
-          <div>
-            <p className="mb-3 font-display text-sm font-bold">{t('mapTitle')}</p>
-            <div className="h-56 overflow-hidden rounded-2xl border border-gray-100">
-              <iframe
-                src={MAPS_EMBED_URL}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title={t('mapTitle')}
-              />
-            </div>
           </div>
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
           <div className="flex gap-6 font-body text-sm text-text-secondary">
+            {/* TODO: Placeholder — replace with Link when route exists */}
             <a href="#" className="hover:text-text-primary">
-              {t('links.terms')}
+              {t("links.terms")}
             </a>
+            {/* TODO: Placeholder — replace with Link when route exists */}
             <a href="#" className="hover:text-text-primary">
-              {t('links.privacy')}
+              {t("links.privacy")}
             </a>
           </div>
-          <p className="font-body text-xs text-text-secondary">{t('copyright')}</p>
+          <p className="font-body text-xs text-text-secondary">
+            {t("copyright")}
+          </p>
         </div>
       </div>
     </footer>
