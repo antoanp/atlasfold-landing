@@ -1,13 +1,24 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
+import { LeadCaptureDialog } from "@/components/sections/lead-capture-dialog";
 import { cn } from "@/lib/cn";
+
+type Tier = "minimum" | "standard" | "quarterly";
 
 export function Pricing() {
   const t = useTranslations("pricing");
+  const tiers: Tier[] = ["minimum", "standard", "quarterly"];
 
-  const tiers = ["minimum", "standard", "quarterly"] as const;
+  const [selectedTier, setSelectedTier] = useState<Tier>("standard");
+  const [dialogOpen, setDialogOpen] = useState(false);
+
+  function handleCtaClick(tier: Tier) {
+    setSelectedTier(tier);
+    setDialogOpen(true);
+  }
 
   return (
     <SectionWrapper id="pricing">
@@ -80,12 +91,13 @@ export function Pricing() {
               )}
             </ul>
             <div className="mt-auto flex flex-col gap-3">
-              <a
-                href="#"
+              <button
+                type="button"
+                onClick={() => handleCtaClick(tier)}
                 className="inline-flex items-center justify-center rounded-full bg-cta px-6 py-3 font-body font-medium text-white transition-colors hover:bg-cta/90"
               >
                 {t(`tiers.${tier}.cta`)}
-              </a>
+              </button>
               <a
                 href={t("phoneLink")}
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 font-body font-medium text-text-primary transition-colors hover:bg-gray-50"
@@ -96,6 +108,13 @@ export function Pricing() {
           </div>
         ))}
       </div>
+
+      <LeadCaptureDialog
+        tier={selectedTier}
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+      />
     </SectionWrapper>
   );
 }
+

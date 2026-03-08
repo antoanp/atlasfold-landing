@@ -201,6 +201,21 @@
         "cta": "Get Started",
         "ctaCall": "Call"
       }
+    },
+    "dialog": {
+      "title": "Get a Free Analysis",
+      "subtitle": "Fill in your details and we'll get back to you within 24 hours.",
+      "fields": {
+        "fullName": "Full Name",
+        "phone": "Phone Number",
+        "city": "City",
+        "industry": "Industry"
+      },
+      "tierLabel": "Selected Package",
+      "submit": "Submit",
+      "submitting": "Submitting…",
+      "success": "Thank you! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or call us directly."
     }
   },
   "footer": {
