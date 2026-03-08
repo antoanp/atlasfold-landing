@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 
 const syne = Syne({
@@ -103,6 +104,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           {children}
         </NextIntlClientProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
