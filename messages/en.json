@@ -146,7 +146,7 @@
     "tiers": {
       "minimum": {
         "name": "Minimum",
-        "price": "€250",
+        "price": "345€",
         "period": "/ month",
         "commitment": "3-month commitment. Cancellable monthly thereafter.",
         "description": "First page on Google within 90 days.",
@@ -165,7 +165,7 @@
       },
       "standard": {
         "name": "Standard",
-        "price": "€330",
+        "price": "445€",
         "period": "/ month",
         "commitment": "3-month commitment. Cancellable monthly thereafter.",
         "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
@@ -184,8 +184,8 @@
       },
       "quarterly": {
         "name": "Quarterly (3 Months)",
-        "saveBadge": "Save €150",
-        "price": "€840",
+        "saveBadge": "Save 150€",
+        "price": "1185€",
         "period": "/ quarter",
         "commitment": "Cancellable every 3 months.",
         "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
