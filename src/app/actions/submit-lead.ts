@@ -8,7 +8,13 @@ export type LeadFormState = {
   error?: string;
 } | null;
 
-const REQUIRED_FIELDS = ["fullName", "phone", "city", "industry", "tier"] as const;
+const REQUIRED_FIELDS = [
+  "fullName",
+  "phone",
+  "city",
+  "industry",
+  "tier",
+] as const;
 
 export async function submitLead(
   _prev: LeadFormState,
@@ -16,7 +22,10 @@ export async function submitLead(
 ): Promise<LeadFormState> {
   /* ---------- 1. Extract & validate ---------- */
   const fields = Object.fromEntries(
-    REQUIRED_FIELDS.map((k) => [k, (formData.get(k) as string | null)?.trim() ?? ""]),
+    REQUIRED_FIELDS.map((k) => [
+      k,
+      (formData.get(k) as string | null)?.trim() ?? "",
+    ]),
   );
 
   for (const key of REQUIRED_FIELDS) {
@@ -37,8 +46,11 @@ export async function submitLead(
   if (resendKey && notificationEmail) {
     try {
       const resend = new Resend(resendKey);
+
       await resend.emails.send({
-        from: process.env.RESEND_FROM_EMAIL ?? "AtlasFold Leads <onboarding@resend.dev>",
+        from:
+          process.env.RESEND_FROM_EMAIL ??
+          "AtlasFold Leads <onboarding@resend.dev>",
         to: [notificationEmail],
         subject: `New Lead — ${fields.fullName} (${fields.tier})`,
         html: `
