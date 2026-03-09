@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { LeadCaptureDialog } from "@/components/sections/lead-capture-dialog";
 import { cn } from "@/lib/cn";
@@ -114,7 +115,26 @@ export function Pricing() {
         open={dialogOpen}
         onOpenChange={setDialogOpen}
       />
+      <Suspense fallback={null}>
+        <BookingParamHandler onOpenDialog={() => setDialogOpen(true)} />
+      </Suspense>
     </SectionWrapper>
   );
 }
 
+function BookingParamHandler({ onOpenDialog }: { onOpenDialog: () => void }) {
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    if (searchParams.get("booking") === "true") {
+      onOpenDialog();
+      // Scroll to the pricing section when the dialog opens via URL parameter
+      const element = document.getElementById("pricing");
+      if (element) {
+        setTimeout(() => element.scrollIntoView({ behavior: "smooth" }), 100);
+      }
+    }
+  }, [searchParams, onOpenDialog]);
+
+  return null;
+}
