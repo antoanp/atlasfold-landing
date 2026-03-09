@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "AtlasFold - Local SEO Sofia",
-    short_name: "AtlasFold",
+    name: "Atlas Fold - Local SEO Sofia",
+    short_name: "Atlas Fold",
     start_url: "/",
     display: "standalone",
     background_color: "#F5F0EB",

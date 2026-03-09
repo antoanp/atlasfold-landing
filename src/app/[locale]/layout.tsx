@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
-    authors: [{ name: "AtlasFold", url: baseUrl }],
+    authors: [{ name: "Atlas Fold", url: baseUrl }],
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("title"),
       description: t("description"),
       url: `${baseUrl}/${locale}`,
-      siteName: "AtlasFold",
+      siteName: "Atlas Fold",
       locale: locale === "bg" ? "bg_BG" : "en_US",
       type: "website",
       images: [

@@ -1,9 +1,8 @@
-# Local SEO Landing Page - AtlasFold
+# Local SEO Landing Page - Atlas Fold
 
 High-conversion landing page for a Local SEO service targeting local businesses in Sofia. The goal is to rank client businesses in the Top 3 on Google Maps within 90 days.
 
 ## Tech Stack
-
 
 | Layer           | Technology                                             |
 | --------------- | ------------------------------------------------------ |
@@ -14,7 +13,6 @@ High-conversion landing page for a Local SEO service targeting local businesses 
 | i18n            | next-intl (Bulgarian default, English secondary)       |
 | Fonts           | Syne, Playfair Display, DM Sans via `next/font/google` |
 | Package manager | pnpm                                                   |
-
 
 ## Project Structure
 
@@ -72,12 +70,9 @@ See `.cursor/rules/design.mdc` for the full design specification.
 
 ## Scripts
 
-
 | Command      | Description              |
 | ------------ | ------------------------ |
 | `pnpm dev`   | Start development server |
 | `pnpm build` | Production build         |
 | `pnpm start` | Start production server  |
 | `pnpm lint`  | Run ESLint               |
-
-

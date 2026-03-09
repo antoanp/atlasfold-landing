@@ -40,7 +40,7 @@ export async function JsonLd({ locale }: JsonLdProps) {
       latitude: 42.6977,
       longitude: 23.3219,
     },
-    hasMap: "https://www.google.com/maps?q=AtlasFold,+Vitosha+Blvd+100,+Sofia",
+    hasMap: "https://maps.app.goo.gl/ynCKiC9FJ1ockwUs8",
     areaServed: {
       "@type": "City",
       name: locale === "bg" ? "София" : "Sofia",
@@ -69,7 +69,7 @@ export async function JsonLd({ locale }: JsonLdProps) {
     "@type": "WebSite",
     "@id": `${baseUrl}/#website`,
     url: baseUrl,
-    name: "AtlasFold",
+    name: "Atlas Fold",
     inLanguage: ["bg", "en"],
     publisher: { "@id": `${baseUrl}/#organization` },
   };
@@ -78,7 +78,7 @@ export async function JsonLd({ locale }: JsonLdProps) {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${baseUrl}/#organization`,
-    name: "AtlasFold",
+    name: "Atlas Fold",
     url: baseUrl,
     logo: `${baseUrl}/images/icon-512.png`,
     contactPoint: {

@@ -50,11 +50,11 @@ export async function submitLead(
       await resend.emails.send({
         from:
           process.env.RESEND_FROM_EMAIL ??
-          "AtlasFold Leads <onboarding@resend.dev>",
+          "Atlas Fold Leads <onboarding@resend.dev>",
         to: [notificationEmail],
         subject: `New Lead — ${fields.fullName} (${fields.tier})`,
         html: `
-          <h2>New lead from AtlasFold</h2>
+          <h2>New lead from Atlas Fold</h2>
           <table style="border-collapse:collapse">
             <tr><td style="padding:4px 12px;font-weight:bold">Name</td><td style="padding:4px 12px">${fields.fullName}</td></tr>
             <tr><td style="padding:4px 12px;font-weight:bold">Phone</td><td style="padding:4px 12px">${fields.phone}</td></tr>
