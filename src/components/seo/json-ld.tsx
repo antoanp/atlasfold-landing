@@ -25,8 +25,8 @@ export async function JsonLd({ locale }: JsonLdProps) {
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "18:00",
+      opens: "08:00",
+      closes: "17:00",
     },
     address: {
       "@type": "PostalAddress",
@@ -37,9 +37,12 @@ export async function JsonLd({ locale }: JsonLdProps) {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 42.6977,
-      longitude: 23.3219,
+      latitude: 42.663928011509284,
+      longitude: 23.383548712427974,
     },
+    /**
+     * Expects a URL that points to a webpage showing a map of the location.
+     */
     hasMap: "https://maps.app.goo.gl/ynCKiC9FJ1ockwUs8",
     areaServed: {
       "@type": "City",
