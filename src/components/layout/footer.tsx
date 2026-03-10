@@ -1,10 +1,12 @@
-import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 
 const MAPS_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.9126632691127!2d23.383908128435476!3d42.66320613113495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa876de694daf7%3A0x63d66f377fe1257b!2sBlock%2056%20Flower%20home%204!5e0!3m2!1sen!2sbg!4v1773070246059!5m2!1sen!2sbg";
 
 export function Footer() {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <footer className="border-t border-gray-200 bg-white py-12">
@@ -59,15 +61,22 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
-          <div className="flex gap-6 font-body text-sm text-text-secondary">
-            {/* TODO: Placeholder — replace with Link when route exists */}
-            <a href="#" className="hover:text-text-primary">
+          <div className="flex flex-wrap gap-6 font-body text-sm text-text-secondary">
+            <Link href={`/${locale}/terms`} className="hover:text-text-primary">
               {t("links.terms")}
-            </a>
-            {/* TODO: Placeholder — replace with Link when route exists */}
-            <a href="#" className="hover:text-text-primary">
+            </Link>
+            <Link
+              href={`/${locale}/privacy`}
+              className="hover:text-text-primary"
+            >
               {t("links.privacy")}
-            </a>
+            </Link>
+            <Link
+              href={`/${locale}/cookie`}
+              className="hover:text-text-primary"
+            >
+              {t("links.cookie")}
+            </Link>
           </div>
           <p className="font-body text-xs text-text-secondary">
             {t("copyright")}
