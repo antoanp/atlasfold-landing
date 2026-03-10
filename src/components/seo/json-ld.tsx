@@ -45,7 +45,7 @@ export async function JsonLd({ locale }: JsonLdProps) {
       name: locale === "bg" ? "София" : "Sofia",
     },
     priceRange: "$$",
-    sameAs: [], // TODO: Add social media links - add the actual links from the GBP
+    sameAs: ["https://www.instagram.com/atlas.fold/"],
     knowsAbout: [
       "Local SEO",
       "Google Maps ranking",
@@ -128,7 +128,7 @@ export async function JsonLd({ locale }: JsonLdProps) {
       areaServed: "BG",
       availableLanguage: ["Bulgarian", "English"],
     },
-    sameAs: [], // TODO: Add social media links - add the actual links from the GBP
+    sameAs: ["https://www.instagram.com/atlas.fold/"],
   };
 
   return (
