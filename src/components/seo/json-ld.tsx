@@ -30,7 +30,6 @@ export async function JsonLd({ locale }: JsonLdProps) {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: tFooter("nap.street"),
       addressLocality: locale === "bg" ? "София" : "Sofia",
       postalCode: "1000",
       addressCountry: "BG",
@@ -40,9 +39,6 @@ export async function JsonLd({ locale }: JsonLdProps) {
       latitude: 42.663928011509284,
       longitude: 23.383548712427974,
     },
-    /**
-     * Expects a URL that points to a webpage showing a map of the location.
-     */
     hasMap: "https://maps.app.goo.gl/ynCKiC9FJ1ockwUs8",
     areaServed: {
       "@type": "City",
@@ -50,6 +46,47 @@ export async function JsonLd({ locale }: JsonLdProps) {
     },
     priceRange: "$$",
     sameAs: [], // TODO: Add social media links - add the actual links from the GBP
+    knowsAbout: [
+      "Local SEO",
+      "Google Maps ranking",
+      "Google Business Profile optimisation",
+      "Internet marketing service",
+      "Marketing agency",
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Internet Marketing Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Google Maps Ranking",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Google Business Profile Optimisation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "On-Page SEO",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Local Citations Building",
+          },
+        },
+      ],
+    },
   };
 
   const faqKeys = ["q1", "q2", "q3", "q4", "q5"] as const;

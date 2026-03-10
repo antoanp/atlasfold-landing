@@ -22,5 +22,59 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: { bg: `${baseUrl}/bg`, en: `${baseUrl}/en` },
       },
     },
+    {
+      url: `${baseUrl}/bg/terms`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/terms`, en: `${baseUrl}/en/terms` },
+      },
+    },
+    {
+      url: `${baseUrl}/en/terms`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/terms`, en: `${baseUrl}/en/terms` },
+      },
+    },
+    {
+      url: `${baseUrl}/bg/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/privacy`, en: `${baseUrl}/en/privacy` },
+      },
+    },
+    {
+      url: `${baseUrl}/en/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/privacy`, en: `${baseUrl}/en/privacy` },
+      },
+    },
+    {
+      url: `${baseUrl}/bg/cookie`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/cookie`, en: `${baseUrl}/en/cookie` },
+      },
+    },
+    {
+      url: `${baseUrl}/en/cookie`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/cookie`, en: `${baseUrl}/en/cookie` },
+      },
+    },
   ];
 }
