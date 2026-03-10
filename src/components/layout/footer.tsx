@@ -17,7 +17,6 @@ export function Footer() {
             </p>
             <address className="mt-6 space-y-1 font-body text-sm not-italic leading-relaxed">
               <p className="font-bold">{t("nap.name")}</p>
-              <p>{t("nap.street")}</p>
               <p>
                 {t("nap.city")}, {t("nap.country")}
               </p>
