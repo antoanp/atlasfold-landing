@@ -1,19 +1,64 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 
-export const metadata: Metadata = {
-  title: "Cookie Policy | Atlas Fold",
-  description:
-    "Atlas Fold Cookie Policy — we use Vercel Analytics, which is cookieless. No tracking cookies are set on this website.",
-  robots: { index: true, follow: true },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "cookiePage" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDesc"),
+    robots: { index: true, follow: true },
+  };
+}
 
 type Props = { params: Promise<{ locale: string }> };
 
 export default async function CookiePage({ params }: Props) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "cookiePage" });
+
+  const richTags = {
+    highlight: (chunks: any) => (
+      <strong className="text-text-primary">{chunks}</strong>
+    ),
+    italic: (chunks: any) => <em>{chunks}</em>,
+    emailLink: (chunks: any) => (
+      <a
+        href="mailto:antoan@atlasfold.com"
+        className="text-accent hover:underline"
+      >
+        {chunks}
+      </a>
+    ),
+    vercelLink: (chunks: any) => (
+      <a
+        href="https://vercel.com/docs/analytics/privacy-policy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:underline"
+      >
+        {chunks}
+      </a>
+    ),
+    googleLink: (chunks: any) => (
+      <a
+        href="https://policies.google.com/technologies/cookies"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:underline"
+      >
+        {chunks}
+      </a>
+    ),
+  };
 
   return (
     <>
@@ -37,20 +82,17 @@ export default async function CookiePage({ params }: Props) {
                 clipRule="evenodd"
               />
             </svg>
-            Back to home
+            {t("backToHome")}
           </Link>
 
           <p className="mb-2 font-body text-sm text-text-secondary">
-            Last updated: March 2026
+            {t("lastUpdated")}
           </p>
           <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary">
-            Cookie Policy
+            {t("title")}
           </h1>
           <p className="mt-4 font-body leading-relaxed text-text-secondary">
-            This Cookie Policy explains how Atlas Fold uses — or more
-            accurately, does <em>not</em> use — cookies on the{" "}
-            <strong className="text-text-primary">atlasfold.com</strong>{" "}
-            website.
+            {t.rich("intro", richTags)}
           </p>
 
           <hr className="my-10 border-gray-200" />
@@ -58,124 +100,72 @@ export default async function CookiePage({ params }: Props) {
           {/* 1 */}
           <section className="mb-10">
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
-              1. What Are Cookies?
+              {t("section1.title")}
             </h2>
             <p className="font-body leading-relaxed text-text-secondary">
-              Cookies are small text files placed on your device by a website to
-              store information about your visit — typically used for analytics,
-              advertising, and session management.
+              {t("section1.p1")}
             </p>
           </section>
 
           {/* 2 — the main point */}
           <section className="mb-10">
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
-              2. We Don&apos;t Use Tracking Cookies
+              {t("section2.title")}
             </h2>
 
             {/* Highlight callout */}
             <div className="rounded-2xl border border-green-200 bg-green-50 px-6 py-5">
               <p className="font-body font-semibold text-green-800">
-                ✓ No tracking cookies are set on this website.
+                {t("section2.highlightTitle")}
               </p>
               <p className="mt-1 font-body text-sm text-green-700">
-                We do not use Google Analytics, Meta Pixel, or any other
-                cookie-based tracking tools.
+                {t("section2.highlightDesc")}
               </p>
             </div>
 
             <p className="mt-6 font-body leading-relaxed text-text-secondary">
-              This website uses{" "}
-              <strong className="text-text-primary">Vercel Analytics</strong>{" "}
-              and{" "}
-              <strong className="text-text-primary">
-                Vercel Speed Insights
-              </strong>{" "}
-              to understand page performance and visitor trends. Both tools are{" "}
-              <strong className="text-text-primary">
-                cookieless by design
-              </strong>{" "}
-              — they use server-side edge data and aggregate metrics without
-              setting any cookies or fingerprinting individual users.
+              {t.rich("section2.p1", richTags)}
             </p>
             <p className="mt-4 font-body leading-relaxed text-text-secondary">
-              Vercel Analytics does not:
+              {t("section2.p2")}
             </p>
             <ul className="mt-3 space-y-1 font-body text-text-secondary">
-              <li>• Set any first-party or third-party cookies</li>
-              <li>• Collect personally identifiable information</li>
-              <li>
-                • Track users across different websites or sessions over time
-              </li>
-              <li>• Use IP addresses for individual identification</li>
+              {t.raw("section2.items").map((item: string, i: number) => (
+                <li key={i}>• {item}</li>
+              ))}
             </ul>
             <p className="mt-4 font-body leading-relaxed text-text-secondary">
-              You can read more about Vercel&apos;s privacy model at{" "}
-              <a
-                href="https://vercel.com/docs/analytics/privacy-policy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:underline"
-              >
-                vercel.com/docs/analytics/privacy-policy
-              </a>
-              .
+              {t.rich("section2.p3", richTags)}
             </p>
           </section>
 
           {/* 3 */}
           <section className="mb-10">
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
-              3. Embedded Content
+              {t("section3.title")}
             </h2>
             <p className="font-body leading-relaxed text-text-secondary">
-              Our website embeds a{" "}
-              <strong className="text-text-primary">Google Maps iframe</strong>{" "}
-              in the footer to show our location. When this iframe loads, Google
-              may set its own cookies on your device in accordance with
-              Google&apos;s privacy policy. This is the only third-party element
-              present on the site that may involve cookies. You can review
-              Google&apos;s cookie practices at{" "}
-              <a
-                href="https://policies.google.com/technologies/cookies"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:underline"
-              >
-                policies.google.com/technologies/cookies
-              </a>
-              .
+              {t.rich("section3.p1", richTags)}
             </p>
           </section>
 
           {/* 4 */}
           <section className="mb-10">
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
-              4. Your Browser Controls
+              {t("section4.title")}
             </h2>
             <p className="font-body leading-relaxed text-text-secondary">
-              Even though we don&apos;t set tracking cookies, you always have
-              full control via your browser settings. You can view, block, or
-              delete any cookies stored by any website through your
-              browser&apos;s privacy or security settings.
+              {t("section4.p1")}
             </p>
           </section>
 
           {/* 5 */}
           <section className="mb-10">
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
-              5. Contact
+              {t("section5.title")}
             </h2>
             <p className="font-body leading-relaxed text-text-secondary">
-              If you have any questions about this Cookie Policy, please contact
-              us at{" "}
-              <a
-                href="mailto:antoan@atlasfold.com"
-                className="text-accent hover:underline"
-              >
-                antoan@atlasfold.com
-              </a>
-              .
+              {t.rich("section5.p1", richTags)}
             </p>
           </section>
 
@@ -197,7 +187,7 @@ export default async function CookiePage({ params }: Props) {
                 clipRule="evenodd"
               />
             </svg>
-            Back to home
+            {t("backToHome")}
           </Link>
         </div>
       </main>

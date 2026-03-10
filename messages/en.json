@@ -236,5 +236,209 @@
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
+  },
+  "termsPage": {
+    "metadataTitle": "Terms of Service | Atlas Fold",
+    "metadataDesc": "Read the Terms of Service for Atlas Fold local SEO services — service scope, payment terms, guarantee conditions, and cancellation policy.",
+    "backToHome": "Back to home",
+    "lastUpdated": "Last updated: March 2026",
+    "title": "Terms of Service",
+    "intro": "These Terms of Service (\"Terms\") govern the relationship between Atlas Fold (\"we\", \"us\", \"our\") and the client (\"you\", \"your\") who purchases local SEO services from us. By signing up or making a payment, you agree to be bound by these Terms.",
+    "section1": {
+      "title": "1. Service Description",
+      "p1": "Atlas Fold provides Google Business Profile (Google Maps) optimisation services with the goal of improving your local search ranking in Sofia, Bulgaria. The specific deliverables depend on the package you purchase:",
+      "items": [
+        "<highlight>Full competitor analysis</highlight> — a review of the top-ranking competitors in your niche and locality.",
+        "<highlight>Google Business Profile optimisation</highlight> — categories, attributes, photos, business description, Q&A, and citation building.",
+        "<highlight>Bi-weekly updates</highlight> — ongoing optimisation activities carried out every two weeks throughout the engagement.",
+        "<highlight>Website optimisation</highlight> — included in the Standard and Quarterly packages; limited in the Minimum package.",
+        "<highlight>Authority signal building</highlight> — high-quality local citations and backlinks relevant to your business category."
+      ],
+      "p2": "We do not manage Google Ads, Meta Ads, or any paid advertising channels. Our services are exclusively organic local SEO."
+    },
+    "section2": {
+      "title": "2. Pricing & Payment Terms",
+      "p1": "The following packages are available:",
+      "tableHeaders": [
+        "Package",
+        "Price",
+        "Commitment"
+      ],
+      "tableRows": [
+        [
+          "Minimum",
+          "345 € / month",
+          "3 months, then monthly"
+        ],
+        [
+          "Standard",
+          "445 € / month",
+          "3 months, then monthly"
+        ],
+        [
+          "Quarterly",
+          "1 185 € / quarter",
+          "Renews every 3 months"
+        ]
+      ],
+      "items": [
+        "Invoices are issued at the start of each billing period and are payable within 5 business days.",
+        "All prices are in euros (EUR) and exclude any applicable VAT.",
+        "Failure to pay within the agreed period may result in suspension of services.",
+        "Prices may be revised with 30 days' written notice for ongoing clients."
+      ]
+    },
+    "section3": {
+      "title": "3. The 90-Day Top 3 Guarantee",
+      "p1": "The <highlight>Standard</highlight> and <highlight>Quarterly</highlight> packages include a guarantee: if your business does not reach the Top 3 on Google Maps for the agreed primary search term within 90 days of service commencement, you will not be charged for the work performed in that period (i.e., a full refund of amounts already paid is issued, or the outstanding balance is waived).",
+      "p2": "Guarantee conditions — the guarantee applies only when:",
+      "items": [
+        "You have granted us the necessary access to your Google Business Profile and website within 5 business days of onboarding.",
+        "You have not made material changes to your Google Business Profile, website, or business name without our knowledge during the 90-day period.",
+        "Your Google Business Profile was not suspended during the engagement for any reason attributable to you.",
+        "Payment has been made on time for all billing periods.",
+        "The agreed primary search term was not changed after the start of the engagement."
+      ],
+      "p3": "The <highlight>Minimum</highlight> package does not include a money-back guarantee. It targets first-page visibility, not a guaranteed Top 3 placement."
+    },
+    "section4": {
+      "title": "4. Cancellation & Contract Term",
+      "items": [
+        "<highlight>Minimum & Standard packages</highlight>: require a minimum 3-month commitment. After this initial period, you may cancel at any time by providing written notice (email) at least 14 days before the next billing date.",
+        "<highlight>Quarterly package</highlight>: renews automatically every 3 months. You may cancel by providing written notice at least 14 days before the renewal date.",
+        "Cancellation during the minimum commitment period does not entitle you to a refund of amounts already paid.",
+        "Upon termination, we will remove our access credentials from your Google Business Profile and website within 5 business days."
+      ]
+    },
+    "section5": {
+      "title": "5. Client Obligations",
+      "items": [
+        "You agree to provide timely access and accurate information required for onboarding.",
+        "You confirm that you are the legitimate owner or authorised manager of the Google Business Profile in question.",
+        "You agree not to take actions that may interfere with our optimisation work (e.g., removing edits, adding conflicting categories, spamming reviews)."
+      ]
+    },
+    "section6": {
+      "title": "6. Limitation of Liability",
+      "p1": "Local search rankings are determined by Google's algorithms, which are outside our control. While we apply industry best practices, we cannot guarantee specific ranking positions beyond the Top 3 guarantee outlined in Section 3. In no event shall Atlas Fold be liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of revenue or business opportunities. Our total liability is limited to the amounts paid by you in the most recent billing period."
+    },
+    "section7": {
+      "title": "7. Governing Law",
+      "p1": "These Terms are governed by the laws of the Republic of Bulgaria. Any disputes shall be subject to the exclusive jurisdiction of the courts of Sofia."
+    },
+    "section8": {
+      "title": "8. Contact",
+      "p1": "For any questions regarding these Terms, please contact us at <emailLink>antoan@atlasfold.com</emailLink> or by phone at <phoneLink>+359 877 268 727</phoneLink>."
+    }
+  },
+  "privacyPage": {
+    "metadataTitle": "Privacy Policy | Atlas Fold",
+    "metadataDesc": "Atlas Fold Privacy Policy — what personal data we collect, how it is stored in Notion, your rights under GDPR, and how to request deletion.",
+    "backToHome": "Back to home",
+    "lastUpdated": "Last updated: March 2026",
+    "title": "Privacy Policy",
+    "intro": "Atlas Fold (\"we\", \"us\", \"our\") is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, where it is stored, and what rights you have under the General Data Protection Regulation (GDPR) and applicable Bulgarian law.",
+    "section1": {
+      "title": "1. Data Controller",
+      "p1": "The data controller is:",
+      "addressName": "Atlas Fold",
+      "addressLocation": "Sofia, Bulgaria",
+      "addressEmail": "Email: <emailLink>antoan@atlasfold.com</emailLink>",
+      "addressPhone": "Phone: <phoneLink>+359 877 268 727</phoneLink>"
+    },
+    "section2": {
+      "title": "2. What Data We Collect",
+      "p1": "We collect personal data that you voluntarily provide when you fill out the lead capture form on our website. Specifically, we collect:",
+      "items": [
+        "<highlight>Full name</highlight> — so we know who we are contacting.",
+        "<highlight>Phone number</highlight> — to call you within 24 hours as stated on the form.",
+        "<highlight>City</highlight> — to understand your service area and tailor our analysis.",
+        "<highlight>Industry</highlight> — to assess your niche competition before we call.",
+        "<highlight>Selected package</highlight> — the pricing tier you indicated interest in."
+      ],
+      "p2": "We do not collect sensitive personal data (e.g., health, financial account details, national ID numbers)."
+    },
+    "section3": {
+      "title": "3. How We Use Your Data",
+      "p1": "Your data is used solely for the purpose of:",
+      "items": [
+        "Contacting you to discuss your free Google Maps analysis",
+        "Qualifying you as a potential client and preparing a tailored proposal",
+        "Maintaining a record of our communication for follow-up purposes"
+      ],
+      "p2": "We do not use your data for automated decision-making or profiling."
+    },
+    "section4": {
+      "title": "4. Legal Basis for Processing",
+      "p1": "We process your data on the basis of <highlight>legitimate interest</highlight> (Art. 6(1)(f) GDPR) — specifically, our legitimate interest in following up on your explicit request for a free analysis. By submitting the form, you are initiating contact with us and expecting a response."
+    },
+    "section5": {
+      "title": "5. Where Your Data Is Stored",
+      "p1": "Submitted form data is stored in a private <highlight>Notion</highlight> workspace accessible only to Atlas Fold. Notion is a cloud-based tool operated by Notion Labs, Inc. (USA), which provides adequate data protection through its GDPR compliance measures. No other third parties have access to your data.",
+      "p2": "A notification email is also sent to an internal Atlas Fold email address via <highlight>Resend</highlight> (a transactional email service) at the moment of form submission. Resend does not store the content of the email beyond transient delivery logging."
+    },
+    "section6": {
+      "title": "6. Data Sharing & Third Parties",
+      "p1": "We do not sell, rent, or share your personal data with any third parties for marketing or commercial purposes. Your data is never used for advertising targeting or sold to data brokers."
+    },
+    "section7": {
+      "title": "7. Data Retention",
+      "p1": "We keep your data for as long as there is an active business relationship or a reasonable follow-up period (typically up to 12 months after your last contact with us). If you become a client, we retain relevant records for the duration of our engagement and up to 5 years thereafter, as required by Bulgarian accounting and commercial law."
+    },
+    "section8": {
+      "title": "8. Your Rights",
+      "p1": "Under the GDPR, you have the following rights:",
+      "items": [
+        "<highlight>Right of access</highlight> — you can request a copy of the personal data we hold about you.",
+        "<highlight>Right to rectification</highlight> — you can ask us to correct inaccurate data.",
+        "<highlight>Right to erasure (\"right to be forgotten\")</highlight> — you can request deletion of your personal data. We will action this within 30 days.",
+        "<highlight>Right to restriction</highlight> — you can ask us to stop processing your data in certain circumstances.",
+        "<highlight>Right to object</highlight> — you can object to processing based on legitimate interest."
+      ],
+      "p2": "To exercise any of these rights, please email us at <emailLink>antoan@atlasfold.com</emailLink> with the subject line <italic>\"Data Request — [your name]\"</italic>. We will respond within 30 days.",
+      "p3": "You also have the right to lodge a complaint with the <highlight>Commission for Personal Data Protection</highlight> (CPDP) of Bulgaria at <cpdpLink>www.cpdp.bg</cpdpLink>."
+    },
+    "section9": {
+      "title": "9. Policy Updates",
+      "p1": "We may update this Privacy Policy from time to time. The \"Last updated\" date at the top of this page reflects the most recent revision. We encourage you to review this page periodically."
+    }
+  },
+  "cookiePage": {
+    "metadataTitle": "Cookie Policy | Atlas Fold",
+    "metadataDesc": "Atlas Fold Cookie Policy — we use Vercel Analytics, which is cookieless. No tracking cookies are set on this website.",
+    "backToHome": "Back to home",
+    "lastUpdated": "Last updated: March 2026",
+    "title": "Cookie Policy",
+    "intro": "This Cookie Policy explains how Atlas Fold uses — or more accurately, does <italic>not</italic> use — cookies on the <highlight>atlasfold.com</highlight> website.",
+    "section1": {
+      "title": "1. What Are Cookies?",
+      "p1": "Cookies are small text files placed on your device by a website to store information about your visit — typically used for analytics, advertising, and session management."
+    },
+    "section2": {
+      "title": "2. We Don't Use Tracking Cookies",
+      "highlightTitle": "✓ No tracking cookies are set on this website.",
+      "highlightDesc": "We do not use Google Analytics, Meta Pixel, or any other cookie-based tracking tools.",
+      "p1": "This website uses <highlight>Vercel Analytics</highlight> and <highlight>Vercel Speed Insights</highlight> to understand page performance and visitor trends. Both tools are <highlight>cookieless by design</highlight> — they use server-side edge data and aggregate metrics without setting any cookies or fingerprinting individual users.",
+      "p2": "Vercel Analytics does not:",
+      "items": [
+        "Set any first-party or third-party cookies",
+        "Collect personally identifiable information",
+        "Track users across different websites or sessions over time",
+        "Use IP addresses for individual identification"
+      ],
+      "p3": "You can read more about Vercel's privacy model at <vercelLink>vercel.com/docs/analytics/privacy-policy</vercelLink>."
+    },
+    "section3": {
+      "title": "3. Embedded Content",
+      "p1": "Our website embeds a <highlight>Google Maps iframe</highlight> in the footer to show our location. When this iframe loads, Google may set its own cookies on your device in accordance with Google's privacy policy. This is the only third-party element present on the site that may involve cookies. You can review Google's cookie practices at <googleLink>policies.google.com/technologies/cookies</googleLink>."
+    },
+    "section4": {
+      "title": "4. Your Browser Controls",
+      "p1": "Even though we don't set tracking cookies, you always have full control via your browser settings. You can view, block, or delete any cookies stored by any website through your browser's privacy or security settings."
+    },
+    "section5": {
+      "title": "5. Contact",
+      "p1": "If you have any questions about this Cookie Policy, please contact us at <emailLink>antoan@atlasfold.com</emailLink>."
+    }
   }
 }
