@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 
-const MAPS_EMBED_URL =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.9126632691127!2d23.383908128435476!3d42.66320613113495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa876de694daf7%3A0x63d66f377fe1257b!2sBlock%2056%20Flower%20home%204!5e0!3m2!1sen!2sbg!4v1773070246059!5m2!1sen!2sbg";
+// const MAPS_EMBED_URL =
+//   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.9126632691127!2d23.383908128435476!3d42.66320613113495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa876de694daf7%3A0x63d66f377fe1257b!2sBlock%2056%20Flower%20home%204!5e0!3m2!1sen!2sbg!4v1773070246059!5m2!1sen!2sbg";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -41,7 +41,7 @@ export function Footer() {
             </address>
           </div>
 
-          <div>
+          {/* <div>
             <p className="mb-3 font-display text-sm font-bold">
               {t("mapTitle")}
             </p>
@@ -57,7 +57,7 @@ export function Footer() {
                 title={t("mapTitle")}
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
