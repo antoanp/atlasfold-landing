@@ -39,7 +39,7 @@ export default async function PrivacyPage({ params }: Props) {
       </a>
     ),
     phoneLink: (chunks: any) => (
-      <a href="tel:+359877268727" className="text-accent hover:underline">
+      <a href="tel:0877268727" className="text-accent hover:underline">
         {chunks}
       </a>
     ),

@@ -13,7 +13,7 @@
       "faq": "FAQ",
       "pricing": "Pricing"
     },
-    "phone": "+359877268727",
+    "phone": "0877268727",
     "phoneCta": "Call Us"
   },
   "hero": {
@@ -24,7 +24,7 @@
     "subheadlineExtra": "If you're not there, you're essentially invisible.",
     "ctaPrimary": "Get a Free Analysis",
     "ctaSecondary": "Call Us",
-    "phoneLink": "tel:+359877268727",
+    "phoneLink": "tel:0877268727",
     "stats": {
       "clients": "50+",
       "clientsLabel": "happy clients",
@@ -139,7 +139,7 @@
     }
   },
   "pricing": {
-    "phoneLink": "tel:+359877268727",
+    "phoneLink": "tel:0877268727",
     "badge": "Packages",
     "title": "SEO Packages for more",
     "titleAccent": "Clients",
@@ -225,7 +225,7 @@
       "name": "Atlas Fold",
       "city": "Sofia",
       "country": "Bulgaria",
-      "phone": "+359877268727",
+      "phone": "0877268727",
       "email": "antoan@atlasfold.com"
     },
     "mapTitle": "Find us",
@@ -259,27 +259,11 @@
     "section2": {
       "title": "2. Pricing & Payment Terms",
       "p1": "The following packages are available:",
-      "tableHeaders": [
-        "Package",
-        "Price",
-        "Commitment"
-      ],
+      "tableHeaders": ["Package", "Price", "Commitment"],
       "tableRows": [
-        [
-          "Minimum",
-          "345 € / month",
-          "3 months, then monthly"
-        ],
-        [
-          "Standard",
-          "445 € / month",
-          "3 months, then monthly"
-        ],
-        [
-          "Quarterly",
-          "1 185 € / quarter",
-          "Renews every 3 months"
-        ]
+        ["Minimum", "345 € / month", "3 months, then monthly"],
+        ["Standard", "445 € / month", "3 months, then monthly"],
+        ["Quarterly", "1 185 € / quarter", "Renews every 3 months"]
       ],
       "items": [
         "Invoices are issued at the start of each billing period and are payable within 5 business days.",
@@ -328,7 +312,7 @@
     },
     "section8": {
       "title": "8. Contact",
-      "p1": "For any questions regarding these Terms, please contact us at <emailLink>antoan@atlasfold.com</emailLink> or by phone at <phoneLink>+359 877 268 727</phoneLink>."
+      "p1": "For any questions regarding these Terms, please contact us at <emailLink>antoan@atlasfold.com</emailLink> or by phone at <phoneLink>0 877 268 727</phoneLink>."
     }
   },
   "privacyPage": {
@@ -344,7 +328,7 @@
       "addressName": "Atlas Fold",
       "addressLocation": "Sofia, Bulgaria",
       "addressEmail": "Email: <emailLink>antoan@atlasfold.com</emailLink>",
-      "addressPhone": "Phone: <phoneLink>+359 877 268 727</phoneLink>"
+      "addressPhone": "Phone: <phoneLink>0 877 268 727</phoneLink>"
     },
     "section2": {
       "title": "2. What Data We Collect",
