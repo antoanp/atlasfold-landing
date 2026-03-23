@@ -23,6 +23,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
     {
+      url: `${baseUrl}/bg/faq`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.6,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/faq`, en: `${baseUrl}/en/faq` },
+      },
+    },
+    {
+      url: `${baseUrl}/en/faq`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.6,
+      alternates: {
+        languages: { bg: `${baseUrl}/bg/faq`, en: `${baseUrl}/en/faq` },
+      },
+    },
+    {
       url: `${baseUrl}/bg/terms`,
       lastModified: new Date(),
       changeFrequency: "yearly",

@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 
 export function Faq() {
   const t = useTranslations("faq");
+  const locale = useLocale();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const questions = ["q1", "q2", "q3", "q4", "q5"] as const;
@@ -57,6 +59,27 @@ export function Faq() {
             </AnimatePresence>
           </div>
         ))}
+      </div>
+
+      <div className="mt-10 flex justify-center">
+        <Link
+          href={`/${locale}/faq`}
+          className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-2.5 font-body text-sm font-medium text-text-secondary transition-colors hover:border-gray-300 hover:text-text-primary"
+        >
+          {t("seeAllFaq")}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="h-4 w-4"
+          >
+            <path
+              fillRule="evenodd"
+              d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </Link>
       </div>
     </SectionWrapper>
   );

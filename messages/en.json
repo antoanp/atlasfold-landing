@@ -36,8 +36,8 @@
   },
   "advantage": {
     "badge": "The Advantage",
-    "title": "Why Google Maps",
-    "titleAccent": "Optimization?",
+    "title": "Marketing Agency for",
+    "titleAccent": "Local SEO",
     "cards": {
       "visibility": {
         "title": "Visibility",
@@ -55,8 +55,8 @@
   },
   "beforeAfter": {
     "badge": "Before / After",
-    "title": "SEO Results - The",
-    "titleAccent": "Difference.",
+    "title": "Marketing Agency for",
+    "titleAccent": "Google Maps Ranking",
     "tabs": {
       "before": "Before",
       "after": "After"
@@ -86,8 +86,8 @@
   },
   "process": {
     "badge": "How Does It Work?",
-    "title": "Google Maps Ranking - it's pretty",
-    "titleAccent": "easy.",
+    "title": "Marketing Agency for",
+    "titleAccent": "Citation Building",
     "steps": {
       "step1": {
         "number": "01",
@@ -113,8 +113,9 @@
   },
   "faq": {
     "badge": "FAQs",
-    "title": "Local SEO - Frequently Asked",
-    "titleAccent": "Questions",
+    "title": "Marketing Agency for",
+    "titleAccent": "On-page SEO",
+    "seeAllFaq": "See all questions",
     "items": {
       "q1": {
         "question": "What is the difference between SEO and Google Ads?",
@@ -239,7 +240,7 @@
   },
   "termsPage": {
     "metadataTitle": "Terms of Service | Atlas Fold",
-    "metadataDesc": "Read the Terms of Service for Atlas Fold local SEO services — service scope, payment terms, guarantee conditions, and cancellation policy.",
+    "metadataDesc": "Read the Terms of Service for Atlas Fold local SEO services - service scope, payment terms, guarantee conditions, and cancellation policy.",
     "backToHome": "Back to home",
     "lastUpdated": "Last updated: March 2026",
     "title": "Terms of Service",
@@ -248,11 +249,11 @@
       "title": "1. Service Description",
       "p1": "Atlas Fold provides Google Business Profile (Google Maps) optimisation services with the goal of improving your local search ranking in Sofia, Bulgaria. The specific deliverables depend on the package you purchase:",
       "items": [
-        "<highlight>Full competitor analysis</highlight> — a review of the top-ranking competitors in your niche and locality.",
-        "<highlight>Google Business Profile optimisation</highlight> — categories, attributes, photos, business description, Q&A, and citation building.",
-        "<highlight>Bi-weekly updates</highlight> — ongoing optimisation activities carried out every two weeks throughout the engagement.",
-        "<highlight>Website optimisation</highlight> — included in the Standard and Quarterly packages; limited in the Minimum package.",
-        "<highlight>Authority signal building</highlight> — high-quality local citations and backlinks relevant to your business category."
+        "<highlight>Full competitor analysis</highlight> - a review of the top-ranking competitors in your niche and locality.",
+        "<highlight>Google Business Profile optimisation</highlight> - categories, attributes, photos, business description, Q&A, and citation building.",
+        "<highlight>Bi-weekly updates</highlight> - ongoing optimisation activities carried out every two weeks throughout the engagement.",
+        "<highlight>Website optimisation</highlight> - included in the Standard and Quarterly packages; limited in the Minimum package.",
+        "<highlight>Authority signal building</highlight> - high-quality local citations and backlinks relevant to your business category."
       ],
       "p2": "We do not manage Google Ads, Meta Ads, or any paid advertising channels. Our services are exclusively organic local SEO."
     },
@@ -275,7 +276,7 @@
     "section3": {
       "title": "3. The 90-Day Top 3 Guarantee",
       "p1": "The <highlight>Standard</highlight> and <highlight>Quarterly</highlight> packages include a guarantee: if your business does not reach the Top 3 on Google Maps for the agreed primary search term within 90 days of service commencement, you will not be charged for the work performed in that period (i.e., a full refund of amounts already paid is issued, or the outstanding balance is waived).",
-      "p2": "Guarantee conditions — the guarantee applies only when:",
+      "p2": "Guarantee conditions - the guarantee applies only when:",
       "items": [
         "You have granted us the necessary access to your Google Business Profile and website within 5 business days of onboarding.",
         "You have not made material changes to your Google Business Profile, website, or business name without our knowledge during the 90-day period.",
@@ -317,7 +318,7 @@
   },
   "privacyPage": {
     "metadataTitle": "Privacy Policy | Atlas Fold",
-    "metadataDesc": "Atlas Fold Privacy Policy — what personal data we collect, how it is stored in Notion, your rights under GDPR, and how to request deletion.",
+    "metadataDesc": "Atlas Fold Privacy Policy - what personal data we collect, how it is stored in Notion, your rights under GDPR, and how to request deletion.",
     "backToHome": "Back to home",
     "lastUpdated": "Last updated: March 2026",
     "title": "Privacy Policy",
@@ -334,11 +335,11 @@
       "title": "2. What Data We Collect",
       "p1": "We collect personal data that you voluntarily provide when you fill out the lead capture form on our website. Specifically, we collect:",
       "items": [
-        "<highlight>Full name</highlight> — so we know who we are contacting.",
-        "<highlight>Phone number</highlight> — to call you within 24 hours as stated on the form.",
-        "<highlight>City</highlight> — to understand your service area and tailor our analysis.",
-        "<highlight>Industry</highlight> — to assess your niche competition before we call.",
-        "<highlight>Selected package</highlight> — the pricing tier you indicated interest in."
+        "<highlight>Full name</highlight> - so we know who we are contacting.",
+        "<highlight>Phone number</highlight> - to call you within 24 hours as stated on the form.",
+        "<highlight>City</highlight> - to understand your service area and tailor our analysis.",
+        "<highlight>Industry</highlight> - to assess your niche competition before we call.",
+        "<highlight>Selected package</highlight> - the pricing tier you indicated interest in."
       ],
       "p2": "We do not collect sensitive personal data (e.g., health, financial account details, national ID numbers)."
     },
@@ -354,7 +355,7 @@
     },
     "section4": {
       "title": "4. Legal Basis for Processing",
-      "p1": "We process your data on the basis of <highlight>legitimate interest</highlight> (Art. 6(1)(f) GDPR) — specifically, our legitimate interest in following up on your explicit request for a free analysis. By submitting the form, you are initiating contact with us and expecting a response."
+      "p1": "We process your data on the basis of <highlight>legitimate interest</highlight> (Art. 6(1)(f) GDPR) - specifically, our legitimate interest in following up on your explicit request for a free analysis. By submitting the form, you are initiating contact with us and expecting a response."
     },
     "section5": {
       "title": "5. Where Your Data Is Stored",
@@ -373,13 +374,13 @@
       "title": "8. Your Rights",
       "p1": "Under the GDPR, you have the following rights:",
       "items": [
-        "<highlight>Right of access</highlight> — you can request a copy of the personal data we hold about you.",
-        "<highlight>Right to rectification</highlight> — you can ask us to correct inaccurate data.",
-        "<highlight>Right to erasure (\"right to be forgotten\")</highlight> — you can request deletion of your personal data. We will action this within 30 days.",
-        "<highlight>Right to restriction</highlight> — you can ask us to stop processing your data in certain circumstances.",
-        "<highlight>Right to object</highlight> — you can object to processing based on legitimate interest."
+        "<highlight>Right of access</highlight> - you can request a copy of the personal data we hold about you.",
+        "<highlight>Right to rectification</highlight> - you can ask us to correct inaccurate data.",
+        "<highlight>Right to erasure (\"right to be forgotten\")</highlight> - you can request deletion of your personal data. We will action this within 30 days.",
+        "<highlight>Right to restriction</highlight> - you can ask us to stop processing your data in certain circumstances.",
+        "<highlight>Right to object</highlight> - you can object to processing based on legitimate interest."
       ],
-      "p2": "To exercise any of these rights, please email us at <emailLink>antoan@atlasfold.com</emailLink> with the subject line <italic>\"Data Request — [your name]\"</italic>. We will respond within 30 days.",
+      "p2": "To exercise any of these rights, please email us at <emailLink>antoan@atlasfold.com</emailLink> with the subject line <italic>\"Data Request - [your name]\"</italic>. We will respond within 30 days.",
       "p3": "You also have the right to lodge a complaint with the <highlight>Commission for Personal Data Protection</highlight> (CPDP) of Bulgaria at <cpdpLink>www.cpdp.bg</cpdpLink>."
     },
     "section9": {
@@ -387,22 +388,119 @@
       "p1": "We may update this Privacy Policy from time to time. The \"Last updated\" date at the top of this page reflects the most recent revision. We encourage you to review this page periodically."
     }
   },
+  "faqPage": {
+    "metadataTitle": "Local SEO - Full FAQ | Atlas Fold",
+    "metadataDesc": "Answers to every question about local SEO and Google Maps optimisation - what it is, how it works, pricing, tracking results, and how the guarantee works.",
+    "backToHome": "Back to home",
+    "badge": "Full FAQ",
+    "title": "Everything you need to know about",
+    "titleAccent": "Local SEO",
+    "subtitle": "Answers to the most common questions about Google Maps optimisation, our service, and the guarantee.",
+    "categories": {
+      "basics": {
+        "title": "Local SEO Basics",
+        "items": {
+          "q1": {
+            "question": "What is local SEO and how does it differ from regular SEO?",
+            "answer": "Local SEO is search engine optimisation specifically for location-based searches - like 'plumber in Sofia' or 'dentist near me'. Unlike traditional SEO that targets standard organic results, local SEO focuses on the 'map pack' - the three businesses displayed on Google Maps. These searches have the highest buyer intent of any search type."
+          },
+          "q2": {
+            "question": "What is Google Business Profile and do I need one?",
+            "answer": "Google Business Profile (GBP) is the free business listing that controls how your company appears on Google Maps and Search. Without a verified and optimised GBP, it is virtually impossible to rank in the Top 3. It is the foundation of everything we do - without it, even the best optimisation cannot work."
+          },
+          "q3": {
+            "question": "Do I need a website to rank on Google Maps?",
+            "answer": "Not strictly required, but strongly recommended. A website sends additional authority signals to Google. Our Standard and Quarterly packages include full website optimisation. If you don't have a website, we can still help - but results will be significantly stronger with one."
+          }
+        }
+      },
+      "service": {
+        "title": "About Our Service",
+        "items": {
+          "q1": {
+            "question": "What exactly does your service include?",
+            "answer": "Every package includes: full competitor analysis, Google Business Profile optimisation (categories, attributes, photos, description, Q&A), high-quality citation and authority signal building, and bi-weekly updates. The Standard and Quarterly packages also include full website optimisation."
+          },
+          "q2": {
+            "question": "Can you help us get more Google reviews?",
+            "answer": "Yes. We provide proven strategies and templates for collecting reviews without violating Google's policies. Reviews are a key ranking signal - more quality reviews directly improve your position in the map pack and build trust with potential customers."
+          },
+          "q3": {
+            "question": "Which industries do you work with?",
+            "answer": "We work with any local business that serves customers face-to-face: plumbers, dentists, lawyers, accountants, auto repair shops, restaurants, hotels, beauty salons, gyms, and many more. If your customers search for businesses like yours on Google - we can help."
+          },
+          "q4": {
+            "question": "What happens after the initial 90-day period?",
+            "answer": "Once you have reached the Top 3, we work to maintain and strengthen your position. The competitive landscape shifts over time - regular maintenance ensures you stay ahead. You can continue month-to-month or switch to the quarterly plan with a built-in discount."
+          }
+        }
+      },
+      "results": {
+        "title": "Results & Tracking",
+        "items": {
+          "q1": {
+            "question": "How quickly will we see movement in rankings?",
+            "answer": "Most clients see initial movement within 4–6 weeks. For the guaranteed Top 3 placement on the Standard and Quarterly packages - 90 days. Speed depends on niche competitiveness and your profile's current state."
+          },
+          "q2": {
+            "question": "How do you track and report progress?",
+            "answer": "We monitor your Google Maps ranking weekly using specialist tools. You receive bi-weekly updates with concrete data on your ranking position, impressions, and user actions - calls, direction requests, and website visits."
+          },
+          "q3": {
+            "question": "What if our competitors are also doing local SEO?",
+            "answer": "Competitor analysis is the first step of our process. We know exactly what the top-ranking businesses are doing and how to outpace their strategy. In 9 out of 10 cases, our clients reach the Top 3 even when competitors are actively investing in local SEO."
+          },
+          "q4": {
+            "question": "What are citations and why do they matter?",
+            "answer": "A citation is any online mention of your business that includes your name, address, and phone number (NAP). Google uses the consistency and quality of these mentions as a trust signal. We build high-quality citations in authoritative, industry-specific directories relevant to your location."
+          }
+        }
+      },
+      "pricing": {
+        "title": "Pricing & Guarantee",
+        "items": {
+          "q1": {
+            "question": "How exactly does the money-back guarantee work?",
+            "answer": "For the Standard and Quarterly packages: if we do not achieve a Top 3 ranking for the agreed keyword within 90 days, you receive a full refund of all amounts paid. The guarantee applies provided you granted us the required access on time and did not make changes to your profile without our knowledge."
+          },
+          "q2": {
+            "question": "Are there any hidden setup fees or additional costs?",
+            "answer": "None. The price you see is everything you pay. No setup fees, no hidden add-ons, no performance charges. The monthly fee covers all work - analysis, optimisation, citations, and updates."
+          },
+          "q3": {
+            "question": "Can I upgrade or switch plans later?",
+            "answer": "Yes. If you decide to move from Minimum to Standard, or switch to quarterly billing - just get in touch. The price difference is calculated on a pro-rata basis with no penalties."
+          },
+          "q4": {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept bank transfers in euros (EUR). The quarterly plan automatically saves you €150 compared to three monthly payments - €1,185 instead of €1,335."
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready for",
+      "titleAccent": "Top 3?",
+      "subtitle": "Get a free analysis of your Google Maps position today.",
+      "button": "Get a Free Analysis"
+    }
+  },
   "cookiePage": {
     "metadataTitle": "Cookie Policy | Atlas Fold",
-    "metadataDesc": "Atlas Fold Cookie Policy — we use Vercel Analytics, which is cookieless. No tracking cookies are set on this website.",
+    "metadataDesc": "Atlas Fold Cookie Policy - we use Vercel Analytics, which is cookieless. No tracking cookies are set on this website.",
     "backToHome": "Back to home",
     "lastUpdated": "Last updated: March 2026",
     "title": "Cookie Policy",
-    "intro": "This Cookie Policy explains how Atlas Fold uses — or more accurately, does <italic>not</italic> use — cookies on the <highlight>atlasfold.com</highlight> website.",
+    "intro": "This Cookie Policy explains how Atlas Fold uses - or more accurately, does <italic>not</italic> use - cookies on the <highlight>atlasfold.com</highlight> website.",
     "section1": {
       "title": "1. What Are Cookies?",
-      "p1": "Cookies are small text files placed on your device by a website to store information about your visit — typically used for analytics, advertising, and session management."
+      "p1": "Cookies are small text files placed on your device by a website to store information about your visit - typically used for analytics, advertising, and session management."
     },
     "section2": {
       "title": "2. We Don't Use Tracking Cookies",
       "highlightTitle": "✓ No tracking cookies are set on this website.",
       "highlightDesc": "We do not use Google Analytics, Meta Pixel, or any other cookie-based tracking tools.",
-      "p1": "This website uses <highlight>Vercel Analytics</highlight> and <highlight>Vercel Speed Insights</highlight> to understand page performance and visitor trends. Both tools are <highlight>cookieless by design</highlight> — they use server-side edge data and aggregate metrics without setting any cookies or fingerprinting individual users.",
+      "p1": "This website uses <highlight>Vercel Analytics</highlight> and <highlight>Vercel Speed Insights</highlight> to understand page performance and visitor trends. Both tools are <highlight>cookieless by design</highlight> - they use server-side edge data and aggregate metrics without setting any cookies or fingerprinting individual users.",
       "p2": "Vercel Analytics does not:",
       "items": [
         "Set any first-party or third-party cookies",
