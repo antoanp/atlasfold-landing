@@ -44,6 +44,19 @@ export function Hero({ userLocation }: HeroProps) {
             </a>
           </div>
           {/* TODO: Add a social proof loom video (Search for the chat in the claude.ai named "Website" for the exact video strategy) */}
+          <div className="mt-8 flex flex-wrap items-center gap-2">
+            <span className="font-body text-xs font-medium text-text-secondary">
+              {t("services.label")}
+            </span>
+            {(t.raw("services.items") as string[]).map((service: string) => (
+              <span
+                key={service}
+                className="inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1 font-body text-xs font-medium text-text-primary"
+              >
+                {service}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
       <div className="mt-12 flex flex-wrap justify-center gap-8 border-t border-gray-200 pt-8">

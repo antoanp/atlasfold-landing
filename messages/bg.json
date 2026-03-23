@@ -25,6 +25,15 @@
     "ctaPrimary": "Вземи безплатен анализ",
     "ctaSecondary": "Обади се",
     "phoneLink": "tel:0877268727",
+    "services": {
+      "label": "Маркетинг агенция за:",
+      "items": [
+        "Local SEO",
+        "Google Maps Ranking",
+        "Citation Building",
+        "On-page SEO"
+      ]
+    },
     "stats": {
       "clients": "50+",
       "clientsLabel": "доволни клиенти",
@@ -36,8 +45,8 @@
   },
   "advantage": {
     "badge": "Предимството",
-    "title": "Маркетинг агенция за",
-    "titleAccent": "Локално SEO",
+    "title": "Защо Google Maps",
+    "titleAccent": "оптимизация?",
     "cards": {
       "visibility": {
         "title": "Видимост",
@@ -55,8 +64,8 @@
   },
   "beforeAfter": {
     "badge": "Преди / След",
-    "title": "Маркетинг агенция за",
-    "titleAccent": "Google Maps Ranking",
+    "title": "SEO резултати - разликата е",
+    "titleAccent": "огромна.",
     "tabs": {
       "before": "Преди",
       "after": "След"
@@ -86,8 +95,8 @@
   },
   "process": {
     "badge": "Как работи?",
-    "title": "Маркетинг агенция за",
-    "titleAccent": "Citation Building",
+    "title": "Google Maps класиране - изключително",
+    "titleAccent": "лесно.",
     "steps": {
       "step1": {
         "number": "01",
@@ -113,8 +122,8 @@
   },
   "faq": {
     "badge": "Въпроси",
-    "title": "Маркетинг агенция за",
-    "titleAccent": "On-page SEO",
+    "title": "Локално SEO - често задавани",
+    "titleAccent": "въпроси",
     "seeAllFaq": "Виж всички въпроси",
     "items": {
       "q1": {

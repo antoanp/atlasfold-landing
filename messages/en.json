@@ -25,6 +25,15 @@
     "ctaPrimary": "Get a Free Analysis",
     "ctaSecondary": "Call Us",
     "phoneLink": "tel:0877268727",
+    "services": {
+      "label": "Marketing Agency for:",
+      "items": [
+        "Local SEO",
+        "Google Maps Ranking",
+        "Citation Building",
+        "On-page SEO"
+      ]
+    },
     "stats": {
       "clients": "50+",
       "clientsLabel": "happy clients",
@@ -36,8 +45,8 @@
   },
   "advantage": {
     "badge": "The Advantage",
-    "title": "Marketing Agency for",
-    "titleAccent": "Local SEO",
+    "title": "Why Google Maps",
+    "titleAccent": "Optimization?",
     "cards": {
       "visibility": {
         "title": "Visibility",
@@ -55,8 +64,8 @@
   },
   "beforeAfter": {
     "badge": "Before / After",
-    "title": "Marketing Agency for",
-    "titleAccent": "Google Maps Ranking",
+    "title": "SEO Results - The",
+    "titleAccent": "Difference.",
     "tabs": {
       "before": "Before",
       "after": "After"
@@ -86,8 +95,8 @@
   },
   "process": {
     "badge": "How Does It Work?",
-    "title": "Marketing Agency for",
-    "titleAccent": "Citation Building",
+    "title": "Google Maps Ranking - it's pretty",
+    "titleAccent": "easy.",
     "steps": {
       "step1": {
         "number": "01",
@@ -113,8 +122,8 @@
   },
   "faq": {
     "badge": "FAQs",
-    "title": "Marketing Agency for",
-    "titleAccent": "On-page SEO",
+    "title": "Local SEO - Frequently Asked",
+    "titleAccent": "Questions",
     "seeAllFaq": "See all questions",
     "items": {
       "q1": {
