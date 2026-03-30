@@ -53,9 +53,6 @@ export function BeforeAfter() {
           <p className="font-display text-base font-bold">
             {t("business.name")}
           </p>
-          <p className="font-body text-sm text-text-secondary">
-            {t("business.address")}
-          </p>
         </div>
         <div className="flex flex-col gap-4">
           {metrics.map((metric) => (
