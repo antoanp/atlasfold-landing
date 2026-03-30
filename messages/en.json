@@ -235,13 +235,45 @@
       "city": "Sofia",
       "country": "Bulgaria",
       "phone": "0877268727",
-      "email": "antoan@atlasfold.com"
+      "email": "antoan@atlasfold.com",
+      "hours": "Open 24/7"
     },
     "mapTitle": "Find us",
     "links": {
       "terms": "Terms of Service",
       "privacy": "Privacy Policy",
       "cookie": "Cookie Policy"
+    },
+    "serviceAreas": {
+      "title": "Service Areas in Sofia",
+      "label": "Local SEO specialist in:",
+      "neighborhoods": [
+        "Iskar",
+        "Iztok",
+        "Linden",
+        "Sredets",
+        "Izgrev",
+        "Lyulin",
+        "Mladost",
+        "Vitosha",
+        "Pancharevo",
+        "Poduyane",
+        "Lozenets",
+        "Studentski grad",
+        "Orlandovtsi-Serdika",
+        "Ivan Vazov-Triaditsa",
+        "Doctor's Garden-Oborishte",
+        "Geo Milev",
+        "Smardana-Krasna polyana",
+        "Krasno selo",
+        "Ovcha kupel"
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "internetMarketing": "Internet Marketing",
+      "marketingAgency": "Marketing Agency",
+      "serviceEstablishment": "Service Establishment"
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
@@ -530,5 +562,74 @@
       "title": "5. Contact",
       "p1": "If you have any questions about this Cookie Policy, please contact us at <emailLink>antoan@atlasfold.com</emailLink>."
     }
+  },
+  "internetMarketingPage": {
+    "metadataTitle": "Internet Marketing Service Sofia | Atlas Fold - Local SEO & Google Maps",
+    "metadataDesc": "Atlas Fold is a leading internet marketing service in Sofia. We rank your business in the Top 3 on Google Maps within 90 days - no ad spend, guaranteed results.",
+    "backToHome": "Back to home",
+    "badge": "Internet Marketing Service",
+    "headline": "Internet Marketing Service in",
+    "headlineAccent": "Sofia",
+    "subheadline": "We help local businesses in Sofia dominate Google Maps - without paid advertising, without pay-per-click.",
+    "intro": "Atlas Fold is a specialist internet marketing service focused exclusively on local SEO and Google Business Profile optimisation. We work with businesses across Sofia - from Lozenets and Mladost to Lyulin and Studentski grad.",
+    "body": "Our service includes a full Google Business Profile optimisation, high-quality citation and authority signal building, on-page SEO for your website, and bi-weekly performance updates. We do not manage Google Ads or paid campaigns - we specialise only in organic local SEO.",
+    "features": [
+      "Full competitor analysis",
+      "Google Business Profile optimisation",
+      "Citation and authority signal building",
+      "On-page SEO for your website",
+      "Updates every 2 weeks",
+      "Top 3 guarantee within 90 days (Standard and Quarterly plans)"
+    ],
+    "ctaTitle": "Ready for Top 3?",
+    "ctaButton": "Get a Free Analysis",
+    "serviceType": "Internet Marketing Service",
+    "serviceDescription": "Local SEO and Google Maps optimisation for businesses in Sofia"
+  },
+  "marketingAgencyPage": {
+    "metadataTitle": "Marketing Agency for Local SEO in Sofia | Atlas Fold",
+    "metadataDesc": "Atlas Fold is a marketing agency in Sofia specialising in local SEO and Google Maps ranking. Top 3 in 90 days - guaranteed or you don't pay.",
+    "backToHome": "Back to home",
+    "badge": "Marketing Agency",
+    "headline": "Marketing Agency in",
+    "headlineAccent": "Sofia",
+    "subheadline": "We're not a typical marketing agency. We do one thing - and we do it better than anyone else: ranking in the Top 3 on Google Maps.",
+    "intro": "Atlas Fold is a marketing agency in Sofia with a narrow focus on local SEO. While most agencies offer everything - social media, Google Ads, web design - we specialise exclusively in Google Maps optimisation. This allows us to deliver faster, more predictable results.",
+    "body": "We serve businesses across Sofia: Sredets, Poduyane, Vitosha, Geo Milev, Krasno selo, Ovcha kupel, Orlandovtsi and many more. Every client receives a personalised strategy based on a competitive analysis for their specific niche and location.",
+    "features": [
+      "Specialised in local SEO only - no distractions",
+      "Top 3 guarantee within 90 days",
+      "Personalised strategy for your niche",
+      "Transparent bi-weekly updates",
+      "No hidden fees or long-term lock-ins after initial period",
+      "Service available in Bulgarian and English"
+    ],
+    "ctaTitle": "Ready for Top 3?",
+    "ctaButton": "Get a Free Analysis",
+    "serviceType": "Marketing Agency",
+    "serviceDescription": "Specialist marketing agency for local SEO and Google Maps ranking in Sofia"
+  },
+  "serviceEstablishmentPage": {
+    "metadataTitle": "Service Establishment - Local SEO in Sofia | Atlas Fold",
+    "metadataDesc": "Atlas Fold provides Google Maps optimisation for service establishments in Sofia. Get your business ranked in the Top 3 on Google within 90 days.",
+    "backToHome": "Back to home",
+    "badge": "Service Establishment",
+    "headline": "SEO for Service Establishments in",
+    "headlineAccent": "Sofia",
+    "subheadline": "Repair shops, service centres and service establishments in Sofia - ranked in the Top 3 on Google Maps.",
+    "intro": "Atlas Fold helps service establishments and service businesses in Sofia attract more local customers through Google Maps. Whether you run a car service shop in Iskar, a repair workshop in Mladost, or a service centre in Studentski grad - we put you where your customers are searching.",
+    "body": "Google Business Profile optimisation is the most effective way to attract new customers without paid advertising. When someone searches for 'car service near me' or 'appliance repair in Sofia' - your business needs to be among the top three results. That's exactly what we do.",
+    "features": [
+      "Google Business Profile optimisation for service establishments",
+      "Local citations in authoritative directories",
+      "On-page SEO for better visibility",
+      "Google review acquisition strategy",
+      "Monitoring and bi-weekly updates",
+      "We work with establishments across Sofia"
+    ],
+    "ctaTitle": "Ready for Top 3?",
+    "ctaButton": "Get a Free Analysis",
+    "serviceType": "Service Establishment",
+    "serviceDescription": "Google Maps optimisation for service establishments and service businesses in Sofia"
   }
 }

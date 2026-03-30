@@ -4,11 +4,13 @@ import { useTranslations, useLocale } from "next-intl";
 export function Footer() {
   const t = useTranslations("footer");
   const locale = useLocale();
+  const neighborhoods = t.raw("serviceAreas.neighborhoods") as string[];
 
   return (
     <footer className="border-t border-gray-200 bg-white py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* NAP block */}
           <div>
             <span className="font-display text-xl font-bold">{t("logo")}</span>
             <p className="mt-2 font-body text-sm text-text-secondary">
@@ -35,7 +37,55 @@ export function Footer() {
                   {t("nap.email")}
                 </a>
               </p>
+              <p className="font-medium text-text-primary">{t("nap.hours")}</p>
             </address>
+          </div>
+
+          {/* Services links */}
+          <div>
+            <p className="font-body text-sm font-semibold text-text-primary">
+              {t("services.title")}
+            </p>
+            <nav className="mt-4 flex flex-col gap-2 font-body text-sm text-text-secondary">
+              <Link
+                href={`/${locale}/internet-marketing-service`}
+                className="hover:text-text-primary"
+              >
+                {t("services.internetMarketing")}
+              </Link>
+              <Link
+                href={`/${locale}/marketing-agency`}
+                className="hover:text-text-primary"
+              >
+                {t("services.marketingAgency")}
+              </Link>
+              <Link
+                href={`/${locale}/service-establishment`}
+                className="hover:text-text-primary"
+              >
+                {t("services.serviceEstablishment")}
+              </Link>
+            </nav>
+          </div>
+
+          {/* Service areas */}
+          <div>
+            <p className="font-body text-sm font-semibold text-text-primary">
+              {t("serviceAreas.title")}
+            </p>
+            <p className="mt-1 font-body text-xs text-text-secondary">
+              {t("serviceAreas.label")}
+            </p>
+            <div className="mt-3 flex flex-wrap gap-1">
+              {neighborhoods.map((name) => (
+                <span
+                  key={name}
+                  className="inline-block rounded-full border border-gray-200 px-2 py-0.5 font-body text-xs text-text-secondary"
+                >
+                  {name}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
 
