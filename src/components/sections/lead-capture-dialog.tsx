@@ -16,12 +16,14 @@ type Tier = "minimum" | "standard" | "quarterly";
 
 interface LeadCaptureDialogProps {
   tier: Tier;
+  showTierSummary?: boolean;
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
 
 export function LeadCaptureDialog({
   tier,
+  showTierSummary = true,
   open,
   onOpenChange,
 }: LeadCaptureDialogProps) {
@@ -34,9 +36,13 @@ export function LeadCaptureDialog({
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-3xl">
-        <div className="grid gap-0 sm:grid-cols-5">
+        <div className={showTierSummary ? "grid gap-0 sm:grid-cols-5" : ""}>
           {/* ---- Left: Form (3 cols) ---- */}
-          <div className="p-6 sm:col-span-3 sm:p-8">
+          <div
+            className={
+              showTierSummary ? "p-6 sm:col-span-3 sm:p-8" : "p-6 sm:p-8"
+            }
+          >
             <DialogHeader>
               <DialogTitle>{t("dialog.title")}</DialogTitle>
               <DialogDescription>{t("dialog.subtitle")}</DialogDescription>
@@ -118,44 +124,45 @@ export function LeadCaptureDialog({
             )}
           </div>
 
-          {/* ---- Right: Tier summary (2 cols) ---- */}
-          <div className="flex flex-col justify-center border-t border-gray-100 bg-page p-6 sm:col-span-2 sm:rounded-r-2xl sm:border-l sm:border-t-0 sm:p-8">
-            <p className="mb-3 font-body text-xs font-medium uppercase tracking-wider text-text-secondary">
-              {t("dialog.tierLabel")}
-            </p>
+          {showTierSummary && (
+            <div className="flex flex-col justify-center border-t border-gray-100 bg-page p-6 sm:col-span-2 sm:rounded-r-2xl sm:border-l sm:border-t-0 sm:p-8">
+              <p className="mb-3 font-body text-xs font-medium uppercase tracking-wider text-text-secondary">
+                {t("dialog.tierLabel")}
+              </p>
 
-            <h3 className="font-display text-lg font-bold">
-              {t(`tiers.${tier}.name`)}
-            </h3>
+              <h3 className="font-display text-lg font-bold">
+                {t(`tiers.${tier}.name`)}
+              </h3>
 
-            <div className="mt-2">
-              <span className="font-display text-2xl font-extrabold">
-                {t(`tiers.${tier}.price`)}
-              </span>
-              <span className="font-body text-sm text-text-secondary">
-                {" "}
-                {t(`tiers.${tier}.period`)}
-              </span>
+              <div className="mt-2">
+                <span className="font-display text-2xl font-extrabold">
+                  {t(`tiers.${tier}.price`)}
+                </span>
+                <span className="font-body text-sm text-text-secondary">
+                  {" "}
+                  {t(`tiers.${tier}.period`)}
+                </span>
+              </div>
+
+              <p className="mt-2 font-body text-sm text-text-secondary">
+                {t(`tiers.${tier}.description`)}
+              </p>
+
+              <ul className="mt-4 flex flex-col gap-1.5">
+                {(t.raw(`tiers.${tier}.features`) as string[]).map(
+                  (feature: string, i: number) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 font-body text-xs text-text-secondary"
+                    >
+                      <span className="mt-0.5 text-success">✓</span>
+                      {feature}
+                    </li>
+                  ),
+                )}
+              </ul>
             </div>
-
-            <p className="mt-2 font-body text-sm text-text-secondary">
-              {t(`tiers.${tier}.description`)}
-            </p>
-
-            <ul className="mt-4 flex flex-col gap-1.5">
-              {(t.raw(`tiers.${tier}.features`) as string[]).map(
-                (feature: string, i: number) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 font-body text-xs text-text-secondary"
-                  >
-                    <span className="mt-0.5 text-success">✓</span>
-                    {feature}
-                  </li>
-                ),
-              )}
-            </ul>
-          </div>
+          )}
         </div>
       </DialogContent>
     </Dialog>
