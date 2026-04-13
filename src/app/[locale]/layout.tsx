@@ -1,6 +1,6 @@
 import { Syne, Playfair_Display, DM_Sans } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata, Viewport } from "next";
@@ -30,6 +30,14 @@ type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
+
+/*
+ * Pre-build one static HTML path per locale for [locale].
+ * Pairs with setRequestLocale for correct copy at build time.
+ */
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -92,6 +100,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   if (!routing.locales.includes(locale as "bg" | "en")) {
     notFound();
   }
+
+  /*
+   * Custom `src/proxy.ts` instead of next-intl middleware: server components
+   * do not get `x-next-intl-locale`, so they would fall back to defaultLocale (bg) unless we set the request locale from params.
+   */
+  setRequestLocale(locale);
 
   const messages = (await import(`../../../messages/${locale}.json`)).default;
 
