@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "BEST internet marketing service Sofia - Atlas Fold | Local SEO, Google Maps Ranking, Citation Building & On-Page SEO near me",
-    "description": "Get your business ranked in the Top 3 on Google Maps within 90 days - guaranteed. No ad spend. No pay-per-click. Long-term results for businesses in Sofia.",
-    "keywords": "local SEO Sofia, Google Maps optimization, Top 3 Google, SEO services Sofia, local ranking, Google Maps ranking, SEO agency Sofia, local search optimization, maps optimization"
+    "title": "BEST internet marketing service Sofia - Atlas Fold | Local SEO, SEO Optimization, SEO Services, Google Maps Ranking, Citation Building & On-Page SEO near me",
+    "description": "Get your business ranked in the Top 3 on Google Maps within 90 days - guaranteed. No ad spend. No pay-per-click. Long-term results for businesses in Sofia. Atlas Fold offers expert SEO optimization and local SEO services in Sofia.",
+    "keywords": "local SEO Sofia, SEO optimization, SEO services, SEO agency Sofia, Google Maps optimization, Google Maps ranking, Top 3 Google, local ranking, local SEO"
   },
   "nav": {
     "logo": "Atlas Fold",
@@ -18,7 +18,7 @@
   },
   "hero": {
     "location": "Sofia, Bulgaria",
-    "headline": "Internet marketing service - Local SEO Sofia - Top 3 on Google in 90 Days -",
+    "headline": "Internet marketing service - SEO optimization & local SEO services in Sofia - Top 3 on Google in 90 Days -",
     "headlineAccent": "Guaranteed.",
     "subheadline": "75% of all searches go to the top 3 results on Google Maps.",
     "subheadlineExtra": "If you're not there, you're essentially invisible.",
@@ -126,22 +126,34 @@
     "seeAllFaq": "See all questions",
     "items": {
       "q1": {
+        "question": "Do you offer comprehensive SEO optimization for new websites?",
+        "answer": "Yes! Our SEO agency offers full technical and On-Site SEO optimization for new and existing websites. We build the right structure and meta data to ensure a strong start and fast indexing in the search engine."
+      },
+      "q2": {
+        "question": "What exactly are the SEO services included in your 90-day plan?",
+        "answer": "Our SEO services include full Google Business Profile optimization, creation of specialized local pages (On-Site SEO) and building authoritative business citations. The goal of these SEO services is to rank in the Top 3 on Google Maps in Sofia."
+      },
+      "q3": {
+        "question": "What makes your SEO agency stand out from others in Sofia?",
+        "answer": "Atlas Fold is an SEO agency that offers a guaranteed Top 3 ranking in Google within 90 days."
+      },
+      "q4": {
         "question": "What is the difference between SEO and Google Ads?",
         "answer": "Google Ads is paid advertising - you pay for every click and when your budget runs out, you disappear. Google Maps SEO is organic - once you're in the top 3, you stay there long-term without paying per click."
       },
-      "q2": {
+      "q5": {
         "question": "Which companies do you work with?",
         "answer": "We work with local businesses in Sofia - plumbers, dentists, auto repair shops, restaurants, accountants and anyone who serves customers locally. If your clients search for you on Google - we can help."
       },
-      "q3": {
+      "q6": {
         "question": "How much time will I need to invest?",
         "answer": "Under 15 minutes for the initial setup. After that, we handle everything. You focus on your business, we focus on your visibility on Google."
       },
-      "q4": {
+      "q7": {
         "question": "What are the contract terms?",
         "answer": "Monthly plans have a 3-month initial commitment, after which you can cancel anytime. The quarterly plan renews every 3 months. No hidden fees."
       },
-      "q5": {
+      "q8": {
         "question": "How can we get started?",
         "answer": "Choose a package, fill out the free analysis form, and we'll call you within 24 hours. Or simply call us directly."
       }
