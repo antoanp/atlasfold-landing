@@ -45,8 +45,8 @@
   },
   "advantage": {
     "badge": "Предимството",
-    "title": "Защо Google Maps",
-    "titleAccent": "оптимизация?",
+    "title": "Защо локално SEO и",
+    "titleAccent": "Google Maps класиране?",
     "cards": {
       "visibility": {
         "title": "Видимост",
@@ -64,8 +64,8 @@
   },
   "beforeAfter": {
     "badge": "Преди / След",
-    "title": "SEO резултати - разликата е",
-    "titleAccent": "огромна.",
+    "title": "Google Maps класиране -",
+    "titleAccent": "разликата.",
     "tabs": {
       "before": "Преди",
       "after": "След"
@@ -94,8 +94,8 @@
   },
   "process": {
     "badge": "Как работи?",
-    "title": "Google Maps класиране - изключително",
-    "titleAccent": "лесно.",
+    "title": "Как нашата маркетинг агенция Ви класира",
+    "titleAccent": "в Топ 3.",
     "steps": {
       "step1": {
         "number": "01",
@@ -121,8 +121,8 @@
   },
   "faq": {
     "badge": "Въпроси",
-    "title": "Локално SEO - често задавани",
-    "titleAccent": "въпроси",
+    "title": "On-page SEO и изграждане на локални цитати - често задавани",
+    "titleAccent": "въпроси.",
     "seeAllFaq": "Виж всички въпроси",
     "items": {
       "q1": {
@@ -162,8 +162,8 @@
   "pricing": {
     "phoneLink": "tel:0877268727",
     "badge": "Пакети",
-    "title": "SEO пакети за повече",
-    "titleAccent": "клиенти",
+    "title": "Пакети локално SEO за повече",
+    "titleAccent": "клиенти.",
     "tiers": {
       "minimum": {
         "name": "Минимум",

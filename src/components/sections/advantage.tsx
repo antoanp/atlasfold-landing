@@ -15,8 +15,8 @@ export function Advantage() {
           {t("badge")}
         </span>
         <h2 className="font-display text-3xl font-extrabold lg:text-5xl">
-          <span className="font-accent italic">{t("title")}</span>{" "}
-          {t("titleAccent")}
+          {t("title")}{" "}
+          <span className="font-accent italic">{t("titleAccent")}</span>
         </h2>
       </div>
       <div className="mt-12 grid gap-6 md:grid-cols-3">

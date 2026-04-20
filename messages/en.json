@@ -45,8 +45,8 @@
   },
   "advantage": {
     "badge": "The Advantage",
-    "title": "Why Google Maps",
-    "titleAccent": "Optimization?",
+    "title": "Why Local SEO &",
+    "titleAccent": "Google Maps ranking?",
     "cards": {
       "visibility": {
         "title": "Visibility",
@@ -64,8 +64,8 @@
   },
   "beforeAfter": {
     "badge": "Before / After",
-    "title": "SEO Results - The",
-    "titleAccent": "Difference.",
+    "title": "Google Maps ranking — the",
+    "titleAccent": "difference.",
     "tabs": {
       "before": "Before",
       "after": "After"
@@ -94,8 +94,8 @@
   },
   "process": {
     "badge": "How Does It Work?",
-    "title": "Google Maps Ranking - it's pretty",
-    "titleAccent": "easy.",
+    "title": "How our marketing agency gets you to the",
+    "titleAccent": "Top 3.",
     "steps": {
       "step1": {
         "number": "01",
@@ -121,8 +121,8 @@
   },
   "faq": {
     "badge": "FAQs",
-    "title": "Local SEO - Frequently Asked",
-    "titleAccent": "Questions",
+    "title": "On-page SEO & citations building — common",
+    "titleAccent": "questions.",
     "seeAllFaq": "See all questions",
     "items": {
       "q1": {
@@ -162,8 +162,8 @@
   "pricing": {
     "phoneLink": "tel:0877268727",
     "badge": "Packages",
-    "title": "SEO Packages for more",
-    "titleAccent": "Clients",
+    "title": "Local SEO packages for more",
+    "titleAccent": "clients.",
     "tiers": {
       "minimum": {
         "name": "Minimum",
