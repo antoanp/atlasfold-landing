@@ -59,12 +59,6 @@ export function Footer() {
               >
                 {t("services.marketingAgency")}
               </Link>
-              <Link
-                href={`/${locale}/service-establishment`}
-                className="hover:text-text-primary"
-              >
-                {t("services.serviceEstablishment")}
-              </Link>
             </nav>
           </div>
 

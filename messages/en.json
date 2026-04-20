@@ -284,8 +284,7 @@
     "services": {
       "title": "Services",
       "internetMarketing": "Internet Marketing",
-      "marketingAgency": "Marketing Agency",
-      "serviceEstablishment": "Service Establishment"
+      "marketingAgency": "Marketing Agency"
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
@@ -620,28 +619,5 @@
     "ctaButton": "Get a Free Analysis",
     "serviceType": "Marketing Agency",
     "serviceDescription": "Specialist marketing agency for local SEO and Google Maps ranking in Sofia"
-  },
-  "serviceEstablishmentPage": {
-    "metadataTitle": "Service Establishment - Local SEO in Sofia | Atlas Fold",
-    "metadataDesc": "Atlas Fold provides Google Maps optimisation for service establishments in Sofia. Get your business ranked in the Top 3 on Google within 90 days.",
-    "backToHome": "Back to home",
-    "badge": "Service Establishment",
-    "headline": "SEO for Service Establishments in",
-    "headlineAccent": "Sofia",
-    "subheadline": "Repair shops, service centres and service establishments in Sofia - ranked in the Top 3 on Google Maps.",
-    "intro": "Atlas Fold helps service establishments and service businesses in Sofia attract more local customers through Google Maps. Whether you run a car service shop in Iskar, a repair workshop in Mladost, or a service centre in Studentski grad - we put you where your customers are searching.",
-    "body": "Google Business Profile optimisation is the most effective way to attract new customers without paid advertising. When someone searches for 'car service near me' or 'appliance repair in Sofia' - your business needs to be among the top three results. That's exactly what we do.",
-    "features": [
-      "Google Business Profile optimisation for service establishments",
-      "Local citations in authoritative directories",
-      "On-page SEO for better visibility",
-      "Google review acquisition strategy",
-      "Monitoring and bi-weekly updates",
-      "We work with establishments across Sofia"
-    ],
-    "ctaTitle": "Ready for Top 3?",
-    "ctaButton": "Get a Free Analysis",
-    "serviceType": "Service Establishment",
-    "serviceDescription": "Google Maps optimisation for service establishments and service businesses in Sofia"
   }
 }
