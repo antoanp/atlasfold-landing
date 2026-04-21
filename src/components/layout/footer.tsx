@@ -5,6 +5,10 @@ export function Footer() {
   const t = useTranslations("footer");
   const locale = useLocale();
   const neighborhoods = t.raw("serviceAreas.neighborhoods") as string[];
+  const featuredAreaLinks = t.raw("serviceAreas.featuredLinks") as {
+    label: string;
+    href: string;
+  }[];
 
   return (
     <footer className="border-t border-gray-200 bg-white py-12">
@@ -48,6 +52,12 @@ export function Footer() {
             </p>
             <nav className="mt-4 flex flex-col gap-2 font-body text-sm text-text-secondary">
               <Link
+                href={`/${locale}/seo-optimization-sofia`}
+                className="hover:text-text-primary"
+              >
+                {t("services.seoOptimization")}
+              </Link>
+              <Link
                 href={`/${locale}/internet-marketing-service`}
                 className="hover:text-text-primary"
               >
@@ -80,6 +90,20 @@ export function Footer() {
                 </span>
               ))}
             </div>
+            {featuredAreaLinks.length > 0 ? (
+              <ul className="mt-4 flex flex-col gap-1">
+                {featuredAreaLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={`/${locale}${link.href}`}
+                      className="font-body text-xs font-medium text-accent hover:underline"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         </div>
 

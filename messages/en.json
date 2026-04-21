@@ -279,10 +279,14 @@
         "Smardana-Krasna polyana",
         "Krasno selo",
         "Ovcha kupel"
+      ],
+      "featuredLinks": [
+        { "label": "Local SEO in Lozenets →", "href": "/areas/lozenets" }
       ]
     },
     "services": {
       "title": "Services",
+      "seoOptimization": "SEO Optimization Sofia",
       "internetMarketing": "Internet Marketing",
       "marketingAgency": "Marketing Agency"
     },
@@ -595,7 +599,18 @@
     "ctaTitle": "Ready for Top 3?",
     "ctaButton": "Get a Free Analysis",
     "serviceType": "Internet Marketing Service",
-    "serviceDescription": "Local SEO and Google Maps optimisation for businesses in Sofia"
+    "serviceDescription": "Local SEO and Google Maps optimisation for businesses in Sofia",
+    "related": {
+      "title": "Related services & service areas",
+      "items": [
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/seo-optimization-sofia"
+        },
+        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" },
+        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+      ]
+    }
   },
   "marketingAgencyPage": {
     "metadataTitle": "Marketing Agency for Local SEO in Sofia | Atlas Fold",
@@ -618,6 +633,356 @@
     "ctaTitle": "Ready for Top 3?",
     "ctaButton": "Get a Free Analysis",
     "serviceType": "Marketing Agency",
-    "serviceDescription": "Specialist marketing agency for local SEO and Google Maps ranking in Sofia"
+    "serviceDescription": "Specialist marketing agency for local SEO and Google Maps ranking in Sofia",
+    "related": {
+      "title": "Related services & service areas",
+      "items": [
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/seo-optimization-sofia"
+        },
+        {
+          "label": "Internet Marketing Service in Sofia",
+          "href": "/internet-marketing-service"
+        },
+        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+      ]
+    }
+  },
+  "seoOptimizationPage": {
+    "metadataTitle": "BEST SEO Optimization Sofia - Atlas Fold - if you're looking for local SEO agency near me or SEO services near me - guaranteed Top 3 on Google Maps in 90 days",
+    "metadataDesc": "SEO optimization in Sofia that ranks your business in the Top 3 on Google Maps within 90 days. No ad spend, no PPC. Atlas Fold delivers guaranteed local SEO results for Sofia businesses — or you don't pay.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "current": "SEO Optimization Sofia"
+    },
+    "badge": "SEO Optimization",
+    "headline": "SEO optimization in Sofia — ranked in the",
+    "headlineAccent": "Top 3 or you don't pay.",
+    "subheadline": "The long version of what real local SEO for a Sofia business looks like — pillars, timelines, and the specific mistakes that keep most companies stuck on page 2.",
+    "image1Alt": "Google Maps Top 3 result for a Sofia local business - SEO optimization result",
+    "image2Alt": "Google Business Profile dashboard showing categories, services and description - on-page SEO foundation for Sofia",
+    "image3Alt": "Bulgarian local citation directory showing consistent NAP data for a Sofia business",
+    "image4Alt": "Atlas Fold SEO optimization monthly report for a Sofia client - ranking, market share, calls",
+    "hook": {
+      "p1": "When a customer types 'plumber near me', 'dentist Sofia', or 'accountant Lozenets' into Google, the top 3 results on the map take roughly 75% of the clicks. Everything below that first screen is, in practice, invisible. SEO optimization in Sofia is the discipline that decides whether your business is in those 3 spots or not.",
+      "p2": "Most Sofia business owners we meet have tried one of two things: a Google Ads campaign that drained their budget the moment it was paused, or a generic marketing agency that 'did SEO' but couldn't explain what actually changed. This page is the long version of what real SEO optimization for a local Sofia business looks like — the pillars, the timelines, the signals Google actually weighs, and the specific mistakes that keep most companies stuck at positions 10-20 on the map."
+    },
+    "whatItMeans": {
+      "title": "What SEO optimization really means for a Sofia business",
+      "p1": "SEO optimization is the ongoing work of convincing Google that your business is the most relevant, most trusted answer to a specific local search. For a dentist in Lozenets, that search is 'dentist Lozenets' or 'dentist near me' when the user is walking past Paradise Center. For a plumber in Mladost, it's 'plumber Mladost' at 7pm on a Sunday when a pipe has just burst.",
+      "p2": "What people call 'SEO' on Google nationally and 'local SEO' on Google Maps are two different sports. National SEO is a slow, content-heavy game played against thousands of pages. Local SEO — the only kind that matters for a Sofia business with a physical address or service area — is a compact game played against 10-20 direct competitors in your specific neighborhood. The signals Google uses are different, the timelines are shorter, and the ROI is dramatically higher.",
+      "p3": "SEO optimization in Sofia, done properly, touches three surfaces at once: your Google Business Profile (GBP, formerly Google My Business), your website, and the web of third-party signals around you — directories, reviews, mentions, citations. If even one of these is weak, the other two cannot carry the ranking. Most Sofia businesses we audit fix one and wonder why nothing moves."
+    },
+    "whyGenericFails": {
+      "title": "Why generic SEO agencies fail Sofia businesses",
+      "p1": "The typical marketing agency in Sofia sells 'a bit of everything': social media, Google Ads, web design, a content plan, and SEO as a bullet in the proposal. That model makes sense for agencies — recurring retainers are easier when you stack services. It makes no sense for a local business that only needs customers from a 3-5 kilometer radius.",
+      "p2": "Three specific ways generic agencies fail Sofia clients:",
+      "reasons": [
+        "They chase national keywords. A dental clinic in Studentski grad does not need to rank for 'dental implants Bulgaria'. It needs to rank for 'dentist Studentski grad' and 'dental clinic Lozenets'. Those are easier, cheaper, and convert at a far higher rate.",
+        "They ignore the Google Business Profile. In the 2026 ranking landscape, GBP is 60-70% of the work. Website-only SEO in Sofia is like building a beautiful storefront in a closed mall.",
+        "They don't measure what matters. Impressions and 'traffic to site' are vanity metrics in local SEO. What matters is: position on the map for the primary query, profile calls, direction requests, and profile-to-website clicks. If your monthly report doesn't show those four numbers, it's not a local SEO report."
+      ]
+    },
+    "pillars": {
+      "title": "The 3 pillars of SEO optimization in Sofia",
+      "intro": "Every SEO optimization project Atlas Fold takes on in Sofia rests on three pillars. Miss any of them and the ranking stalls.",
+      "gbp": {
+        "title": "Google Business Profile optimization",
+        "p1": "Your Google Business Profile is where 70%+ of local discovery happens. A correctly optimized profile in Sofia means: primary category matching your single most-searched service (not a vague umbrella like 'business consultant'), additional categories layered in precisely, service area mapped to the neighborhoods you actually serve — not the entire city of Sofia — opening hours marked as 'open 24 hours' only if that's true, business description written with the primary keyword in the first 250 characters, photos geotagged and uploaded on a schedule, and a steady stream of posts that Google treats as freshness signals.",
+        "p2": "The mistake we see most often on Sofia profiles: a business picks one primary category ('restaurant'), doesn't add the 3-4 secondary categories Google allows ('Italian restaurant', 'pizza restaurant', 'family restaurant', 'terrace restaurant'), and then competes against the entire 'restaurant' universe in Sofia instead of the narrower, more winnable slices."
+      },
+      "onPage": {
+        "title": "On-page SEO — the foundation of the website",
+        "intro": "On-page SEO is every signal your own website sends to Google. For a local Sofia business, the non-negotiables are:",
+        "items": [
+          "A title tag in the format 'Best [service] [neighborhood] — [business name]' that Google reads as the page topic. Yes, it's longer than 60 characters. Ignore the outdated 60-character rule — Google uses the full string for relevance, even if only part of it is displayed in the snippet.",
+          "Exactly one H1 per page, naming the primary category and the city.",
+          "H2s covering the secondary categories and the 4-5 most important services, so the page demonstrates topical coverage.",
+          "A NAP block (Name, Address, Phone) in the footer as plain crawlable text — not an image — that matches the GBP string character-for-character. 'ul.' vs 'ulitsa', 'EOOD' vs 'Ltd', '+359' vs '0' — any mismatch dilutes trust.",
+          "LocalBusiness and FAQ schema in the page source, so Google reads the structured version of your NAP, services, hours, and questions directly.",
+          "Page speed under 2.5s LCP and a CLS under 0.1. Sofia mobile 4G is not American fiber — sites that bloat over 3MB on the first screen lose mobile rankings."
+        ],
+        "outro": "Each of these compounds. Fixing 2 of 6 moves nothing. Fixing all 6 is what takes a Sofia business from position 12 to position 3."
+      },
+      "citations": {
+        "title": "Local citations & authority signals",
+        "p1": "A citation is any third-party mention of your business across the web with a consistent NAP. For a Sofia business, the relevant citation surfaces are: bgmaps.com, navimaps.bg, pozvanete.bg, ciela.net/business, 0700.bg, profesionalisti.bg, industry-specific portals (e.g., zdravni-portali.bg for dental clinics, autoservize.bg for auto repair), Bulgarian chamber directories, and cross-referenced mentions on local news portals.",
+        "p2": "The quality bar matters more than the quantity. 40 high-trust, perfectly consistent citations beat 400 low-quality scraped ones. Google cross-checks NAP strings across citations when it decides how 'real' a local business is. A single inconsistency — the business name appearing as 'Atlas Fold EOOD' on one directory and 'Atlas Fold Ltd' on another — sends a confusion signal.",
+        "p3": "Beyond citations, authority signals include: contextually relevant backlinks from Bulgarian sites in your industry, partnerships with local suppliers or associations, sponsorships of neighborhood events that generate press mentions, and reviews on Google, Facebook, and industry-specific platforms. The goal is not 'more links'. The goal is a coherent, believable local presence that Google can verify from multiple angles."
+      }
+    },
+    "measure": {
+      "title": "How we measure SEO optimization results",
+      "intro": "We report four numbers every two weeks:",
+      "items": [
+        "Average position on Google Maps for your primary search term.",
+        "Market share in the 3-pack — the percentage of relevant local searches where your business appears in the top 3.",
+        "Profile calls and direction requests, pulled directly from Google Business Profile insights.",
+        "Website clicks originating from the profile."
+      ],
+      "outro": "Impressions and raw traffic are in the appendix, not the first page. If the four numbers above don't improve month over month, the strategy is wrong and we say so."
+    },
+    "process": {
+      "title": "Our SEO optimization process in 4 steps",
+      "steps": [
+        {
+          "title": "1. Free audit",
+          "body": "We screen your GBP, website, and top 3 local competitors. You get a written snapshot of every gap, even if you never hire us."
+        },
+        {
+          "title": "2. Strategy",
+          "body": "We select the primary search term (the single query you will be ranked for at the 90-day mark), map the secondary terms, and lock the neighborhoods you'll target."
+        },
+        {
+          "title": "3. Execution",
+          "body": "Two-week sprints on GBP optimization, on-page SEO, citations, and content. No quiet months."
+        },
+        {
+          "title": "4. Maintenance",
+          "body": "Once you hit Top 3, the work shifts to defense: new reviews, fresh photos, updated posts, monitoring competitor moves, and ensuring NAP stays clean as directories update their databases."
+        }
+      ]
+    },
+    "localReferences": {
+      "title": "Local references — Sofia SEO in practice",
+      "p1": "Sofia is not one market. Lozenets, Studentski grad, Mladost, Center, and Lyulin each behave differently. A restaurant in Lozenets faces premium competition — higher CPCs, more mature GBPs, more photo-heavy profiles. A service business in Lyulin competes on price, proximity, and response time.",
+      "p2": "We publish dedicated neighborhood pages for the areas we know best. Every SEO optimization engagement starts with a neighborhood-level strategy, not a city-wide one.",
+      "areaLinkLabel": "Read more: Local SEO in Lozenets →"
+    },
+    "pricing": {
+      "title": "How much does SEO optimization cost in Sofia?",
+      "p1": "We publish transparent monthly packages on the pricing page. Sofia SEO optimization starts at 345 EUR/month for the Minimum package, 445 EUR/month for Standard (with the Top 3 guarantee), and 1,185 EUR/quarter for the Quarterly plan (best value).",
+      "p2": "No retainer tricks, no hidden 'setup fees', no 12-month contracts. Standard and Quarterly packages carry the 90-day Top 3 guarantee: if your business isn't in the Top 3 on Google Maps for the agreed primary search term within 90 days, you don't pay for that period."
+    },
+    "faq": {
+      "title": "SEO optimization in Sofia — frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "How much does SEO optimization cost in Sofia?",
+          "answer": "Entry tier 345 EUR/month, Standard 445 EUR/month (with Top 3 guarantee), Quarterly 1,185 EUR/quarter. No setup fees. All prices exclude VAT."
+        },
+        "q2": {
+          "question": "How long does SEO take to show results?",
+          "answer": "First measurable movement in the map ranking typically happens within 4-6 weeks for small-competition niches in Sofia, 8-12 weeks for competitive niches. Our Top 3 guarantee is 90 days — if you're not there, you don't pay."
+        },
+        "q3": {
+          "question": "Is SEO better than Google Ads for a Sofia business?",
+          "answer": "Different tools. Google Ads is a pay-per-click faucet — stop paying and results vanish. SEO is a compound asset — once you're in the Top 3, you stay there for years on roughly a quarter of the monthly cost of an equivalent Ads budget. For most Sofia SMBs, SEO wins on lifetime ROI."
+        },
+        "q4": {
+          "question": "Do you work with businesses outside Sofia center?",
+          "answer": "Yes. We serve Sofia city-wide — Lozenets, Mladost, Center, Lyulin, Studentski grad, Vitosha, Krasno selo, Ovcha kupel, Pancharevo, and the service-area suburbs. Dedicated area pages cover the neighborhoods we have the deepest data on."
+        },
+        "q5": {
+          "question": "What if we're already on page 1 but not in the Top 3?",
+          "answer": "That's actually our favorite starting point. Moving from positions 4-10 to positions 1-3 is faster than starting from page 3, because Google already considers you relevant — it just needs stronger signals to promote you."
+        },
+        "q6": {
+          "question": "Can I cancel after 90 days?",
+          "answer": "Yes. Monthly packages require a 3-month initial commitment and are then cancellable any time with 14 days' notice. The Quarterly plan renews every 3 months and is cancellable before renewal."
+        },
+        "q7": {
+          "question": "Do I need a new website for SEO to work?",
+          "answer": "Usually no. We work with the website you have. We fix title tags, schema, NAP, speed, and a few content pages. Only if the site is structurally broken (uncrawlable, ancient CMS, no mobile version) do we recommend a rebuild."
+        },
+        "q8": {
+          "question": "How is SEO different from what my web developer does?",
+          "answer": "Web developers build and maintain the website. SEO optimization is the strategy and execution that makes Google rank it. The two overlap on technical fixes (schema, speed) but differ on intent, keywords, GBP, citations, and measurement."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to rank in the",
+      "titleAccent": "Top 3?",
+      "body": "Free 24-hour analysis. No obligation. If we can't get you to the Top 3 on Google Maps for Sofia in 90 days — you don't pay.",
+      "button": "Get a Free Analysis"
+    },
+    "related": {
+      "title": "Related services & areas",
+      "items": [
+        {
+          "label": "Internet Marketing Service in Sofia",
+          "href": "/internet-marketing-service"
+        },
+        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" },
+        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+      ]
+    },
+    "serviceType": "Search Engine Optimization (Local SEO)",
+    "serviceDescription": "SEO optimization service for local businesses in Sofia - Google Business Profile optimization, on-page SEO, citations building and Google Maps ranking with a 90-day Top 3 guarantee."
+  },
+  "lozenetsAreaPage": {
+    "metadataTitle": "BEST Local SEO Lozenets Sofia - Atlas Fold - if you're looking for SEO agency Lozenets or Google Maps optimization near me - Top 3 guaranteed",
+    "metadataDesc": "Local SEO for businesses in Lozenets, Sofia. Atlas Fold ranks Lozenets dental clinics, cafés, salons and service businesses in the Top 3 on Google Maps within 90 days — guaranteed.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "areas": "Service areas",
+      "current": "Lozenets"
+    },
+    "badge": "Service area — Lozenets",
+    "headline": "Local SEO for businesses in",
+    "headlineAccent": "Lozenets, Sofia.",
+    "subheadline": "Dental clinics, cafés, salons, boutique fitness studios and professional services — ranked in the Top 3 on Google Maps for Lozenets searches in 90 days.",
+    "image1Alt": "Google Maps 3-pack result for a local business search in Lozenets, Sofia",
+    "image2Alt": "Lozenets landmarks including Paradise Center, South Park and James Bourchier metro used for local SEO references",
+    "image3Alt": "Lozenets dental clinic Google Business Profile showing reviews, photos and categories optimized by Atlas Fold",
+    "nap": {
+      "title": "Atlas Fold — serving Lozenets",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0 877 268 727",
+      "email": "antoan@atlasfold.com",
+      "hours": "Mon-Fri 9:00-18:00 · Sat-Sun by appointment"
+    },
+    "hook": {
+      "p1": "Lozenets is one of Sofia's most competitive neighborhoods for local businesses — and for local SEO. Wealthier residents, higher average spend per visit, and 3-5 competing options for every service mean the Top 3 on Google Maps is worth an outsized share of the market. A dental clinic that ranks first on 'dentist Lozenets' sees roughly four times the profile calls of the clinic in position seven, despite being the same quality of practice.",
+      "p2": "This page is for Lozenets business owners who have either tried local SEO and stalled, or never prioritized Google Maps ranking because 'we have enough returning clients'. Competitors are not staying still. Every month your profile is not in the Top 3 is a month those searches go to the clinic, café, or salon three streets over."
+    },
+    "whyCompetitive": {
+      "title": "Why Lozenets is a competitive SEO landscape",
+      "p1": "Lozenets sits between the south center of Sofia and Vitosha, bordered roughly by Cherni Vrah Blvd, James Bourchier Blvd, Nikola Vaptsarov Blvd, and Hristo Smirnenski Blvd. The population density, high per-capita income, and concentration of professional services create a dense local search market.",
+      "p2": "Dental clinics, aesthetic clinics, dermatology practices, fitness and yoga studios, specialty cafés, wine bars, private kindergartens, and notary offices all fight for the same 3 slots on the map. The competitors with optimized Google Business Profiles and consistent citations absorb the searches. The rest are invisible.",
+      "p3": "What makes Lozenets different from, say, Lyulin or Ovcha kupel is review maturity. The typical winning Lozenets business has 150-400 Google reviews with a 4.7+ average. A new or neglected profile with 20 reviews and no recent photos is not going to outrank that profile purely on proximity — Google weighs trust signals too heavily."
+    },
+    "howSearchesWork": {
+      "title": "How local searches actually work in Lozenets",
+      "intro": "Three search patterns dominate Lozenets queries:",
+      "patterns": [
+        {
+          "label": "'[Service] Lozenets'",
+          "body": "'dentist Lozenets', 'café Lozenets', 'yoga Lozenets'. Deliberate neighborhood search. High intent."
+        },
+        {
+          "label": "'[Service] near me'",
+          "body": "User currently in Lozenets or driving toward Paradise Center, James Bourchier metro, or South Park. Google uses the phone's location to return a local 3-pack."
+        },
+        {
+          "label": "'[Landmark/street] [service]'",
+          "body": "'Café near James Bourchier', 'dentist near VMA'. Proximity-to-landmark search. More common among older residents and expatriates."
+        }
+      ],
+      "outro": "For each of these, Google's local algorithm weighs three factors roughly in this order: relevance (does the profile match the query), distance (how close is the business to the searcher), and prominence (how trusted is the business — reviews, citations, profile completeness). Most Lozenets clients we audit have invisible relevance — incorrect primary category, no services listed, generic business description — and weak prominence. Distance they can't change. Relevance and prominence we fix in 4-6 weeks."
+    },
+    "landmarks": {
+      "title": "The Lozenets streets and landmarks your profile should name",
+      "intro": "Lozenets customers reference a specific set of landmarks and streets when they talk to Google or to each other:",
+      "streetsLabel": "Main streets",
+      "streets": [
+        "Bulevard James Bourchier",
+        "Hristo Smirnenski Blvd",
+        "Cherni Vrah Blvd",
+        "Krum Popov Str",
+        "Kozyak Str",
+        "Zlatovrah Str",
+        "Nikolay Haytov Str",
+        "Filip Kutev Str"
+      ],
+      "landmarksLabel": "Landmarks",
+      "landmarks": [
+        "South Park (Yuzhen Park)",
+        "Metro Station 'James Bourchier'",
+        "VMA (Military Medical Academy)",
+        "American College of Sofia",
+        "Paradise Center",
+        "Hladilnika bus interchange",
+        "Nova Varshava residential complex"
+      ],
+      "outro": "Your Google Business Profile description, website area page, and FAQ should reference at least 3-4 of these — not as keyword stuffing, but as natural local context. Google cross-references entities in its knowledge graph. When your site mentions 'close to South Park and Paradise Center', Google has more confidence you are actually in Lozenets."
+    },
+    "proximity": {
+      "title": "Why proximity alone is not enough",
+      "p1": "Business owners in Lozenets tell us: 'I'm right next to Paradise Center, why am I not showing up?' Proximity is one of three ranking factors, not the only one. A profile 200m from the searcher but with 15 reviews, no category, and inconsistent citations will lose to a profile 800m away with 280 reviews, 15 photos uploaded this month, and a dialed-in GBP description.",
+      "p2": "Distance is also relative. Google uses a 'centroid of intent' — for searches without proximity clues, it weights businesses closer to the neighborhood center, not to the searcher. Businesses on the edge of Lozenets (near Hladilnika or James Bourchier metro) often need stronger prominence signals to compensate. The fix is always the same: win on relevance, win on prominence, accept distance as a constant, and watch the map ranking climb."
+    },
+    "services": {
+      "title": "Services we offer businesses in Lozenets",
+      "intro": "Every Lozenets engagement includes:",
+      "items": [
+        "Google Business Profile optimization (categories, services, description, photos, posts)",
+        "On-page SEO for your website (title tags, schema, NAP, page speed)",
+        "Local citations building on Bulgarian directories + niche portals",
+        "Review management and response system setup",
+        "Monthly competitor monitoring for Lozenets"
+      ],
+      "linkLabel": "See the full SEO Optimization service →"
+    },
+    "struggles": {
+      "title": "What Lozenets businesses typically struggle with",
+      "intro": "Patterns from audits across dental clinics, aesthetic clinics, cafés, and salons in Lozenets:",
+      "items": [
+        "Premium brand, amateur profile. Beautiful physical space, photos from 2021, no primary category, and 38 reviews. Easy to fix — tedious to do consistently.",
+        "Review gaps. Cafés in Lozenets often have strong word-of-mouth but never asked customers for Google reviews. A simple QR-on-receipt flow adds 20-30 reviews per month.",
+        "NAP inconsistencies. Expanded from one location to two without updating older citations. Google sees two slightly different business entities.",
+        "English-only websites. Lozenets has a significant English-speaking segment, but Bulgarian-speaking searchers are still the majority. Bilingual pages + hreflang tags help both.",
+        "Over-reliance on Instagram. Instagram drives awareness; it does not rank you on Google Maps. Social and SEO are different layers."
+      ],
+      "outro": "Each of these is a 2-4 week fix. Combined, they move a Lozenets business from position 8-12 to Top 3 in 10-14 weeks."
+    },
+    "faq": {
+      "title": "Lozenets SEO — common",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Do you only serve businesses physically in Lozenets?",
+          "answer": "No. We serve any business with customers in Lozenets — whether your address is in Lozenets, Studentski grad, or Iztok. The Google Business Profile service area is adjustable."
+        },
+        "q2": {
+          "question": "What's the typical budget for Lozenets SEO?",
+          "answer": "345-445 EUR/month for most Lozenets SMBs. Premium niches (aesthetic clinics, private dental, legal) sometimes use the Quarterly plan at 1,185 EUR/quarter for faster prominence building."
+        },
+        "q3": {
+          "question": "How long to reach Top 3 in Lozenets specifically?",
+          "answer": "60-100 days for most small-to-medium competition niches. 90-120 days for high-competition niches (dental, aesthetic, legal, fitness). Guaranteed under the Standard and Quarterly packages."
+        },
+        "q4": {
+          "question": "Can I keep my current website?",
+          "answer": "In 90% of cases, yes. We apply on-page SEO fixes to your existing site. A rebuild is only recommended if the site is technically broken (no mobile version, 10+ second load, no HTTPS)."
+        },
+        "q5": {
+          "question": "What if there's a bigger competitor nearby?",
+          "answer": "Fine. Competitor analysis is step 1. We identify exactly which signals they have and which they don't, and build a strategy to close the gap. The biggest is rarely the most-optimized."
+        },
+        "q6": {
+          "question": "Do you manage reviews and responses?",
+          "answer": "We set up the system (templates, escalation process, QR flow) and train your team. Day-to-day responses come from your side, so they stay authentic."
+        },
+        "q7": {
+          "question": "Is there a Lozenets-only package?",
+          "answer": "No. The same three packages (Minimum/Standard/Quarterly) apply city-wide. The strategy inside each is localized to your neighborhood."
+        },
+        "q8": {
+          "question": "Do you work with foreign-owned businesses in Lozenets?",
+          "answer": "Yes. We run the engagement in English if preferred. Common clients: expatriate-run cafés, private clinics, boutique agencies, and kindergartens."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready for Top 3 in",
+      "titleAccent": "Lozenets?",
+      "body": "Free audit of your Lozenets business profile, website, and top 3 competitors. Response within 24 hours.",
+      "button": "Get a Free Analysis"
+    },
+    "related": {
+      "title": "Related services",
+      "items": [
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/seo-optimization-sofia"
+        },
+        {
+          "label": "Internet Marketing Service in Sofia",
+          "href": "/internet-marketing-service"
+        },
+        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" }
+      ]
+    },
+    "serviceType": "Local SEO — Lozenets, Sofia",
+    "serviceDescription": "Local SEO and Google Maps ranking service for businesses in Lozenets, Sofia - Google Business Profile optimization, on-page SEO, citations building, review management."
   }
 }

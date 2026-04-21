@@ -8,6 +8,8 @@ import { FaqPageJsonLd } from "@/components/seo/faq-page-json-ld";
 
 type Props = { params: Promise<{ locale: string }> };
 
+const PATH = "faq";
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "faqPage" });
@@ -17,17 +19,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t("metadataTitle"),
     description: t("metadataDesc"),
     alternates: {
-      canonical: `${baseUrl}/${locale}/faq`,
+      canonical: `${baseUrl}/${locale}/${PATH}`,
       languages: {
-        bg: `${baseUrl}/bg/faq`,
-        en: `${baseUrl}/en/faq`,
-        "x-default": `${baseUrl}/bg/faq`,
+        bg: `${baseUrl}/bg/${PATH}`,
+        en: `${baseUrl}/en/${PATH}`,
+        "x-default": `${baseUrl}/bg/${PATH}`,
       },
     },
     openGraph: {
       title: t("metadataTitle"),
       description: t("metadataDesc"),
-      url: `${baseUrl}/${locale}/faq`,
+      url: `${baseUrl}/${locale}/${PATH}`,
       siteName: "Atlas Fold",
       locale: locale === "bg" ? "bg_BG" : "en_US",
       type: "website",
@@ -95,7 +97,9 @@ export default async function FaqPage({ params }: Props) {
             <div className="rounded-2xl border border-gray-100 bg-card px-8 py-12 text-center shadow-sm">
               <h2 className="font-display text-3xl font-extrabold lg:text-4xl">
                 {t("cta.title")}{" "}
-                <span className="font-accent italic">{t("cta.titleAccent")}</span>
+                <span className="font-accent italic">
+                  {t("cta.titleAccent")}
+                </span>
               </h2>
               <p className="mt-3 font-body text-base text-text-secondary">
                 {t("cta.subtitle")}

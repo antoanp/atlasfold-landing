@@ -56,6 +56,7 @@ export default async function InternetMarketingServicePage({ params }: Props) {
   };
 
   const features = t.raw("features") as string[];
+  const related = t.raw("related.items") as { label: string; href: string }[];
 
   return (
     <>
@@ -129,6 +130,24 @@ export default async function InternetMarketingServicePage({ params }: Props) {
                 {t("ctaButton")}
               </Link>
             </div>
+
+            <section className="mt-14 border-t border-gray-200 pt-10">
+              <h2 className="font-display text-lg font-bold text-text-primary">
+                {t("related.title")}
+              </h2>
+              <ul className="mt-4 flex flex-wrap gap-3">
+                {related.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={`/${locale}${item.href}`}
+                      className="inline-flex items-center rounded-full border border-gray-200 bg-white px-4 py-2 font-body text-sm text-text-primary transition-colors hover:bg-gray-50"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
           </div>
         </section>
       </main>

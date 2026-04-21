@@ -1,98 +1,50 @@
 import type { MetadataRoute } from "next";
 
+type LocalePath = {
+  path: string;
+  priority: number;
+  changeFrequency: "monthly" | "yearly";
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
+  const now = new Date();
 
-  return [
+  const paths: LocalePath[] = [
+    { path: "", priority: 1, changeFrequency: "monthly" },
     {
-      url: `${baseUrl}/bg`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg`, en: `${baseUrl}/en` },
-      },
-    },
-    {
-      url: `${baseUrl}/en`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
+      path: "/seo-optimization-sofia",
       priority: 0.9,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg`, en: `${baseUrl}/en` },
-      },
+      changeFrequency: "monthly",
     },
     {
-      url: `${baseUrl}/bg/faq`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.6,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/faq`, en: `${baseUrl}/en/faq` },
-      },
+      path: "/internet-marketing-service",
+      priority: 0.8,
+      changeFrequency: "monthly",
     },
-    {
-      url: `${baseUrl}/en/faq`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.6,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/faq`, en: `${baseUrl}/en/faq` },
-      },
-    },
-    {
-      url: `${baseUrl}/bg/terms`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/terms`, en: `${baseUrl}/en/terms` },
-      },
-    },
-    {
-      url: `${baseUrl}/en/terms`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/terms`, en: `${baseUrl}/en/terms` },
-      },
-    },
-    {
-      url: `${baseUrl}/bg/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/privacy`, en: `${baseUrl}/en/privacy` },
-      },
-    },
-    {
-      url: `${baseUrl}/en/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/privacy`, en: `${baseUrl}/en/privacy` },
-      },
-    },
-    {
-      url: `${baseUrl}/bg/cookie`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/cookie`, en: `${baseUrl}/en/cookie` },
-      },
-    },
-    {
-      url: `${baseUrl}/en/cookie`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-      alternates: {
-        languages: { bg: `${baseUrl}/bg/cookie`, en: `${baseUrl}/en/cookie` },
-      },
-    },
+    { path: "/marketing-agency", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/areas/lozenets", priority: 0.7, changeFrequency: "monthly" },
+    { path: "/faq", priority: 0.6, changeFrequency: "yearly" },
+    { path: "/terms", priority: 0.3, changeFrequency: "yearly" },
+    { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },
+    { path: "/cookie", priority: 0.3, changeFrequency: "yearly" },
   ];
+
+  const locales = ["bg", "en"] as const;
+
+  return paths.flatMap(({ path, priority, changeFrequency }) =>
+    locales.map((locale, localeIndex) => ({
+      url: `${baseUrl}/${locale}${path}`,
+      lastModified: now,
+      changeFrequency,
+      // Slight priority penalty for non-default locale (en)
+      priority: localeIndex === 0 ? priority : Math.max(0.1, priority - 0.1),
+      alternates: {
+        languages: {
+          bg: `${baseUrl}/bg${path}`,
+          en: `${baseUrl}/en${path}`,
+        },
+      },
+    })),
+  );
 }
