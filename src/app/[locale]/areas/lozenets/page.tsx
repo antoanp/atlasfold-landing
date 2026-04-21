@@ -186,7 +186,7 @@ export default async function LozenetsAreaPage({ params }: Props) {
 
             <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-100 bg-card shadow-sm">
               <Image
-                src="/images/og-image.png"
+                src="/images/sofia_south_park.jpg"
                 alt={t("image1Alt")}
                 width={1200}
                 height={630}

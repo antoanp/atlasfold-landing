@@ -175,7 +175,7 @@ export default async function SeoOptimizationSofiaPage({ params }: Props) {
 
             <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-100 bg-card shadow-sm">
               <Image
-                src="/images/og-image.png"
+                src="/images/lighthouse_atlasfold.com_analyze_page_load.png"
                 alt={t("image1Alt")}
                 width={1200}
                 height={630}
