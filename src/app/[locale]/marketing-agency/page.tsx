@@ -29,7 +29,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${baseUrl}/${locale}/${path}`,
       siteName: "Atlas Fold",
       locale: locale === "bg" ? "bg_BG" : "en_US",
-      type: "website",
+      type: "article",
+      images: [
+        {
+          url: `${baseUrl}/images/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: t("metadataTitle"),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metadataTitle"),
+      description: t("metadataDesc"),
+      images: [`${baseUrl}/images/og-image.png`],
     },
     robots: { index: true, follow: true },
   };

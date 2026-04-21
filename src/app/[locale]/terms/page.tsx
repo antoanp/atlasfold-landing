@@ -4,6 +4,8 @@ import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 
+const PATH = "terms";
+
 export async function generateMetadata({
   params,
 }: {
@@ -11,10 +13,41 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "termsPage" });
+  const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
 
   return {
     title: t("metadataTitle"),
     description: t("metadataDesc"),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/${PATH}`,
+      languages: {
+        bg: `${baseUrl}/bg/${PATH}`,
+        en: `${baseUrl}/en/${PATH}`,
+        "x-default": `${baseUrl}/bg/${PATH}`,
+      },
+    },
+    openGraph: {
+      title: t("metadataTitle"),
+      description: t("metadataDesc"),
+      url: `${baseUrl}/${locale}/${PATH}`,
+      siteName: "Atlas Fold",
+      locale: locale === "bg" ? "bg_BG" : "en_US",
+      type: "website",
+      images: [
+        {
+          url: `${baseUrl}/images/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: t("metadataTitle"),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metadataTitle"),
+      description: t("metadataDesc"),
+      images: [`${baseUrl}/images/og-image.png`],
+    },
     robots: { index: true, follow: true },
   };
 }
