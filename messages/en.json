@@ -281,7 +281,10 @@
         "Ovcha kupel"
       ],
       "featuredLinks": [
-        { "label": "Local SEO in Lozenets →", "href": "/areas/lozenets" }
+        {
+          "label": "Local SEO in Lozenets →",
+          "href": "/areas/lozenets"
+        }
       ]
     },
     "services": {
@@ -315,11 +318,27 @@
     "section2": {
       "title": "2. Pricing & Payment Terms",
       "p1": "The following packages are available:",
-      "tableHeaders": ["Package", "Price", "Commitment"],
+      "tableHeaders": [
+        "Package",
+        "Price",
+        "Commitment"
+      ],
       "tableRows": [
-        ["Minimum", "345 € / month", "3 months, then monthly"],
-        ["Standard", "445 € / month", "3 months, then monthly"],
-        ["Quarterly", "1 185 € / quarter", "Renews every 3 months"]
+        [
+          "Minimum",
+          "345 € / month",
+          "3 months, then monthly"
+        ],
+        [
+          "Standard",
+          "445 € / month",
+          "3 months, then monthly"
+        ],
+        [
+          "Quarterly",
+          "1 185 € / quarter",
+          "Renews every 3 months"
+        ]
       ],
       "items": [
         "Invoices are issued at the start of each billing period and are payable within 5 business days.",
@@ -615,8 +634,14 @@
           "label": "Google Maps Ranking in Sofia",
           "href": "/google-maps-ranking-sofia"
         },
-        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" },
-        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/marketing-agency"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/areas/lozenets"
+        }
       ]
     }
   },
@@ -661,7 +686,10 @@
           "label": "Internet Marketing Service in Sofia",
           "href": "/internet-marketing-service"
         },
-        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/areas/lozenets"
+        }
       ]
     }
   },
@@ -829,8 +857,14 @@
           "label": "Internet Marketing Service in Sofia",
           "href": "/internet-marketing-service"
         },
-        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" },
-        { "label": "Local SEO in Lozenets", "href": "/areas/lozenets" }
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/marketing-agency"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/areas/lozenets"
+        }
       ]
     },
     "serviceType": "Search Engine Optimization (Local SEO)",
@@ -1006,7 +1040,10 @@
           "label": "Internet Marketing Service in Sofia",
           "href": "/internet-marketing-service"
         },
-        { "label": "Marketing Agency in Sofia", "href": "/marketing-agency" }
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/marketing-agency"
+        }
       ]
     },
     "serviceType": "Local SEO - Lozenets, Sofia",
@@ -1210,6 +1247,10 @@
           "href": "/google-maps-ranking-sofia"
         },
         {
+          "label": "Citation Building in Sofia",
+          "href": "/citation-building-sofia"
+        },
+        {
           "label": "Local SEO in Lozenets",
           "href": "/areas/lozenets"
         },
@@ -1405,5 +1446,225 @@
     },
     "serviceType": "Google Maps Ranking and Local SEO in Sofia",
     "serviceDescription": "SEO optimization service in Sofia focused on Top 3 Google Maps rankings through Google Business Profile optimization, on-page SEO, local citations, review growth, and ongoing competitor-aware maintenance."
+  },
+  "citationBuildingSofiaPage": {
+    "metadataTitle": "Citation Building in Sofia - NAP Consistency for Local SEO | Atlas Fold",
+    "metadataDesc": "Citation building service for Sofia businesses. We standardize NAP across 40+ directories, clean duplicate listings, and strengthen Google Business Profile trust signals for better local visibility.",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Citation Building in Sofia"
+    },
+    "badge": "Citation Building - Sofia",
+    "headline": "Citation Building in Sofia -",
+    "headlineAccent": "signals Google actually trusts.",
+    "subheadline": "Primary keyword focus: citation building sofia. We align NAP data, remove listing conflicts, and support local SEO Sofia growth for businesses that want stable Google Maps visibility.",
+    "image1Alt": "Citation building process in Sofia with consistent business NAP details",
+    "image2Alt": "Local Sofia directories used for citation building and SEO authority",
+    "image3Alt": "Duplicate listing audit and cleanup for local SEO in Sofia",
+    "image4Alt": "Citations versus backlinks comparison for Sofia SEO strategy",
+    "nap": {
+      "title": "Atlas Fold - SEO Agency Sofia",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0877 26 87 27",
+      "email": "antoan@atlasfold.com",
+      "hours": "Open 24/7"
+    },
+    "hook": {
+      "p1": "Most business owners hear \"citation building\" and think directory submissions. Fast task, done once, move on. In reality, citations are trust infrastructure. Google compares what your site says, what your Google Business Profile says, and what third-party sources say. If those sources disagree, your local authority gets diluted. In a competitive market like Sofia, diluted authority means weaker map visibility, fewer calls, and slower growth even when your service quality is strong.",
+      "p2": "That is why citation building in Sofia is not a side tactic. It is foundational local SEO work. Clean NAP consistency helps Google connect all references to one real entity. That confidence directly supports map rankings, especially when competitors are close in reviews and on-page SEO signals. If you are evaluating an SEO agency Sofia businesses can trust, this page gives you the practical framework: what citations are, which directories matter, what a 90-day workflow looks like, and how citation work fits into broader SEO optimization Sofia strategy."
+    },
+    "whatIs": {
+      "title": "What citation building is and why it matters for local SEO in Sofia",
+      "p1": "A citation is any mention of your business identity data online: name, address, phone, website, hours, or category. A link is optional. For local search, repeated and consistent identity data is a reliability signal. Citation building means creating, correcting, and maintaining those references across trusted sources so Google can confidently map them to one business entity.",
+      "p2": "We regularly audit Sofia companies with good websites and decent reviews that still sit in map positions 6-9. The missing piece is often citation integrity. Once duplicate listings are cleaned and NAP is standardized in relevant directories, ranking movement usually starts without dramatic changes elsewhere. Google is simply less confused about who the business is.",
+      "napConsistency": {
+        "title": "NAP consistency: small mismatches, real ranking cost",
+        "p1": "NAP means Name, Address, Phone. If these fields vary across platforms, you feed conflicting data to Google. Common Sofia examples: shorthand address variations, old phone numbers after operator changes, old legal names after rebranding, and inconsistent transliteration between BG and EN listings.",
+        "p2": "Humans treat these as minor differences. Entity systems often do not. The result is fragmented trust instead of one strong local profile. Professional citation work starts with a master NAP standard and strict implementation across all high-impact listings."
+      },
+      "structuredVsUnstructured": {
+        "title": "Structured vs unstructured citations",
+        "p1": "Structured citations are directory profiles with dedicated fields for business data. They are machine-readable and usually produce the fastest local trust gains.",
+        "p2": "Unstructured citations are mentions in articles, partner pages, interviews, and local media coverage. They add context and brand legitimacy. Best long-term performance usually comes from both: a clean structured base plus selective unstructured mentions."
+      }
+    },
+    "directories": {
+      "title": "Directories that actually matter for citation building in Sofia",
+      "intro": "Not every directory helps. Some are outdated, some are low-trust, some are irrelevant to your niche. We prioritize quality and local relevance over raw volume.",
+      "items": [
+        {
+          "name": "bgmaps.com",
+          "body": "Strong Bulgarian local source for validating core NAP data and location relevance. Useful across most service niches with physical addresses."
+        },
+        {
+          "name": "navimaps.bg",
+          "body": "Helpful for local route and area context, especially for neighborhood-intent searches and service businesses."
+        },
+        {
+          "name": "pozvanete.bg",
+          "body": "Phone-centric listing source that supports contact consistency and call-driven conversion paths."
+        },
+        {
+          "name": "0700.bg",
+          "body": "Often overlooked source that supports citation depth in Bulgarian local search ecosystems."
+        },
+        {
+          "name": "Nomer.bg",
+          "body": "Useful in cleanup scenarios where old numbers or duplicate identity traces still circulate online."
+        },
+        {
+          "name": "Yell.com and international profiles",
+          "body": "Helpful for Sofia businesses targeting expats, tourists, or English-speaking clients in legal, healthcare, or relocation services."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our 90-day citation building workflow for Sofia businesses",
+      "intro": "Execution follows three controlled phases to reduce risk and produce measurable local SEO progress.",
+      "step1": {
+        "title": "1) Audit and master NAP baseline",
+        "p1": "We inventory existing listings, identify duplicates, map inconsistencies, and create a single source-of-truth NAP profile. This prevents future drift and gives every platform the same identity signal.",
+        "p2": "We also benchmark citation strength against top local competitors for your primary query set. The goal is not guesswork; it is to understand competitive citation thresholds in your niche and district."
+      },
+      "step2": {
+        "title": "2) Build, optimize, and clean listings",
+        "p1": "We create or fix profiles in priority directories using identical NAP, aligned categories, and service language consistent with search demand. Duplicate records are merged or removed where possible.",
+        "p2": "At the same time we complete supporting profile fields: business descriptions, hours, website links, and media assets where available. This is where trust signals become coherent and machine-friendly."
+      },
+      "step3": {
+        "title": "3) Monitor, protect, and expand",
+        "p1": "Citation work does not end after submission. We monitor unexpected edits, new duplicates, and platform-level data conflicts that can quietly weaken rankings over time.",
+        "p2": "Then we expand strategically and align citation growth with GBP optimization, review generation, and local landing-page work so SEO Sofia performance compounds instead of plateauing."
+      }
+    },
+    "mistakes": {
+      "title": "Most common citation building mistakes (and how to avoid them)",
+      "intro": "Most problems come from process gaps, not effort. These are the biggest patterns we see in Sofia audits.",
+      "redFlags": {
+        "label": "Red flags",
+        "items": [
+          "Submitting to large random directory lists with no quality filter.",
+          "Using different business names across GBP, website, and directories.",
+          "Leaving old phone numbers active after contact changes.",
+          "Creating multiple listings for one location.",
+          "No master NAP policy or change log for future updates."
+        ]
+      },
+      "greenFlags": {
+        "label": "Green flags",
+        "items": [
+          "One strict NAP standard across all channels.",
+          "Priority on relevant local and niche directories.",
+          "Duplicate suppression started in month one.",
+          "Monthly citation monitoring and conflict tracking.",
+          "Citation strategy integrated with reviews and local content."
+        ]
+      }
+    },
+    "citationsVsLinks": {
+      "title": "Citations vs backlinks: what each one does",
+      "p1": "Backlinks pass authority through hyperlinks. Citations pass entity trust through consistent business data. In local SEO, both matter but solve different ranking constraints.",
+      "p2": "If NAP integrity is weak, fixing citations usually comes first. Otherwise link-building pushes authority into a fragmented identity layer. Once citations are stable, links and local content scale performance faster.",
+      "p3": "Simple rule: citations establish local trust and identity, links extend authority and competitive reach. Combined, they produce stronger long-term Google Maps outcomes."
+    },
+    "localReferences": {
+      "title": "Local Sofia realities that change citation strategy",
+      "p1": "Sofia behaves like multiple local markets, not one. Lozenets and Center often require stronger listing quality to compete, while districts like Mladost, Lyulin, and Krasno Selo can show faster gains after structured cleanup.",
+      "p2": "Search behavior also differs by niche. Dental, legal, and emergency services have different urgency and comparison patterns. Citation strategy must match niche + district + competition, not generic templates."
+    },
+    "serviceDetails": {
+      "title": "What our Citation Building Sofia service includes",
+      "items": [
+        "Citation audit and NAP consistency analysis.",
+        "Master NAP template and naming standards.",
+        "Creation and optimization of high-priority listings.",
+        "Duplicate suppression and correction requests.",
+        "Monthly reporting on completed and pending updates.",
+        "Alignment with Google Business Profile and local on-page SEO."
+      ]
+    },
+    "schemaOutline": {
+      "title": "Schema outline for this page",
+      "intro": "Structured data follows the same high-trust setup used across our service pages.",
+      "items": [
+        "Service schema: defines citation building service and Sofia service area.",
+        "FAQPage schema: includes all 8 practical citation questions and answers.",
+        "BreadcrumbList schema: Home -> Citation Building in Sofia.",
+        "Embedded local trust context: NAP, districts, and topical SEO entities."
+      ]
+    },
+    "faq": {
+      "title": "Citation Building in Sofia - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "How much does professional citation building in Sofia cost?",
+          "answer": "Pricing depends on starting condition: existing listing quality, duplicate volume, and correction complexity. Most local businesses are best served by a fixed 90-day scope with explicit deliverables rather than vague hourly work."
+        },
+        "q2": {
+          "question": "How fast does citation building impact Google Maps rankings?",
+          "answer": "Early effects often appear within weeks 3-8 as profile stability improves. Stronger movement on primary terms usually requires cumulative consistency plus GBP and on-page alignment."
+        },
+        "q3": {
+          "question": "Can I do citation building myself?",
+          "answer": "You can handle the basic layer if you have time and strict consistency discipline. The hard part is old listing discovery, duplicate cleanup, and ongoing maintenance after business changes."
+        },
+        "q4": {
+          "question": "How many citations do I need to reach Top 3?",
+          "answer": "There is no universal number. Some niches move with 25-30 strong listings, others need 60+. Quality, consistency, and relevance matter more than pure count."
+        },
+        "q5": {
+          "question": "What if my business already has duplicate listings?",
+          "answer": "We identify, prioritize, and resolve duplicates through merge/remove workflows. Active duplicates fragment trust and can suppress local ranking progress."
+        },
+        "q6": {
+          "question": "Do Bulgarian directories matter more than international ones?",
+          "answer": "For local SEO Sofia, Bulgarian directories are core because they provide local geographic context. International listings are useful additions, especially for English-speaking audiences."
+        },
+        "q7": {
+          "question": "What NAP format should I use?",
+          "answer": "Use one official format everywhere: same business name, same address format, same phone, same domain. Even minor variation should be controlled through a master NAP document."
+        },
+        "q8": {
+          "question": "What matters more for local ranking: citations or reviews?",
+          "answer": "They support different layers. Citations validate business identity consistency. Reviews validate service quality and activity. Highest performance comes from running both systems together."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready for cleaner local trust",
+      "titleAccent": "signals in Sofia?",
+      "body": "Request a free local audit. You get a practical plan for citation cleanup, consistency improvements, and next SEO steps tailored to your niche and district.",
+      "button": "Get free audit"
+    },
+    "related": {
+      "title": "Related services and pages",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/local-seo-sofia"
+        },
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/seo-optimization-sofia"
+        },
+        {
+          "label": "Google Maps Ranking in Sofia",
+          "href": "/google-maps-ranking-sofia"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/areas/lozenets"
+        },
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/marketing-agency"
+        }
+      ]
+    },
+    "serviceType": "Citation Building for Local SEO in Sofia",
+    "serviceDescription": "Citation building service for Sofia businesses: NAP audit, listing creation and optimization, duplicate cleanup, and ongoing consistency monitoring to improve Google Business Profile trust and local visibility."
   }
 }
