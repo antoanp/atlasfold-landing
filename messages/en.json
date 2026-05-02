@@ -289,9 +289,12 @@
     },
     "services": {
       "title": "Services",
-      "seoOptimization": "SEO Optimization Sofia",
       "internetMarketing": "Internet Marketing",
-      "marketingAgency": "Marketing Agency"
+      "marketingAgency": "Marketing Agency",
+      "seoOptimization": "SEO Optimization Sofia",
+      "localSeoSofia": "Local SEO Sofia",
+      "googleMapsRanking": "Google Maps Ranking Sofia",
+      "citationBuilding": "Citation Building Sofia"
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
@@ -318,27 +321,11 @@
     "section2": {
       "title": "2. Pricing & Payment Terms",
       "p1": "The following packages are available:",
-      "tableHeaders": [
-        "Package",
-        "Price",
-        "Commitment"
-      ],
+      "tableHeaders": ["Package", "Price", "Commitment"],
       "tableRows": [
-        [
-          "Minimum",
-          "345 € / month",
-          "3 months, then monthly"
-        ],
-        [
-          "Standard",
-          "445 € / month",
-          "3 months, then monthly"
-        ],
-        [
-          "Quarterly",
-          "1 185 € / quarter",
-          "Renews every 3 months"
-        ]
+        ["Minimum", "345 € / month", "3 months, then monthly"],
+        ["Standard", "445 € / month", "3 months, then monthly"],
+        ["Quarterly", "1 185 € / quarter", "Renews every 3 months"]
       ],
       "items": [
         "Invoices are issued at the start of each billing period and are payable within 5 business days.",

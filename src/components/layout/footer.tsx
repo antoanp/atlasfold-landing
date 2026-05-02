@@ -52,12 +52,6 @@ export function Footer() {
             </p>
             <nav className="mt-4 flex flex-col gap-2 font-body text-sm text-text-secondary">
               <Link
-                href={`/${locale}/seo-optimization-sofia`}
-                className="hover:text-text-primary"
-              >
-                {t("services.seoOptimization")}
-              </Link>
-              <Link
                 href={`/${locale}/internet-marketing-service`}
                 className="hover:text-text-primary"
               >
@@ -68,6 +62,30 @@ export function Footer() {
                 className="hover:text-text-primary"
               >
                 {t("services.marketingAgency")}
+              </Link>
+              <Link
+                href={`/${locale}/seo-optimization-sofia`}
+                className="hover:text-text-primary"
+              >
+                {t("services.seoOptimization")}
+              </Link>
+              <Link
+                href={`/${locale}/local-seo-sofia`}
+                className="hover:text-text-primary"
+              >
+                {t("services.localSeoSofia")}
+              </Link>
+              <Link
+                href={`/${locale}/google-maps-ranking-sofia`}
+                className="hover:text-text-primary"
+              >
+                {t("services.googleMapsRanking")}
+              </Link>
+              <Link
+                href={`/${locale}/citation-building-sofia`}
+                className="hover:text-text-primary"
+              >
+                {t("services.citationBuilding")}
               </Link>
             </nav>
           </div>
