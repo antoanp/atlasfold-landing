@@ -1446,8 +1446,12 @@
           "href": "/areas/lozenets"
         },
         {
-          "label": "Пакети и цени",
-          "href": "/#pricing"
+          "label": "Интернет маркетинг услуга в София",
+          "href": "/internet-marketing-service"
+        },
+        {
+          "label": "Маркетинг агенция в София",
+          "href": "/marketing-agency"
         }
       ]
     },
@@ -1664,6 +1668,10 @@
         {
           "label": "Локално SEO в Лозенец",
           "href": "/areas/lozenets"
+        },
+        {
+          "label": "Интернет маркетинг услуга в София",
+          "href": "/internet-marketing-service"
         },
         {
           "label": "Маркетинг агенция в София",
