@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
+import { usePathname } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 const allLinks = [
@@ -18,6 +19,7 @@ const allLinks = [
 export function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
+  const pathname = usePathname();
 
   const [open, setOpen] = useState<boolean>(false);
 
@@ -26,6 +28,9 @@ export function Navbar() {
    * If the locale is not the default locale, the home href is the root "/<locale>".
    */
   const homeHref = locale === routing.defaultLocale ? "/" : `/${locale}`;
+
+  /** Section anchors exist only on the home page; on other routes a bare "#id" would stick to the current path. */
+  const isHome = pathname === "/";
 
   return (
     <nav className="sticky top-0 z-50 bg-page/80 backdrop-blur-md">
@@ -44,16 +49,25 @@ export function Navbar() {
         </Link>
 
         <div className="hidden items-center gap-7 font-body text-sm md:flex">
-          {/* Same-page anchor scrolls — not routes. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
-          {allLinks.map(({ href, key }) => (
-            <a
-              key={href}
-              href={href}
-              className="text-text-secondary transition-colors duration-200 hover:text-text-primary"
-            >
-              {t(key)}
-            </a>
-          ))}
+          {allLinks.map(({ href, key }) =>
+            isHome ? (
+              <a
+                key={href}
+                href={href}
+                className="text-text-secondary transition-colors duration-200 hover:text-text-primary"
+              >
+                {t(key)}
+              </a>
+            ) : (
+              <Link
+                key={href}
+                href={`${homeHref}${href}`}
+                className="text-text-secondary transition-colors duration-200 hover:text-text-primary"
+              >
+                {t(key)}
+              </Link>
+            ),
+          )}
         </div>
 
         <div className="flex items-center gap-3">
@@ -120,17 +134,27 @@ export function Navbar() {
             className="overflow-hidden md:hidden"
           >
             <div className="flex flex-col gap-1 px-4 pb-4">
-              {/* Same-page anchor scrolls — not routes. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
-              {allLinks.map(({ href, key }) => (
-                <a
-                  key={href}
-                  href={href}
-                  onClick={() => setOpen(false)}
-                  className="rounded-lg px-3 py-2.5 font-body text-sm text-text-secondary transition-colors hover:bg-card hover:text-text-primary"
-                >
-                  {t(key)}
-                </a>
-              ))}
+              {allLinks.map(({ href, key }) =>
+                isHome ? (
+                  <a
+                    key={href}
+                    href={href}
+                    onClick={() => setOpen(false)}
+                    className="rounded-lg px-3 py-2.5 font-body text-sm text-text-secondary transition-colors hover:bg-card hover:text-text-primary"
+                  >
+                    {t(key)}
+                  </a>
+                ) : (
+                  <Link
+                    key={href}
+                    href={`${homeHref}${href}`}
+                    onClick={() => setOpen(false)}
+                    className="rounded-lg px-3 py-2.5 font-body text-sm text-text-secondary transition-colors hover:bg-card hover:text-text-primary"
+                  >
+                    {t(key)}
+                  </Link>
+                ),
+              )}
               {/* tel: protocol - not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
               <a
                 href={`tel:${t("phone")}`}
