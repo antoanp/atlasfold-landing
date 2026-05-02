@@ -4,7 +4,7 @@ import { Hero } from "@/components/home/hero";
 import { LeadCaptureProvider } from "@/components/lead-capture/lead-capture-context";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { HomePageJsonLd } from "@/components/home/home-page-json-ld";
+import { HomePageJsonLd } from "@/components/home/json-ld";
 import { getVisitorLocation } from "@/lib/geo";
 
 /**
@@ -19,9 +19,7 @@ const BeforeAfter = dynamic(() =>
 const Process = dynamic(() =>
   import("@/components/home/process").then((m) => m.Process),
 );
-const Faq = dynamic(() =>
-  import("@/components/home/faq").then((m) => m.Faq),
-);
+const Faq = dynamic(() => import("@/components/home/faq").then((m) => m.Faq));
 const Pricing = dynamic(() =>
   import("@/components/home/pricing").then((m) => m.Pricing),
 );

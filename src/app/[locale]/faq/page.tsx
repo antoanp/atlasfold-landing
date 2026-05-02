@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { FaqPageAccordion } from "@/components/sections/faq-page-accordion";
-import { FaqPageJsonLd } from "./faq-page-json-ld";
+import { FaqPageAccordion } from "@/components/faq/accordion";
+import { FaqPageJsonLd } from "@/components/faq/json-ld";
 
 type Props = { params: Promise<{ locale: string }> };
 
