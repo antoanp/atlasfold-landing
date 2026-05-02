@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import { Fragment } from "react";
 import { Hero } from "@/components/home/hero";
-import { LeadCaptureProvider } from "@/components/lead-capture/lead-capture-context";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { HomePageJsonLd } from "@/components/home/json-ld";
@@ -36,16 +35,14 @@ export default async function HomePage({ params }: Props) {
     <Fragment>
       <HomePageJsonLd locale={locale} />
       <Navbar />
-      <LeadCaptureProvider>
-        <main>
-          <Hero userLocation={userLocation} />
-          <Advantage />
-          <BeforeAfter />
-          <Process />
-          <Faq />
-          <Pricing />
-        </main>
-      </LeadCaptureProvider>
+      <main>
+        <Hero userLocation={userLocation} />
+        <Advantage />
+        <BeforeAfter />
+        <Process />
+        <Faq />
+        <Pricing />
+      </main>
       <Footer />
     </Fragment>
   );

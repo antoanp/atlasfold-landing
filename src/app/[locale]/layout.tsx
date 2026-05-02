@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { LeadCaptureProvider } from "@/components/lead-capture/lead-capture-context";
 import type { Metadata, Viewport } from "next";
 import "../globals.css";
 
@@ -121,7 +122,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         className={`${syne.variable} ${playfair.variable} ${dmSans.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
+          <LeadCaptureProvider>{children}</LeadCaptureProvider>
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
