@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
 import { motion, AnimatePresence } from "framer-motion";
 
 const allLinks = [
@@ -13,19 +15,22 @@ const allLinks = [
   { href: "#pricing", key: "links.pricing" },
 ] as const;
 
-const desktopLinks = allLinks.filter(
-  ({ href }) => href === "#before-after" || href === "#pricing",
-);
-
 export function Navbar() {
   const t = useTranslations("nav");
-  const [open, setOpen] = useState(false);
+  const locale = useLocale();
+
+  const [open, setOpen] = useState<boolean>(false);
+
+  /**
+   * If the locale is the default locale, the home href is the root "/".
+   * If the locale is not the default locale, the home href is the root "/<locale>".
+   */
+  const homeHref = locale === routing.defaultLocale ? "/" : `/${locale}`;
 
   return (
     <nav className="sticky top-0 z-50 bg-page/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
-        {/* Same-page anchor scroll — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
-        <a href="#" className="flex items-center gap-2.5">
+        <Link href={homeHref} className="flex items-center gap-2.5">
           <Image
             src="/images/atlasfold-logo.png"
             alt={t("logo")}
@@ -36,11 +41,11 @@ export function Navbar() {
           <span className="font-display text-lg font-bold tracking-tight text-text-primary">
             {t("logo")}
           </span>
-        </a>
+        </Link>
 
         <div className="hidden items-center gap-7 font-body text-sm md:flex">
           {/* Same-page anchor scrolls — not routes. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
-          {desktopLinks.map(({ href, key }) => (
+          {allLinks.map(({ href, key }) => (
             <a
               key={href}
               href={href}
@@ -52,7 +57,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* tel: protocol — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
+          {/* tel: protocol — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
           <a
             href={`tel:${t("phone")}`}
             className="hidden items-center gap-2 rounded-full bg-cta px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-cta/90 md:inline-flex"
@@ -75,7 +80,7 @@ export function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((prev) => !prev)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-text-primary transition-colors hover:bg-card md:hidden"
+            className="inline-flex md:hidden size-10 items-center justify-center rounded-lg text-text-primary transition-colors hover:bg-card"
             aria-label="Toggle menu"
             aria-expanded={open}
           >
@@ -115,7 +120,7 @@ export function Navbar() {
             className="overflow-hidden md:hidden"
           >
             <div className="flex flex-col gap-1 px-4 pb-4">
-              {/* Same-page anchor scrolls — not routes. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
+              {/* Same-page anchor scrolls — not routes. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
               {allLinks.map(({ href, key }) => (
                 <a
                   key={href}
@@ -126,7 +131,7 @@ export function Navbar() {
                   {t(key)}
                 </a>
               ))}
-              {/* tel: protocol — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
+              {/* tel: protocol - not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
               <a
                 href={`tel:${t("phone")}`}
                 onClick={() => setOpen(false)}
