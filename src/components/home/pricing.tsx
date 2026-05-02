@@ -3,10 +3,10 @@
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import {
-  useLeadCapture,
   DEFAULT_LEAD_TIER,
   type LeadTier,
-} from "@/components/sections/lead-capture-provider";
+} from "@/components/lead-capture/lead-capture-context";
+import { useLeadCapture } from "@/hooks/use-lead-capture";
 import { cn } from "@/lib/cn";
 
 const isPricingVisible = process.env.NEXT_PUBLIC_SHOW_PRICING !== "false";
@@ -126,7 +126,6 @@ export function Pricing() {
           </a>
         </div>
       )}
-
     </SectionWrapper>
   );
 }

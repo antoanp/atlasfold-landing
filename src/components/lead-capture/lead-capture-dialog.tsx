@@ -10,7 +10,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
-import { submitLead, type LeadFormState } from "@/app/actions/submit-lead";
+import { submitLead, type LeadFormState } from "@/components/lead-capture/submit-lead";
 
 export type LeadTier = "minimum" | "standard" | "quarterly";
 

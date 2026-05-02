@@ -2,10 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import {
-  useLeadCapture,
-  DEFAULT_LEAD_TIER,
-} from "@/components/sections/lead-capture-provider";
+import { DEFAULT_LEAD_TIER } from "@/components/lead-capture/lead-capture-context";
+import { useLeadCapture } from "@/hooks/use-lead-capture";
 
 type HeroProps = {
   userLocation?: string | null;

@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { FaqPageAccordion } from "@/components/sections/faq-page-accordion";
-import { FaqPageJsonLd } from "@/components/seo/faq-page-json-ld";
+import { FaqPageJsonLd } from "./faq-page-json-ld";
 
 type Props = { params: Promise<{ locale: string }> };
 

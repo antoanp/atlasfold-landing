@@ -3,42 +3,31 @@
 import {
   createContext,
   useCallback,
-  useContext,
   useEffect,
   useState,
   Suspense,
+  type ReactNode,
 } from "react";
 import { useSearchParams } from "next/navigation";
 import {
   LeadCaptureDialog,
   type LeadTier,
-} from "@/components/sections/lead-capture-dialog";
+} from "@/components/lead-capture/lead-capture-dialog";
 
-export type { LeadTier } from "@/components/sections/lead-capture-dialog";
+export type { LeadTier } from "@/components/lead-capture/lead-capture-dialog";
 
 export const DEFAULT_LEAD_TIER: LeadTier = "standard";
 
-const isPricingVisible = process.env.NEXT_PUBLIC_SHOW_PRICING !== "false";
-
-type LeadCaptureContextValue = {
+export type LeadCaptureContextValue = {
   openLeadCapture: (tier: LeadTier) => void;
 };
 
-const LeadCaptureContext = createContext<LeadCaptureContextValue | null>(null);
+export const LeadCaptureContext =
+  createContext<LeadCaptureContextValue | null>(null);
 
-export function useLeadCapture() {
-  const ctx = useContext(LeadCaptureContext);
-  if (!ctx) {
-    throw new Error("useLeadCapture must be used within LeadCaptureProvider");
-  }
-  return ctx;
-}
+const isPricingVisible = process.env.NEXT_PUBLIC_SHOW_PRICING !== "false";
 
-export function LeadCaptureProvider({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export function LeadCaptureProvider({ children }: { children: ReactNode }) {
   const [selectedTier, setSelectedTier] = useState<LeadTier>(
     DEFAULT_LEAD_TIER,
   );

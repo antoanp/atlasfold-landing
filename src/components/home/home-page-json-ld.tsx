@@ -1,10 +1,10 @@
 import { getTranslations } from "next-intl/server";
 
-type JsonLdProps = {
+type HomePageJsonLdProps = {
   locale: string;
 };
 
-export async function JsonLd({ locale }: JsonLdProps) {
+export async function HomePageJsonLd({ locale }: HomePageJsonLdProps) {
   const tFaq = await getTranslations({ locale, namespace: "faq" });
   const tMeta = await getTranslations({ locale, namespace: "metadata" });
   const tFooter = await getTranslations({ locale, namespace: "footer" });
