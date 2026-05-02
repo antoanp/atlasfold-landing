@@ -1,10 +1,15 @@
 import dynamic from "next/dynamic";
+import { Fragment } from "react";
 import { Hero } from "@/components/sections/hero";
+import { LeadCaptureProvider } from "@/components/sections/lead-capture-provider";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getVisitorLocation } from "@/lib/geo";
 
+/**
+ * Dynamic import from Next.js. Only import components that are visible on the page.
+ */
 const Advantage = dynamic(() =>
   import("@/components/sections/advantage").then((m) => m.Advantage),
 );
@@ -30,18 +35,20 @@ export default async function HomePage({ params }: Props) {
   const userLocation = await getVisitorLocation(locale);
 
   return (
-    <>
+    <Fragment>
       <JsonLd locale={locale} />
       <Navbar />
-      <main>
-        <Hero userLocation={userLocation} />
-        <Advantage />
-        <BeforeAfter />
-        <Process />
-        <Faq />
-        <Pricing />
-      </main>
+      <LeadCaptureProvider>
+        <main>
+          <Hero userLocation={userLocation} />
+          <Advantage />
+          <BeforeAfter />
+          <Process />
+          <Faq />
+          <Pricing />
+        </main>
+      </LeadCaptureProvider>
       <Footer />
-    </>
+    </Fragment>
   );
 }

@@ -12,10 +12,10 @@ import {
 import { Label } from "@/components/ui/label";
 import { submitLead, type LeadFormState } from "@/app/actions/submit-lead";
 
-type Tier = "minimum" | "standard" | "quarterly";
+export type LeadTier = "minimum" | "standard" | "quarterly";
 
 interface LeadCaptureDialogProps {
-  tier: Tier;
+  tier: LeadTier;
   showTierSummary?: boolean;
   open: boolean;
   onOpenChange: (open: boolean) => void;

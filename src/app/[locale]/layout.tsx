@@ -4,9 +4,12 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata, Viewport } from "next";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
+
+// Vercel Analytics
+import { Analytics } from "@vercel/analytics/next";
+// Vercel Speed Insights
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const syne = Syne({
   subsets: ["latin", "latin-ext"],
@@ -97,13 +100,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
+  /**
+   * If the locale is not supported, return a 404 error.
+   */
   if (!routing.locales.includes(locale as "bg" | "en")) {
     notFound();
   }
 
   /*
-   * Custom `src/proxy.ts` instead of next-intl middleware: server components
-   * do not get `x-next-intl-locale`, so they would fall back to defaultLocale (bg) unless we set the request locale from params.
+   * Custom `src/proxy.ts` instead of next-intl middleware.
+   * Server componentsdo not get `x-next-intl-locale`, so they would fall back to defaultLocale (bg) unless we set the request locale from params.
    */
   setRequestLocale(locale);
 

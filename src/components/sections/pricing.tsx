@@ -1,26 +1,23 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
 import { useTranslations } from "next-intl";
-import { useSearchParams } from "next/navigation";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { LeadCaptureDialog } from "@/components/sections/lead-capture-dialog";
+import {
+  useLeadCapture,
+  DEFAULT_LEAD_TIER,
+  type LeadTier,
+} from "@/components/sections/lead-capture-provider";
 import { cn } from "@/lib/cn";
 
-type Tier = "minimum" | "standard" | "quarterly";
-const DEFAULT_TIER: Tier = "standard";
 const isPricingVisible = process.env.NEXT_PUBLIC_SHOW_PRICING !== "false";
 
 export function Pricing() {
   const t = useTranslations("pricing");
-  const tiers: Tier[] = ["minimum", "standard", "quarterly"];
+  const { openLeadCapture } = useLeadCapture();
+  const tiers: LeadTier[] = ["minimum", "standard", "quarterly"];
 
-  const [selectedTier, setSelectedTier] = useState<Tier>(DEFAULT_TIER);
-  const [dialogOpen, setDialogOpen] = useState(false);
-
-  function handleCtaClick(tier: Tier) {
-    setSelectedTier(tier);
-    setDialogOpen(true);
+  function handleCtaClick(tier: LeadTier) {
+    openLeadCapture(tier);
   }
 
   return (
@@ -116,7 +113,7 @@ export function Pricing() {
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <button
             type="button"
-            onClick={() => handleCtaClick(DEFAULT_TIER)}
+            onClick={() => handleCtaClick(DEFAULT_LEAD_TIER)}
             className="inline-flex items-center justify-center rounded-full bg-cta px-8 py-4 font-body font-medium text-white transition-colors hover:bg-cta/90"
           >
             {t("tiers.standard.cta")}
@@ -130,32 +127,6 @@ export function Pricing() {
         </div>
       )}
 
-      <LeadCaptureDialog
-        tier={selectedTier}
-        showTierSummary={isPricingVisible}
-        open={dialogOpen}
-        onOpenChange={setDialogOpen}
-      />
-      <Suspense fallback={null}>
-        <BookingParamHandler onOpenDialog={() => setDialogOpen(true)} />
-      </Suspense>
     </SectionWrapper>
   );
-}
-
-function BookingParamHandler({ onOpenDialog }: { onOpenDialog: () => void }) {
-  const searchParams = useSearchParams();
-
-  useEffect(() => {
-    if (searchParams.get("booking") === "true") {
-      onOpenDialog();
-      // Scroll to the pricing section when the dialog opens via URL parameter
-      const element = document.getElementById("pricing");
-      if (element) {
-        setTimeout(() => element.scrollIntoView({ behavior: "smooth" }), 100);
-      }
-    }
-  }, [searchParams, onOpenDialog]);
-
-  return null;
 }
