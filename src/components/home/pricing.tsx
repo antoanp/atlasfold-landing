@@ -2,23 +2,15 @@
 
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import {
-  DEFAULT_LEAD_TIER,
-  type LeadTier,
-} from "@/components/lead-capture/lead-capture-context";
-import { useLeadCapture } from "@/hooks/use-lead-capture";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
+import type { LeadTier } from "@/components/lead-capture/lead-capture-context";
 import { cn } from "@/lib/cn";
 
 const isPricingVisible = process.env.NEXT_PUBLIC_SHOW_PRICING !== "false";
 
 export function Pricing() {
   const t = useTranslations("pricing");
-  const { openLeadCapture } = useLeadCapture();
   const tiers: LeadTier[] = ["minimum", "standard", "quarterly"];
-
-  function handleCtaClick(tier: LeadTier) {
-    openLeadCapture(tier);
-  }
 
   return (
     <SectionWrapper id="pricing">
@@ -92,13 +84,12 @@ export function Pricing() {
                 )}
               </ul>
               <div className="mt-auto flex flex-col gap-3">
-                <button
-                  type="button"
-                  onClick={() => handleCtaClick(tier)}
+                <LeadCaptureCtaButton
+                  tier={tier}
                   className="inline-flex items-center justify-center rounded-full bg-cta px-6 py-3 font-body font-medium text-white transition-colors hover:bg-cta/90"
                 >
                   {t(`tiers.${tier}.cta`)}
-                </button>
+                </LeadCaptureCtaButton>
                 <a
                   href={t("phoneLink")}
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 font-body font-medium text-text-primary transition-colors hover:bg-gray-50"
@@ -111,13 +102,9 @@ export function Pricing() {
         </div>
       ) : (
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <button
-            type="button"
-            onClick={() => handleCtaClick(DEFAULT_LEAD_TIER)}
-            className="inline-flex items-center justify-center rounded-full bg-cta px-8 py-4 font-body font-medium text-white transition-colors hover:bg-cta/90"
-          >
+          <LeadCaptureCtaButton className="inline-flex items-center justify-center rounded-full bg-cta px-8 py-4 font-body font-medium text-white transition-colors hover:bg-cta/90">
             {t("tiers.standard.cta")}
-          </button>
+          </LeadCaptureCtaButton>
           <a
             href={t("phoneLink")}
             className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-8 py-4 font-body font-medium text-text-primary transition-colors hover:bg-gray-50"

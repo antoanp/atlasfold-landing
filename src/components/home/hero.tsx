@@ -2,8 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { DEFAULT_LEAD_TIER } from "@/components/lead-capture/lead-capture-context";
-import { useLeadCapture } from "@/hooks/use-lead-capture";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
 
 type HeroProps = {
   userLocation?: string | null;
@@ -11,7 +10,6 @@ type HeroProps = {
 
 export function Hero({ userLocation }: HeroProps) {
   const t = useTranslations("hero");
-  const { openLeadCapture } = useLeadCapture();
 
   return (
     <SectionWrapper className="min-h-screen flex items-center py-0 lg:py-0">
@@ -31,13 +29,9 @@ export function Hero({ userLocation }: HeroProps) {
             {t("subheadlineExtra")}
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <button
-              type="button"
-              onClick={() => openLeadCapture(DEFAULT_LEAD_TIER)}
-              className="inline-flex items-center justify-center rounded-full bg-cta px-8 py-4 font-body font-medium text-white transition-colors hover:bg-cta/90"
-            >
+            <LeadCaptureCtaButton className="inline-flex items-center justify-center rounded-full bg-cta px-8 py-4 font-body font-medium text-white transition-colors hover:bg-cta/90">
               {t("ctaPrimary")}
-            </button>
+            </LeadCaptureCtaButton>
             {/* tel: protocol — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle.*/}
             <a
               href={t("phoneLink")}

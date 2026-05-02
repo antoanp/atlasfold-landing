@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
 import { FaqPageAccordion } from "@/components/faq/accordion";
 import { FaqPageJsonLd } from "@/components/faq/json-ld";
 
@@ -118,12 +119,9 @@ export default async function FaqPage({ params }: Props) {
               <p className="mt-3 font-body text-base text-text-secondary">
                 {t("cta.subtitle")}
               </p>
-              <Link
-                href={`/${locale}#pricing`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              >
+              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
                 {t("cta.button")}
-              </Link>
+              </LeadCaptureCtaButton>
             </div>
           </div>
         </section>
