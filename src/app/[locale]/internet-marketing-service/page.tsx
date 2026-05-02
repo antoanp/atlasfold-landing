@@ -3,12 +3,16 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
 
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "internetMarketingPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "internetMarketingPage",
+  });
   const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
   const path = "internet-marketing-service";
 
@@ -51,7 +55,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function InternetMarketingServicePage({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "internetMarketingPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "internetMarketingPage",
+  });
   const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
 
   const serviceSchema = {
@@ -125,7 +132,10 @@ export default async function InternetMarketingServicePage({ params }: Props) {
             <div className="mt-10 rounded-2xl border border-gray-100 bg-card p-8 shadow-sm">
               <ul className="space-y-3">
                 {features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-3 font-body text-sm text-text-primary">
+                  <li
+                    key={feature}
+                    className="flex items-start gap-3 font-body text-sm text-text-primary"
+                  >
                     <span className="mt-0.5 shrink-0 text-success">✓</span>
                     {feature}
                   </li>
@@ -137,12 +147,9 @@ export default async function InternetMarketingServicePage({ params }: Props) {
               <h2 className="font-display text-3xl font-extrabold lg:text-4xl">
                 {t("ctaTitle")}
               </h2>
-              <Link
-                href={`/${locale}#pricing`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              >
+              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
                 {t("ctaButton")}
-              </Link>
+              </LeadCaptureCtaButton>
             </div>
 
             <section className="mt-14 border-t border-gray-200 pt-10">

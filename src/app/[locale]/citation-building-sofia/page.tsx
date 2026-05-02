@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -385,12 +386,9 @@ export default async function CitationBuildingSofiaPage({ params }: Props) {
                 {t("cta.title")} <span className="font-accent italic">{t("cta.titleAccent")}</span>
               </h2>
               <p className="mx-auto mt-4 max-w-2xl font-body text-base leading-relaxed text-text-secondary">{t("cta.body")}</p>
-              <Link
-                href={`/${locale}#pricing`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              >
+              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
                 {t("cta.button")}
-              </Link>
+              </LeadCaptureCtaButton>
             </section>
 
             <section className="mt-14 border-t border-gray-200 pt-10">

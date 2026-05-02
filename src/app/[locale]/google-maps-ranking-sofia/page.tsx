@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -11,7 +12,10 @@ const PATH = "google-maps-ranking-sofia";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "googleMapsRankingPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "googleMapsRankingPage",
+  });
   const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
 
   return {
@@ -57,7 +61,10 @@ type RelatedItem = { label: string; href: string };
 
 export default async function GoogleMapsRankingSofiaPage({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "googleMapsRankingPage" });
+  const t = await getTranslations({
+    locale,
+    namespace: "googleMapsRankingPage",
+  });
   const baseUrl = process.env.BASE_URL ?? "https://atlasfold.com";
   const pageUrl = `${baseUrl}/${locale}/${PATH}`;
 
@@ -378,7 +385,9 @@ export default async function GoogleMapsRankingSofiaPage({ params }: Props) {
             <section className="mt-14">
               <h2 className="font-display text-2xl font-extrabold text-text-primary lg:text-3xl">
                 {t("faq.title")}{" "}
-                <span className="font-accent italic">{t("faq.titleAccent")}</span>
+                <span className="font-accent italic">
+                  {t("faq.titleAccent")}
+                </span>
               </h2>
               <div className="mt-6 space-y-4">
                 {faqKeys.map((key) => (
@@ -400,17 +409,16 @@ export default async function GoogleMapsRankingSofiaPage({ params }: Props) {
             <section className="mt-14 rounded-2xl border border-gray-100 bg-card px-6 py-12 text-center shadow-sm lg:px-12">
               <h2 className="font-display text-3xl font-extrabold lg:text-4xl">
                 {t("cta.title")}{" "}
-                <span className="font-accent italic">{t("cta.titleAccent")}</span>
+                <span className="font-accent italic">
+                  {t("cta.titleAccent")}
+                </span>
               </h2>
               <p className="mx-auto mt-4 max-w-2xl font-body text-base leading-relaxed text-text-secondary">
                 {t("cta.body")}
               </p>
-              <Link
-                href={`/${locale}#pricing`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90"
-              >
+              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
                 {t("cta.button")}
-              </Link>
+              </LeadCaptureCtaButton>
             </section>
 
             <section className="mt-14 border-t border-gray-200 pt-10">
