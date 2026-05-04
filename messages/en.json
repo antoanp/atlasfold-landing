@@ -286,6 +286,10 @@
           "href": "/areas/lozenets"
         },
         {
+          "label": "Local SEO in Lyulin →",
+          "href": "/areas/lyulin"
+        },
+        {
           "label": "Local SEO in Iztok →",
           "href": "/areas/iztok"
         }
@@ -1239,6 +1243,190 @@
     },
     "serviceType": "Local SEO - Mladost, Sofia",
     "serviceDescription": "Local SEO and Google Maps optimization for businesses in Mladost, Sofia. Includes GBP optimization, on-page SEO, citation cleanup, review strategy, and neighborhood authority content for Mladost 1-4."
+  },
+  "lyulinAreaPage": {
+    "metadataTitle": "Local SEO in Lyulin, Sofia - SEO Optimization Lyulin & Google Maps Rankings | Atlas Fold",
+    "metadataDesc": "Local SEO for businesses in Lyulin, Sofia. Atlas Fold helps auto shops, dental clinics, pharmacies, and neighborhood service brands reach Google Maps Top 3 in 90 days.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "areas": "Service areas",
+      "current": "Lyulin"
+    },
+    "badge": "Service area - Lyulin",
+    "headline": "SEO optimization for businesses in",
+    "headlineAccent": "Lyulin, Sofia.",
+    "subheadline": "Sofia's largest residential district is still one of the most underserved local SEO markets. If your profile is optimized correctly, Top 3 in Google Maps is reachable faster than in premium central neighborhoods.",
+    "image1Alt": "Residential and commercial area in Lyulin, Sofia with neighborhood businesses",
+    "nap": {
+      "title": "Atlas Fold - serving Lyulin",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0877268727",
+      "email": "antoan@atlasfold.com",
+      "hours": "Open 24/7"
+    },
+    "hook": {
+      "p1": "If you searched for 'seo оптимизация люлин софия', timing is on your side. Lyulin is one of the largest local demand zones in Sofia, but many listings are still weakly optimized. For small and mid-size businesses this is rare upside: high search volume with lower optimization maturity. Core queries like 'seo оптимизация люлин софия', 'seo оптимизация на уебсайт люлин софия', 'seo агенция люлин софия', 'локално seo люлин софия', and 'seo люлин софия' usually come from people ready to call, not casual readers.",
+      "p2": "This page targets practical owners in Lyulin: auto repair, dental care, pharmacies, beauty salons, child services, neighborhood restaurants, accounting firms, and home services. User behavior is fast: phone search, compare 3 profiles, call one provider within minutes. If your Google Business Profile and website do not prove local relevance clearly, you lose leads daily even when your service quality is better than nearby competitors."
+    },
+    "whyCompetitive": {
+      "title": "Why Lyulin is Sofia's biggest local SEO opportunity right now",
+      "p1": "Lyulin operates like a city inside Sofia: roughly 100,000+ residents, high internal movement between micro-zones, and constant traffic through metro nodes and market streets. That drives large daily demand for high-intent local services. Unlike central premium districts where winners often carry 250-400 reviews, many winning profiles in Lyulin rank strongly with 40-90 high-quality reviews and active profile freshness.",
+      "p2": "Commercial behavior in Lyulin is highly practical. Buyers are price-aware, but they choose quickly when trust and proximity are obvious. That means complete services, clear categories, current photos, and strong review response habits produce direct call growth. For local intent terms, Google often rewards the business with better relevance + prominence balance, not necessarily the fanciest brand presentation.",
+      "p3": "Most important point: many Lyulin listings still have basic technical gaps - unverified profiles, duplicate entries, weak category mapping, inconsistent NAP traces. That is why this district is ideal for fast SEO momentum. Once fundamentals are fixed in first 30-45 days, your path to Top 3 is usually faster than in saturated neighborhoods like Lozenets or downtown."
+    },
+    "howSearchesWork": {
+      "title": "How people in Lyulin actually search for services",
+      "intro": "Three intent patterns generate most calls and form submissions in this area:",
+      "patterns": [
+        {
+          "label": "'[service] Lyulin Sofia'",
+          "body": "Direct neighborhood query with strong buying intent: 'dentist Lyulin', 'car service Lyulin', 'seo оптимизация люлин софия'. Searcher is close to decision."
+        },
+        {
+          "label": "'[service] near me'",
+          "body": "Mostly mobile searches while moving near metro stations, market corridors, and major boulevards. Google reads real-time location and ranks local 3-pack candidates."
+        },
+        {
+          "label": "'Lyulin [number] [service]'",
+          "body": "Micro-zone demand (Lyulin 3, Lyulin 5, Lyulin 7, etc.). These queries convert well because users optimize for short travel time."
+        }
+      ],
+      "outro": "Google's local system remains relevance, distance, prominence. Distance is fixed. Your leverage is relevance and prominence: accurate GBP categories, complete service list, neighborhood-rich copy, clean NAP consistency, active review process, and structured local FAQ. When these layers align, visibility rises for queries that produce same-day calls."
+    },
+    "landmarks": {
+      "title": "Streets and landmarks in Lyulin your content should reference naturally",
+      "intro": "In Lyulin, location is described through boulevards, metro stations, and market anchors. If your website and profile use this local language naturally, Google can map your business to the district with higher confidence.",
+      "streetsLabel": "Key streets and boulevards",
+      "streets": [
+        "Tsaritsa Yoanna Blvd",
+        "Pancho Vladigerov Blvd",
+        "Dobrinova Skala Blvd",
+        "Jawaharlal Nehru Blvd",
+        "Petar Dertliev Blvd",
+        "Gen. Asen Nikolov Str",
+        "Tarnovo Str",
+        "Suhodolska Str"
+      ],
+      "landmarksLabel": "Local anchors in and around Lyulin",
+      "landmarks": [
+        "Lyulin Metro Station",
+        "Zapaden Park Metro Station",
+        "Lyulin Cooperative Market",
+        "Zapaden Park",
+        "Lyulin Tunnel",
+        "Lyulin Municipality",
+        "91 German Language High School",
+        "Silver Center Lyulin"
+      ],
+      "outro": "Use these references in body copy, FAQs, and a short 'how to reach us' section. Add a Google Maps embed pointing to your real location or service area, plus clear note that you serve Lyulin 1-10. This gives proximity proof without fake-address risk and helps Google validate neighborhood relevance."
+    },
+    "proximity": {
+      "title": "Proximity alone does not rank you - authority decides outcomes",
+      "p1": "Common owner question in Lyulin: 'We are on main boulevard, why not Top 3?' Because Google does not rank by meters alone. A Lyulin 7 listing with 60 authentic reviews, complete services, weekly photos, and quality owner responses can outrank a Lyulin 3 listing with 10 reviews and weak profile data, even when physically closer to the searcher.",
+      "p2": "Google also evaluates intent centroids for broader queries. That means businesses in outer Lyulin zones can still win steady visibility when authority signals are strong. Local SEO advantage here is compounding: better profile trust + better on-page context + cleaner citations leads to stable map ranking without permanent PPC dependence."
+    },
+    "services": {
+      "title": "What we execute for businesses in Lyulin",
+      "intro": "Every engagement uses a full local stack adapted to district-level demand patterns:",
+      "items": [
+        "Google Business Profile optimization: categories, services, copy, photos, posts, Q&A, and internal trust links",
+        "Website SEO optimization: titles/meta, H1-H3 structure, schema markup, internal linking, and mobile speed performance",
+        "Local citation work and NAP consistency cleanup across Bulgarian and niche directories",
+        "Review engine setup: collection process, response framework, negative-review handling workflow",
+        "Neighborhood authority pages and rank monitoring by Lyulin micro-zones"
+      ],
+      "linkLabel": "See full SEO Optimization service →"
+    },
+    "struggles": {
+      "title": "Where Lyulin businesses usually lose local rankings",
+      "intro": "The same blockers appear repeatedly in local audits:",
+      "items": [
+        "Unverified or half-complete GBP listing. Business is active, but profile signals weak relevance and low trust.",
+        "Photo library frozen since launch. Without fresh visual proof, both users and Google read the listing as inactive.",
+        "Duplicate entries after rebrand or phone change. Authority is split and local ranking power drops.",
+        "No service area clarity by micro-zone. Generic 'we serve Sofia' messaging fails to capture Lyulin 1-10 intent.",
+        "Heavy PPC dependency. Once ad spend pauses, lead flow collapses because local organic visibility was never built."
+      ],
+      "outro": "Fixing these five layers creates predictable gains: stronger map impressions, more qualified calls, lower acquisition cost, and stable neighborhood lead flow throughout the year."
+    },
+    "faq": {
+      "title": "Local SEO in Lyulin - common",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Do we need a physical address inside Lyulin to rank?",
+          "answer": "Not always. If you truly serve customers in Lyulin, we can configure service area correctly and build clear neighborhood relevance signals without fake address claims."
+        },
+        "q2": {
+          "question": "What SEO budget is realistic for a small Lyulin business?",
+          "answer": "Most SMBs perform well in the 345-445 EUR monthly range. High-competition niches may benefit from a stronger quarterly investment to accelerate authority growth."
+        },
+        "q3": {
+          "question": "How hard is Top 3 in Lyulin compared to central Sofia?",
+          "answer": "Typical timelines are 60-100 days in medium competition and 90-130 in harder niches. Lyulin is often faster than premium central zones because optimization maturity is still lower."
+        },
+        "q4": {
+          "question": "Can we target only specific micro-zones like Lyulin 5 or Lyulin 9?",
+          "answer": "Yes. We build sub-zone relevance through dedicated copy, FAQ language, service-area mapping, and review context so rankings improve beyond generic 'Lyulin' terms."
+        },
+        "q5": {
+          "question": "Which business categories usually win fastest in Lyulin?",
+          "answer": "Services with urgent or repeat demand move fastest: auto repair, dentistry, pharmacies, household services, accounting, and beauty categories."
+        },
+        "q6": {
+          "question": "Are reviews in Lyulin as important as in central neighborhoods?",
+          "answer": "Absolutely. In district-level markets, trust signals decide many close calls. Fresh, specific reviews with owner responses regularly become ranking + conversion advantage."
+        },
+        "q7": {
+          "question": "Can you work with our current old website?",
+          "answer": "Usually yes. We audit technical limits first, then optimize where possible. Full rebuild is recommended only when platform constraints block core SEO implementation."
+        },
+        "q8": {
+          "question": "Does your package include guidance for Google Maps photos/content?",
+          "answer": "Yes. We provide exact photo and posting cadence recommendations so your profile sends stronger relevance and freshness signals over time."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready for Top 3 in",
+      "titleAccent": "Lyulin?",
+      "body": "Request a free local audit of your Google Business Profile, website, and top 3 Lyulin competitors. You get a clear 90-day action roadmap with weekly priorities.",
+      "button": "Get a Free Analysis"
+    },
+    "related": {
+      "title": "Related services",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/local-seo-sofia"
+        },
+        {
+          "label": "Google Maps Ranking in Sofia",
+          "href": "/google-maps-ranking-sofia"
+        },
+        {
+          "label": "Citation Building in Sofia",
+          "href": "/citation-building-sofia"
+        },
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/seo-optimization-sofia"
+        },
+        {
+          "label": "Internet Marketing Service in Sofia",
+          "href": "/internet-marketing-service"
+        },
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/marketing-agency"
+        }
+      ]
+    },
+    "serviceType": "Local SEO - Lyulin, Sofia",
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Lyulin, Sofia. Includes GBP optimization, on-page SEO, citation consistency, review strategy, and neighborhood authority content focused on Lyulin demand."
   },
   "localSeoSofiaPage": {
     "metadataTitle": "Local SEO Sofia - SEO Optimization, SEO Agency & Google Maps Rankings | Atlas Fold",
