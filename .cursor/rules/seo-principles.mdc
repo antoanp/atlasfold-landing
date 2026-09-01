@@ -94,7 +94,7 @@ One page per service area (neighborhood).
 
 #### Structure
 - Create an "Areas We Serve" hub page linked from the main navigation
-- Create one subpage per area at: `/areas/[area-name]`
+- Create one subpage per area at: `/rayoni/[area-name]`
 - Target keyword per page: "[SERVICE NAME - ask the user] [NEIGHBORHOOD NAME - ask the user]" and "best [SERVICE NAME - ask the user] in [NEIGHBORHOOD NAME - ask the user]"
 - Length: 1,200–2,200 words per area page
 
@@ -157,7 +157,7 @@ When building or editing any page in this project, the agent must:
 7. **Service pages** — each is a standalone Next.js route under `/services/[slug]`.
    Minimum 1,500 words. Unique copy. Never duplicate content across service pages.
 
-8. **Area pages** — each is a standalone route under `/areas/[slug]`.
+8. **Area pages** — each is a standalone route under `/rayoni/[slug]`.
    Minimum 1,200 words. Include local references (streets, landmarks, events) specific
    to that neighborhood.
 

@@ -283,15 +283,19 @@
       "featuredLinks": [
         {
           "label": "Локално SEO в Лозенец →",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         },
         {
           "label": "Локално SEO в Люлин →",
-          "href": "/areas/lyulin"
+          "href": "/rayoni/lyulin"
         },
         {
           "label": "Локално SEO в Изток →",
-          "href": "/areas/iztok"
+          "href": "/rayoni/iztok"
+        },
+        {
+          "label": "Локално SEO в Младост →",
+          "href": "/rayoni/mladost"
         }
       ]
     },
@@ -619,27 +623,27 @@
       "items": [
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         }
       ]
     }
@@ -671,27 +675,27 @@
       "items": [
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         }
       ]
     }
@@ -850,27 +854,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         }
       ]
     },
@@ -1033,27 +1037,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },
@@ -1217,27 +1221,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },
@@ -1401,27 +1405,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },
@@ -1619,27 +1623,27 @@
       "items": [
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         },
         {
           "label": "Интернет маркетинг услуга",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         }
       ]
     },
@@ -1807,27 +1811,27 @@
       "items": [
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },
@@ -2031,27 +2035,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Локално SEO в Лозенец",
-          "href": "/areas/lozenets"
+          "href": "/rayoni/lozenets"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },
@@ -2218,27 +2222,27 @@
       "items": [
         {
           "label": "Локално SEO в София",
-          "href": "/local-seo-sofia"
+          "href": "/uslugi/lokalno-seo-sofia"
         },
         {
           "label": "Google Maps класиране в София",
-          "href": "/google-maps-ranking-sofia"
+          "href": "/uslugi/google-maps-klasirane-sofia"
         },
         {
           "label": "Изграждане на цитати в София",
-          "href": "/citation-building-sofia"
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
         },
         {
           "label": "SEO оптимизация в София",
-          "href": "/seo-optimization-sofia"
+          "href": "/uslugi/seo-optimizaciya-sofia"
         },
         {
           "label": "Интернет маркетинг услуга в София",
-          "href": "/internet-marketing-service"
+          "href": "/uslugi/internet-marketing-sofia"
         },
         {
           "label": "Маркетинг агенция в София",
-          "href": "/marketing-agency"
+          "href": "/uslugi/marketing-agenciya-sofia"
         }
       ]
     },

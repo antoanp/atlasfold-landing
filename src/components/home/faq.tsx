@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
+import { paths, localePath } from "@/lib/paths";
 
 export function Faq() {
   const t = useTranslations("faq");
@@ -63,7 +64,7 @@ export function Faq() {
 
       <div className="mt-10 flex justify-center">
         <Link
-          href={`/${locale}/faq`}
+          href={localePath(locale, paths.legal.faq)}
           className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-2.5 font-body text-sm font-medium text-text-secondary transition-colors hover:border-gray-300 hover:text-text-primary"
         >
           {t("seeAllFaq")}

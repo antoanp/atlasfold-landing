@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
+import { paths, localePath } from "@/lib/paths";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -52,37 +53,37 @@ export function Footer() {
             </p>
             <nav className="mt-4 flex flex-col gap-2 font-body text-sm text-text-secondary">
               <Link
-                href={`/${locale}/internet-marketing-service`}
+                href={localePath(locale, paths.services.internetMarketing)}
                 className="hover:text-text-primary"
               >
                 {t("services.internetMarketing")}
               </Link>
               <Link
-                href={`/${locale}/marketing-agency`}
+                href={localePath(locale, paths.services.marketingAgency)}
                 className="hover:text-text-primary"
               >
                 {t("services.marketingAgency")}
               </Link>
               <Link
-                href={`/${locale}/seo-optimization-sofia`}
+                href={localePath(locale, paths.services.seoOptimization)}
                 className="hover:text-text-primary"
               >
                 {t("services.seoOptimization")}
               </Link>
               <Link
-                href={`/${locale}/local-seo-sofia`}
+                href={localePath(locale, paths.services.localSeo)}
                 className="hover:text-text-primary"
               >
                 {t("services.localSeoSofia")}
               </Link>
               <Link
-                href={`/${locale}/google-maps-ranking-sofia`}
+                href={localePath(locale, paths.services.googleMapsRanking)}
                 className="hover:text-text-primary"
               >
                 {t("services.googleMapsRanking")}
               </Link>
               <Link
-                href={`/${locale}/citation-building-sofia`}
+                href={localePath(locale, paths.services.citationBuilding)}
                 className="hover:text-text-primary"
               >
                 {t("services.citationBuilding")}
@@ -127,17 +128,20 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
           <div className="flex flex-wrap gap-6 font-body text-sm text-text-secondary">
-            <Link href={`/${locale}/terms`} className="hover:text-text-primary">
+            <Link
+              href={localePath(locale, paths.legal.terms)}
+              className="hover:text-text-primary"
+            >
               {t("links.terms")}
             </Link>
             <Link
-              href={`/${locale}/privacy`}
+              href={localePath(locale, paths.legal.privacy)}
               className="hover:text-text-primary"
             >
               {t("links.privacy")}
             </Link>
             <Link
-              href={`/${locale}/cookie`}
+              href={localePath(locale, paths.legal.cookie)}
               className="hover:text-text-primary"
             >
               {t("links.cookie")}
