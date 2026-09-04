@@ -11,6 +11,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const allLinks = [
   { href: "#advantage", key: "links.advantage" },
   { href: "#before-after", key: "links.beforeAfter" },
+  { href: "#roi-calculator", key: "links.roiCalculator" },
   { href: "#process", key: "links.process" },
   { href: "#faq", key: "links.faq" },
   { href: "#pricing", key: "links.pricing" },

@@ -9,6 +9,7 @@
     "links": {
       "advantage": "Advantage",
       "beforeAfter": "Before / After",
+      "roiCalculator": "ROI",
       "process": "Process",
       "faq": "FAQ",
       "pricing": "Pricing"
@@ -238,6 +239,69 @@
       "success": "Thank you! We'll be in touch within 24 hours.",
       "error": "Something went wrong. Please try again or call us directly."
     }
+  },
+  "roiCalculator": {
+    "badge": "ROI",
+    "title": "Is local SEO really",
+    "titleAccent": "worth it?",
+    "subtitle": "A conservative estimate of the calls and clients a business ranking in the local top 3 can realistically expect.",
+    "inputs": {
+      "sector": "Niche / sector",
+      "citySize": "City size",
+      "conversion": "Calls → jobs conversion",
+      "value": "Average value per client (€)"
+    },
+    "sectors": {
+      "renovation": "Renovations",
+      "lawyer": "Lawyer",
+      "dentist": "Dentist",
+      "accountant": "Accountant",
+      "physio": "Physiotherapist",
+      "psychologist": "Psychologist",
+      "plumber": "Plumber",
+      "electrician": "Electrician",
+      "locksmith": "Locksmith",
+      "realestate": "Real estate agency",
+      "gardener": "Gardener",
+      "architect": "Architect",
+      "notary": "Notary",
+      "pestcontrol": "Pest control",
+      "petGrooming": "Pet grooming salons",
+      "veterinary": "Veterinary clinics",
+      "kinesitherapy": "Kinesitherapy & physiotherapy clinics",
+      "florist": "Florists",
+      "aestheticClinic": "Aesthetic & beauty clinics",
+      "heatPump": "Specialized heat pump installers",
+      "beautyNails": "Beauty salons & nail studios",
+      "catering": "Event catering companies",
+      "smartHome": "Smart home & home automation installers",
+      "bikeShop": "Bicycle & e-bike shops",
+      "optician": "Opticians & eyewear boutiques",
+      "fireplace": "Fireplace, pellet-stove & firebox showrooms",
+      "jewelry": "Jewelry & watch boutiques / ateliers",
+      "other": "Other"
+    },
+    "citySizes": {
+      "small": "Small town (< 50k people)",
+      "medium": "Mid-size city (50k–500k)",
+      "large": "Large city (> 500k people)"
+    },
+    "conversions": {
+      "oneInFive": "1 in 5 calls",
+      "oneInFour": "1 in 4 calls",
+      "oneInThree": "1 in 3 calls",
+      "oneInTwo": "1 in 2 calls"
+    },
+    "outputs": {
+      "searches": "Searches / month",
+      "clicks": "Estimated clicks",
+      "calls": "Estimated calls",
+      "jobs": "Jobs / month",
+      "monthlyRevenue": "Monthly revenue",
+      "yearlyRevenue": "Revenue lost per year"
+    },
+    "heroLabel": "Potential monthly revenue",
+    "disclaimer": "To keep this estimate realistic we use conservative industry averages: roughly 11% of people searching click a result in Google's top 3, around 37% of those visitors call, and then we apply the conversion rate you selected above. Actual results depend on competition, your area and how well your business converts leads."
   },
   "footer": {
     "logo": "Atlas Fold",

@@ -15,6 +15,9 @@ const Advantage = dynamic(() =>
 const BeforeAfter = dynamic(() =>
   import("@/components/home/before-after").then((m) => m.BeforeAfter),
 );
+const RoiCalculator = dynamic(() =>
+  import("@/components/home/roi-calculator").then((m) => m.RoiCalculator),
+);
 const Process = dynamic(() =>
   import("@/components/home/process").then((m) => m.Process),
 );
@@ -39,6 +42,7 @@ export default async function HomePage({ params }: Props) {
         <Hero userLocation={userLocation} />
         <Advantage />
         <BeforeAfter />
+        <RoiCalculator />
         <Process />
         <Faq />
         <Pricing />
