@@ -30,6 +30,9 @@ export const paths = {
     privacy: "poveritelnost",
     cookie: "biskvitki",
   },
+  blog: {
+    hub: "blog",
+  },
 } as const;
 
 /** Prefix a registry path with a locale segment: `("bg", "chzvo") -> "/bg/chzvo"`. */

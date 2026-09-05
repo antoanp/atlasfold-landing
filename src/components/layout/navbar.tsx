@@ -7,6 +7,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { usePathname } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import { paths } from "@/lib/paths";
+import { LocaleSwitcher } from "@/components/layout/locale-switcher";
 
 const allLinks = [
   { href: "#advantage", key: "links.advantage" },
@@ -17,7 +19,12 @@ const allLinks = [
   { href: "#pricing", key: "links.pricing" },
 ] as const;
 
-export function Navbar() {
+type NavbarProps = {
+  /** Explicit per-locale hrefs for the current page — only where slugs differ by language (the blog). */
+  localeAlternates?: Record<string, string | undefined>;
+};
+
+export function Navbar({ localeAlternates }: NavbarProps = {}) {
   const t = useTranslations("nav");
   const locale = useLocale();
   const pathname = usePathname();
@@ -69,9 +76,16 @@ export function Navbar() {
               </Link>
             ),
           )}
+          <Link
+            href={`/${locale}/${paths.blog.hub}`}
+            className="text-text-secondary transition-colors duration-200 hover:text-text-primary"
+          >
+            {t("links.blog")}
+          </Link>
         </div>
 
         <div className="flex items-center gap-3">
+          <LocaleSwitcher className="hidden md:flex" alternates={localeAlternates} />
           {/* tel: protocol — not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
           <a
             href={`tel:${t("phone")}`}
@@ -156,6 +170,14 @@ export function Navbar() {
                   </Link>
                 ),
               )}
+              <Link
+                href={`/${locale}/${paths.blog.hub}`}
+                onClick={() => setOpen(false)}
+                className="rounded-lg px-3 py-2.5 font-body text-sm text-text-secondary transition-colors hover:bg-card hover:text-text-primary"
+              >
+                {t("links.blog")}
+              </Link>
+              <LocaleSwitcher className="mt-2 justify-center py-1" alternates={localeAlternates} />
               {/* tel: protocol - not a route. The <Link> is designed for route navigation since it prefetches the target page's JS bundle. */}
               <a
                 href={`tel:${t("phone")}`}

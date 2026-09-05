@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { paths, localePath } from "@/lib/paths";
+import { LocaleSwitcher } from "@/components/layout/locale-switcher";
 
-export function Footer() {
+type FooterProps = {
+  localeAlternates?: Record<string, string | undefined>;
+};
+
+export function Footer({ localeAlternates }: FooterProps = {}) {
   const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
   const locale = useLocale();
   const neighborhoods = t.raw("serviceAreas.neighborhoods") as string[];
   const featuredAreaLinks = t.raw("serviceAreas.featuredLinks") as {
@@ -127,7 +133,13 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
-          <div className="flex flex-wrap gap-6 font-body text-sm text-text-secondary">
+          <div className="flex flex-wrap items-center gap-6 font-body text-sm text-text-secondary">
+            <Link
+              href={localePath(locale, paths.blog.hub)}
+              className="hover:text-text-primary"
+            >
+              {tNav("links.blog")}
+            </Link>
             <Link
               href={localePath(locale, paths.legal.terms)}
               className="hover:text-text-primary"
@@ -147,9 +159,10 @@ export function Footer() {
               {t("links.cookie")}
             </Link>
           </div>
-          <p className="font-body text-xs text-text-secondary">
-            {t("copyright")}
-          </p>
+          <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6">
+            <LocaleSwitcher alternates={localeAlternates} />
+            <p className="font-body text-xs text-text-secondary">{t("copyright")}</p>
+          </div>
         </div>
       </div>
     </footer>
