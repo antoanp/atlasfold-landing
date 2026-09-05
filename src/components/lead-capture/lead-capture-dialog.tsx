@@ -1,7 +1,8 @@
 "use client";
 
 import { useActionState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 import {
   Dialog,
   DialogContent,
@@ -10,9 +11,16 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
+import { paths, localePath } from "@/lib/paths";
 import { submitLead, type LeadFormState } from "@/components/lead-capture/submit-lead";
 
 export type LeadTier = "minimum" | "standard" | "quarterly";
+
+const BUDGET_OPTIONS = ["low", "mid", "high"] as const;
+const TIMELINE_OPTIONS = ["now", "soon", "later"] as const;
+
+const inputClass =
+  "rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent";
 
 interface LeadCaptureDialogProps {
   tier: LeadTier;
@@ -28,6 +36,7 @@ export function LeadCaptureDialog({
   onOpenChange,
 }: LeadCaptureDialogProps) {
   const t = useTranslations("pricing");
+  const locale = useLocale();
   const [state, action, isPending] = useActionState<LeadFormState, FormData>(
     submitLead,
     null,
@@ -56,56 +65,152 @@ export function LeadCaptureDialog({
               <form action={action} className="mt-6 flex flex-col gap-4">
                 <input type="hidden" name="tier" value={tier} />
 
-                <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="fullName">
-                    {t("dialog.fields.fullName")}
-                  </Label>
-                  <input
-                    id="fullName"
-                    name="fullName"
-                    type="text"
-                    required
-                    autoComplete="name"
-                    className="rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent"
-                  />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="fullName">
+                      {t("dialog.fields.fullName")}
+                    </Label>
+                    <input
+                      id="fullName"
+                      name="fullName"
+                      type="text"
+                      required
+                      autoComplete="name"
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="phone">{t("dialog.fields.phone")}</Label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      required
+                      autoComplete="tel"
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="company">
+                      {t("dialog.fields.company")}
+                    </Label>
+                    <input
+                      id="company"
+                      name="company"
+                      type="text"
+                      autoComplete="organization"
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="email">{t("dialog.fields.email")}</Label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      required
+                      autoComplete="email"
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="city">{t("dialog.fields.city")}</Label>
+                    <input
+                      id="city"
+                      name="city"
+                      type="text"
+                      required
+                      autoComplete="address-level2"
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <Label htmlFor="industry">
+                      {t("dialog.fields.industry")}
+                    </Label>
+                    <input
+                      id="industry"
+                      name="industry"
+                      type="text"
+                      required
+                      className={inputClass}
+                    />
+                  </div>
                 </div>
 
-                <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="phone">{t("dialog.fields.phone")}</Label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    required
-                    autoComplete="tel"
-                    className="rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent"
-                  />
-                </div>
+                <fieldset className="flex flex-col gap-1.5">
+                  <legend className="mb-1.5 font-body text-sm font-medium text-text-primary">
+                    {t("dialog.fields.budget")}
+                  </legend>
+                  <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5">
+                    {BUDGET_OPTIONS.map((key) => (
+                      <label
+                        key={key}
+                        className="flex items-center gap-2 font-body text-sm text-text-primary"
+                      >
+                        <input
+                          type="radio"
+                          name="budget"
+                          value={key}
+                          required
+                          className="accent-accent"
+                        />
+                        {t(`dialog.budgetOptions.${key}`)}
+                      </label>
+                    ))}
+                  </div>
+                </fieldset>
 
-                <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="city">{t("dialog.fields.city")}</Label>
-                  <input
-                    id="city"
-                    name="city"
-                    type="text"
-                    required
-                    autoComplete="address-level2"
-                    className="rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent"
-                  />
-                </div>
+                <fieldset className="flex flex-col gap-1.5">
+                  <legend className="mb-1.5 font-body text-sm font-medium text-text-primary">
+                    {t("dialog.fields.timeline")}
+                  </legend>
+                  <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5">
+                    {TIMELINE_OPTIONS.map((key) => (
+                      <label
+                        key={key}
+                        className="flex items-center gap-2 font-body text-sm text-text-primary"
+                      >
+                        <input
+                          type="radio"
+                          name="timeline"
+                          value={key}
+                          required
+                          className="accent-accent"
+                        />
+                        {t(`dialog.timelineOptions.${key}`)}
+                      </label>
+                    ))}
+                  </div>
+                </fieldset>
 
-                <div className="flex flex-col gap-1.5">
-                  <Label htmlFor="industry">
-                    {t("dialog.fields.industry")}
-                  </Label>
+                <label className="flex items-start gap-2 font-body text-xs text-text-secondary">
                   <input
-                    id="industry"
-                    name="industry"
-                    type="text"
+                    type="checkbox"
+                    name="consent"
                     required
-                    className="rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent"
+                    className="mt-0.5 accent-accent"
                   />
-                </div>
+                  <span>
+                    {t.rich("dialog.fields.consent", {
+                      link: (chunks) => (
+                        <Link
+                          href={localePath(locale, paths.legal.privacy)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline hover:text-text-primary"
+                        >
+                          {chunks}
+                        </Link>
+                      ),
+                    })}
+                  </span>
+                </label>
 
                 {state?.error && (
                   <p className="font-body text-sm text-red-600">

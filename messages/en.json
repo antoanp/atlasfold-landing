@@ -12,18 +12,55 @@
       "roiCalculator": "ROI",
       "process": "Process",
       "faq": "FAQ",
-      "pricing": "Pricing"
+      "pricing": "Pricing",
+      "blog": "Blog"
     },
     "phone": "0877268727",
-    "phoneCta": "Call Us"
+    "phoneCta": "Call Us",
+    "locale": {
+      "bg": "Български",
+      "en": "English",
+      "switchLabel": "Switch language"
+    }
+  },
+  "blog": {
+    "indexEyebrow": "Blog",
+    "indexTitle": "The Local SEO Blog for Sofia",
+    "indexTagline": "Practical advice for ranking in Google Maps and Google Search — tested with real clients in Sofia, no theory.",
+    "badge": "Blog",
+    "readMore": "Read the article",
+    "publishedOn": "Published on {date}",
+    "updatedOn": "Updated on {date}",
+    "byline": "By {author}",
+    "readingTime": "{minutes} min read",
+    "tocTitle": "In this article",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "relatedTitle": "Related articles",
+    "morePosts": "More articles",
+    "prev": "Older article",
+    "next": "Newer article",
+    "backToBlog": "All articles",
+    "emptyState": "No articles published yet.",
+    "tagLabel": "Topic",
+    "cta": {
+      "title": "Ready to reach the",
+      "titleAccent": "Top 3",
+      "body": "Send your business details and within 24 hours you'll get a short personalized video showing exactly what's holding your Google Maps ranking back — and the steps to fix it.",
+      "button": "Get my free video audit"
+    }
+  },
+  "leadCta": {
+    "note": "No cost, no obligation, and no sales call to sell you anything — promised.",
+    "button": "Get my free video audit"
   },
   "hero": {
     "location": "Sofia, Bulgaria",
-    "headline": "Internet marketing service - SEO optimization & local SEO services in Sofia - Top 3 on Google in 90 Days -",
-    "headlineAccent": "Guaranteed.",
+    "headline": "Internet marketing and local SEO in Sofia — Top 3 on Google Maps in 90 days.",
+    "headlineAccent": "Fixed price.",
     "subheadline": "75% of all searches go to the top 3 results on Google Maps.",
     "subheadlineExtra": "If you're not there, you're essentially invisible.",
-    "ctaPrimary": "Get a Free Analysis",
+    "ctaPrimary": "Get my free video audit",
     "ctaSecondary": "Call Us",
     "phoneLink": "tel:0877268727",
     "services": {
@@ -41,7 +78,7 @@
       "years": "4+",
       "yearsLabel": "years of experience",
       "guarantee": "90",
-      "guaranteeLabel": "day guarantee"
+      "guaranteeLabel": "days to Top 3"
     }
   },
   "advantage": {
@@ -225,18 +262,33 @@
       }
     },
     "dialog": {
-      "title": "Get a Free Analysis",
-      "subtitle": "Fill in your details and we'll get back to you within 24 hours.",
+      "title": "Request your free video audit",
+      "subtitle": "Fill in your details. Within 24 hours we'll send you a short personalized video with your audit — no sales call.",
       "fields": {
         "fullName": "Full Name",
         "phone": "Phone Number",
+        "company": "Company name",
+        "email": "Business email",
         "city": "City",
-        "industry": "Industry"
+        "industry": "Industry",
+        "budget": "Monthly marketing budget",
+        "timeline": "When do you want to solve this?",
+        "consent": "I agree to be contacted about my audit and accept the <link>privacy policy</link>."
+      },
+      "budgetOptions": {
+        "low": "Under €500",
+        "mid": "€500–€1,500",
+        "high": "Over €1,500"
+      },
+      "timelineOptions": {
+        "now": "Right now",
+        "soon": "In the next few weeks",
+        "later": "Just exploring"
       },
       "tierLabel": "Selected Package",
       "submit": "Submit",
       "submitting": "Submitting…",
-      "success": "Thank you! We'll be in touch within 24 hours.",
+      "success": "Thank you! Your personalized video will arrive by email within 24 hours.",
       "error": "Something went wrong. Please try again or call us directly."
     }
   },
@@ -301,7 +353,13 @@
       "yearlyRevenue": "Revenue lost per year"
     },
     "heroLabel": "Potential monthly revenue",
-    "disclaimer": "To keep this estimate realistic we use conservative industry averages: roughly 11% of people searching click a result in Google's top 3, around 37% of those visitors call, and then we apply the conversion rate you selected above. Actual results depend on competition, your area and how well your business converts leads."
+    "disclaimer": "To keep this estimate realistic we use conservative industry averages: roughly 11% of people searching click a result in Google's top 3, around 37% of those visitors call, and then we apply the conversion rate you selected above. Actual results depend on competition, your area and how well your business converts leads.",
+    "cta": {
+      "title": "See what that looks like for",
+      "titleAccent": "your business.",
+      "body": "Get a free personalized video audit — where you rank now, and the specific fixes to capture that revenue.",
+      "button": "Get my free video audit"
+    }
   },
   "footer": {
     "logo": "Atlas Fold",
@@ -618,8 +676,8 @@
     "cta": {
       "title": "Ready for",
       "titleAccent": "Top 3?",
-      "subtitle": "Get a free analysis of your Google Maps position today.",
-      "button": "Get a Free Analysis"
+      "body": "Send your business details and get a short personalized video showing where you stand on Google Maps and what to fix — within 24 hours, no sales call.",
+      "button": "Get my free video audit"
     }
   },
   "cookiePage": {
@@ -678,8 +736,12 @@
       "Updates every 2 weeks",
       "Top 3 guarantee within 90 days (Standard and Quarterly plans)"
     ],
-    "ctaTitle": "Ready for Top 3?",
-    "ctaButton": "Get a Free Analysis",
+    "cta": {
+      "title": "Ready for",
+      "titleAccent": "Top 3?",
+      "body": "Send your business details and within 24 hours you'll get a short personalized video showing what's holding your Google Maps ranking back — and the steps to fix it.",
+      "button": "Get my free video audit"
+    },
     "serviceType": "Internet Marketing Service",
     "serviceDescription": "Local SEO and Google Maps optimisation for businesses in Sofia",
     "related": {
@@ -730,8 +792,12 @@
       "No hidden fees or long-term lock-ins after initial period",
       "Service available in Bulgarian and English"
     ],
-    "ctaTitle": "Ready for Top 3?",
-    "ctaButton": "Get a Free Analysis",
+    "cta": {
+      "title": "Ready for",
+      "titleAccent": "Top 3?",
+      "body": "Send your business details and within 24 hours you'll get a short personalized video showing what's holding your Google Maps ranking back — and the steps to fix it.",
+      "button": "Get my free video audit"
+    },
     "serviceType": "Marketing Agency",
     "serviceDescription": "Specialist marketing agency for local SEO and Google Maps ranking in Sofia",
     "related": {
@@ -910,8 +976,8 @@
     "cta": {
       "title": "Ready to rank in the",
       "titleAccent": "Top 3?",
-      "body": "Free 24-hour analysis. No obligation. If we can't get you to the Top 3 on Google Maps for Sofia in 90 days - you don't pay.",
-      "button": "Get a Free Analysis"
+      "body": "A free personalized video audit of your Google Business Profile, website, and top 3 competitors — in your inbox within 24 hours. No sales call.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services & areas",
@@ -1093,8 +1159,8 @@
     "cta": {
       "title": "Ready for Top 3 in",
       "titleAccent": "Lozenets?",
-      "body": "Free audit of your Lozenets business profile, website, and top 3 competitors. Response within 24 hours.",
-      "button": "Get a Free Analysis"
+      "body": "We'll record you a short personalized video reviewing your Lozenets business profile, website, and top 3 competitors — in your inbox within 24 hours.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services",
@@ -1277,8 +1343,8 @@
     "cta": {
       "title": "Ready for Top 3 in",
       "titleAccent": "Mladost?",
-      "body": "Get free local audit of your Google Business Profile, website, and top 3 competitors in Mladost. You receive a concrete 90-day execution roadmap with weekly priorities.",
-      "button": "Get a Free Analysis"
+      "body": "We'll send you a short personalized video reviewing your Google Business Profile, website, and top 3 Mladost competitors — in your inbox within 24 hours, with a concrete 90-day roadmap and weekly priorities.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services",
@@ -1461,8 +1527,8 @@
     "cta": {
       "title": "Ready for Top 3 in",
       "titleAccent": "Lyulin?",
-      "body": "Request a free local audit of your Google Business Profile, website, and top 3 Lyulin competitors. You get a clear 90-day action roadmap with weekly priorities.",
-      "button": "Get a Free Analysis"
+      "body": "We'll record you a short personalized video reviewing your Google Business Profile, website, and top 3 Lyulin competitors — in your inbox within 24 hours, with a clear 90-day roadmap.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services",
@@ -1679,8 +1745,8 @@
     "cta": {
       "title": "Ready to be in the",
       "titleAccent": "Top 3 in Sofia?",
-      "body": "Free audit of your Google Business Profile, website, and top 3 competitors. Response within 24 hours. If we can't rank you in the Top 3 on Google Maps for Sofia in 90 days - you don't pay.",
-      "button": "Get a free analysis"
+      "body": "A free personalized video audit of your Google Business Profile, website, and top 3 competitors — in your inbox within 24 hours. No sales call.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services & areas",
@@ -1867,8 +1933,8 @@
     "cta": {
       "title": "Want more customers from",
       "titleAccent": "Google Maps?",
-      "body": "Request free analysis for your Sofia business. You get clear action plan with priority fixes, ranking potential, and next steps toward Top 3 visibility.",
-      "button": "Get a Free Analysis"
+      "body": "Send your business details and within 24 hours you'll get a short personalized video with a clear action plan — priority fixes, ranking potential, and the next steps toward Top 3 visibility.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related pages",
@@ -2091,8 +2157,8 @@
     "cta": {
       "title": "Ready for cleaner local trust",
       "titleAccent": "signals in Sofia?",
-      "body": "Request a free local audit. You get a practical plan for citation cleanup, consistency improvements, and next SEO steps tailored to your niche and district.",
-      "button": "Get free audit"
+      "body": "Send your business details and within 24 hours you'll get a short personalized video with a practical plan for citation cleanup, NAP consistency, and the next local SEO steps tailored to your niche and district.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services and pages",
@@ -2278,8 +2344,8 @@
     "cta": {
       "title": "Ready for Top 3 visibility in",
       "titleAccent": "Iztok?",
-      "body": "Request a free local authority audit for your Iztok opportunity: Google profile, website, and three direct competitors. You get a practical action plan within 24 hours, including quick wins, priority fixes, and a realistic timeline for ranking and lead improvement in your exact niche.",
-      "button": "Get Free Analysis"
+      "body": "We'll send you a short personalized video reviewing your Iztok opportunity — Google profile, website, and three direct competitors — within 24 hours, with quick wins, priority fixes, and a realistic timeline for ranking and lead improvement in your exact niche.",
+      "button": "Get my free video audit"
     },
     "related": {
       "title": "Related services",

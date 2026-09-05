@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
+import { LeadCtaSection } from "@/components/lead-capture/lead-cta-section";
 import { FaqPageAccordion } from "@/components/faq/accordion";
 import { FaqPageJsonLd } from "@/components/faq/json-ld";
 import { paths } from "@/lib/paths";
@@ -110,20 +110,7 @@ export default async function FaqPage({ params }: Props) {
         {/* CTA */}
         <section className="py-16 lg:py-24">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-            <div className="rounded-2xl border border-gray-100 bg-card px-8 py-12 text-center shadow-sm">
-              <h2 className="font-display text-3xl font-extrabold lg:text-4xl">
-                {t("cta.title")}{" "}
-                <span className="font-accent italic">
-                  {t("cta.titleAccent")}
-                </span>
-              </h2>
-              <p className="mt-3 font-body text-base text-text-secondary">
-                {t("cta.subtitle")}
-              </p>
-              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
-                {t("cta.button")}
-              </LeadCaptureCtaButton>
-            </div>
+            <LeadCtaSection namespace="faqPage" />
           </div>
         </section>
       </main>

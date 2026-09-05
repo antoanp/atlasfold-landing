@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { LeadCaptureCtaButton } from "@/components/lead-capture/lead-capture-cta-button";
+import { LeadCtaSection } from "@/components/lead-capture/lead-cta-section";
 import { paths, localePath } from "@/lib/paths";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -394,20 +394,7 @@ export default async function LyulinAreaPage({ params }: Props) {
               </div>
             </section>
 
-            <section className="mt-14 rounded-2xl border border-gray-100 bg-card px-6 py-12 text-center shadow-sm lg:px-12">
-              <h2 className="font-display text-3xl font-extrabold lg:text-4xl">
-                {t("cta.title")}{" "}
-                <span className="font-accent italic">
-                  {t("cta.titleAccent")}
-                </span>
-              </h2>
-              <p className="mx-auto mt-4 max-w-2xl font-body text-base leading-relaxed text-text-secondary">
-                {t("cta.body")}
-              </p>
-              <LeadCaptureCtaButton className="mt-8 inline-flex items-center gap-2 rounded-full bg-cta px-8 py-3 font-body text-sm font-semibold text-white transition-opacity hover:opacity-90">
-                {t("cta.button")}
-              </LeadCaptureCtaButton>
-            </section>
+            <LeadCtaSection namespace="lyulinAreaPage" className="mt-14" />
 
             <section className="mt-14 border-t border-gray-200 pt-10">
               <h2 className="font-display text-lg font-bold text-text-primary">

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
+import { LeadCtaSection } from "@/components/lead-capture/lead-cta-section";
 import { cn } from "@/lib/cn";
 import {
   SECTORS,
@@ -206,6 +207,11 @@ export function RoiCalculator() {
           {t("disclaimer")}
         </p>
       </div>
+
+      <LeadCtaSection
+        namespace="roiCalculator"
+        className="mx-auto mt-8 max-w-2xl"
+      />
     </SectionWrapper>
   );
 }

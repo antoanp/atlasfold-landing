@@ -10,6 +10,7 @@ type HeroProps = {
 
 export function Hero({ userLocation }: HeroProps) {
   const t = useTranslations("hero");
+  const tLeadCta = useTranslations("leadCta");
 
   return (
     <SectionWrapper className="min-h-screen flex items-center py-0 lg:py-0">
@@ -40,6 +41,9 @@ export function Hero({ userLocation }: HeroProps) {
               {t("ctaSecondary")}
             </a>
           </div>
+          <p className="mt-3 font-body text-xs text-text-secondary">
+            {tLeadCta("note")}
+          </p>
           {/* TODO: Add a social proof loom video (Search for the chat in the claude.ai named "Website" for the exact video strategy) */}
           <div className="mt-8 flex flex-wrap items-center gap-2">
             <span className="font-body text-xs font-medium text-text-secondary">
