@@ -21,7 +21,6 @@ export function Hero({ userLocation }: HeroProps) {
           </span>
           <h1 className="font-display text-4xl font-extrabold tracking-tight leading-[1.1] lg:text-7xl">
             {t("headline")}{" "}
-            <span className="font-accent italic">{t("headlineAccent")}</span>
           </h1>
           <p className="mt-6 font-body text-lg font-semibold text-text-primary">
             {t("subheadline")}
