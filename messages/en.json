@@ -104,31 +104,39 @@
     "badge": "Before / After",
     "title": "Google Maps ranking - the",
     "titleAccent": "difference.",
+    "caption": "Real client - grooming salon in Sofia - ~11 weeks",
     "tabs": {
       "before": "Before",
       "after": "After"
     },
     "business": {
-      "name": "Plumbing Service Sofia"
+      "name": "Pet grooming salon",
+      "location": "Sofia, Iztok",
+      "meta": "4.5★ · 97 reviews"
     },
     "metrics": {
-      "ranking": "Average Ranking",
-      "marketShare": "Market Share",
-      "clicks": "Clicks per Month",
-      "customers": "Customers per Month"
+      "ranking": "Average map rank",
+      "marketShare": "Market share",
+      "top3Coverage": "Top-3 coverage",
+      "top3Points": "Points in Top 3 (of 81)"
     },
     "before": {
-      "ranking": "86",
-      "marketShare": "1%",
-      "clicks": "5",
-      "customers": "1-2"
+      "ranking": "20+",
+      "marketShare": "0%",
+      "top3Coverage": "0%",
+      "top3Points": "0"
     },
     "after": {
-      "ranking": "2",
-      "marketShare": "82%",
-      "clicks": "80",
-      "customers": "15+"
-    }
+      "ranking": "3.8",
+      "marketShare": "54%",
+      "top3Coverage": "45%",
+      "top3Points": "36"
+    },
+    "imageAlt": {
+      "before": "Google Maps ranking heatmap before optimisation - outside the top 20 across the whole city",
+      "after": "Google Maps ranking heatmap after ~11 weeks - top 3 across most of Sofia"
+    },
+    "disclaimer": "Anonymised at the client's request. Ranking grid from our local-ranking tool for the keyword \"груминг с озонова вода\" (ozone-water grooming)."
   },
   "process": {
     "badge": "How Does It Work?",
