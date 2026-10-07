@@ -6,7 +6,11 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { LeadCtaSection } from "@/components/lead-capture/lead-cta-section";
 
-type Namespace = "seoServicesPage" | "seoAgencyPage";
+type Namespace =
+  | "seoServicesPage"
+  | "seoAgencyPage"
+  | "internetMarketingPage"
+  | "marketingAgencyPage";
 
 type Card = { title: string; body: string };
 type Section = {
