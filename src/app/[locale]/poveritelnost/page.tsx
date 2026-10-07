@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -60,11 +61,11 @@ export default async function PrivacyPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "privacyPage" });
 
   const richTags = {
-    highlight: (chunks: any) => (
+    highlight: (chunks: ReactNode) => (
       <strong className="text-text-primary">{chunks}</strong>
     ),
-    italic: (chunks: any) => <em>{chunks}</em>,
-    emailLink: (chunks: any) => (
+    italic: (chunks: ReactNode) => <em>{chunks}</em>,
+    emailLink: (chunks: ReactNode) => (
       <a
         href="mailto:antoan@atlasfold.com"
         className="text-accent hover:underline"
@@ -72,12 +73,12 @@ export default async function PrivacyPage({ params }: Props) {
         {chunks}
       </a>
     ),
-    phoneLink: (chunks: any) => (
+    phoneLink: (chunks: ReactNode) => (
       <a href="tel:0877268727" className="text-accent hover:underline">
         {chunks}
       </a>
     ),
-    cpdpLink: (chunks: any) => (
+    cpdpLink: (chunks: ReactNode) => (
       <a
         href="https://www.cpdp.bg"
         target="_blank"
@@ -153,7 +154,7 @@ export default async function PrivacyPage({ params }: Props) {
               {t("section2.p1")}
             </p>
             <ul className="mt-4 space-y-2 font-body leading-relaxed text-text-secondary">
-              {t.raw("section2.items").map((_: any, i: number) => (
+              {(t.raw("section2.items") as string[]).map((_, i) => (
                 <li key={i} className="flex gap-3">
                   <span className="mt-0.5 shrink-0 text-accent">▸</span>
                   <span>{t.rich(`section2.items.${i}`, richTags)}</span>
@@ -235,7 +236,7 @@ export default async function PrivacyPage({ params }: Props) {
               {t("section8.p1")}
             </p>
             <ul className="space-y-2 font-body leading-relaxed text-text-secondary">
-              {t.raw("section8.items").map((_: any, i: number) => (
+              {(t.raw("section8.items") as string[]).map((_, i) => (
                 <li key={i} className="flex gap-2">
                   <span>•</span>
                   <span>{t.rich(`section8.items.${i}`, richTags)}</span>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -60,11 +61,11 @@ export default async function CookiePage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "cookiePage" });
 
   const richTags = {
-    highlight: (chunks: any) => (
+    highlight: (chunks: ReactNode) => (
       <strong className="text-text-primary">{chunks}</strong>
     ),
-    italic: (chunks: any) => <em>{chunks}</em>,
-    emailLink: (chunks: any) => (
+    italic: (chunks: ReactNode) => <em>{chunks}</em>,
+    emailLink: (chunks: ReactNode) => (
       <a
         href="mailto:antoan@atlasfold.com"
         className="text-accent hover:underline"
@@ -72,7 +73,7 @@ export default async function CookiePage({ params }: Props) {
         {chunks}
       </a>
     ),
-    vercelLink: (chunks: any) => (
+    vercelLink: (chunks: ReactNode) => (
       <a
         href="https://vercel.com/docs/analytics/privacy-policy"
         target="_blank"
@@ -82,7 +83,7 @@ export default async function CookiePage({ params }: Props) {
         {chunks}
       </a>
     ),
-    googleLink: (chunks: any) => (
+    googleLink: (chunks: ReactNode) => (
       <a
         href="https://policies.google.com/technologies/cookies"
         target="_blank"

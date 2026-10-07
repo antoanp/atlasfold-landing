@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -60,10 +61,10 @@ export default async function TermsPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "termsPage" });
 
   const richTags = {
-    highlight: (chunks: any) => (
+    highlight: (chunks: ReactNode) => (
       <strong className="text-text-primary">{chunks}</strong>
     ),
-    emailLink: (chunks: any) => (
+    emailLink: (chunks: ReactNode) => (
       <a
         href="mailto:antoan@atlasfold.com"
         className="text-accent hover:underline"
@@ -71,7 +72,7 @@ export default async function TermsPage({ params }: Props) {
         {chunks}
       </a>
     ),
-    phoneLink: (chunks: any) => (
+    phoneLink: (chunks: ReactNode) => (
       <a href="tel:0877268727" className="text-accent hover:underline">
         {chunks}
       </a>
@@ -122,7 +123,7 @@ export default async function TermsPage({ params }: Props) {
               {t("section1.p1")}
             </p>
             <ul className="mt-4 space-y-2 font-body text-text-secondary">
-              {t.raw("section1.items").map((_: any, i: number) => (
+              {(t.raw("section1.items") as string[]).map((_, i) => (
                 <li key={i} className="flex gap-3">
                   <span className="mt-0.5 h-5 w-5 shrink-0 text-accent">▸</span>
                   <span>{t.rich(`section1.items.${i}`, richTags)}</span>
@@ -176,7 +177,7 @@ export default async function TermsPage({ params }: Props) {
               {t("section4.title")}
             </h2>
             <ul className="space-y-2 font-body leading-relaxed text-text-secondary">
-              {t.raw("section4.items").map((_: any, i: number) => (
+              {(t.raw("section4.items") as string[]).map((_, i) => (
                 <li key={i} className="flex gap-2">
                   <span>•</span>
                   <span>{t.rich(`section4.items.${i}`, richTags)}</span>
