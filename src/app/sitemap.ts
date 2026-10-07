@@ -73,6 +73,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: `/${paths.areas.lyulin}`, priority: 0.7, changeFrequency: "monthly" },
     { path: `/${paths.areas.iztok}`, priority: 0.7, changeFrequency: "monthly" },
     { path: `/${paths.areas.sredets}`, priority: 0.7, changeFrequency: "monthly" },
+    { path: `/${paths.areas.nadezhda}`, priority: 0.7, changeFrequency: "monthly" },
+    { path: `/${paths.areas.krasnoselo}`, priority: 0.7, changeFrequency: "monthly" },
     { path: `/${paths.blog.hub}`, priority: 0.7, changeFrequency: "monthly" },
     { path: `/${paths.legal.faq}`, priority: 0.6, changeFrequency: "yearly" },
     { path: `/${paths.legal.terms}`, priority: 0.3, changeFrequency: "yearly" },

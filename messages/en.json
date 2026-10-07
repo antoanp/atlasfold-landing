@@ -360,6 +360,14 @@
           "href": "/rayoni/sredets"
         },
         {
+          "label": "Local SEO in Nadezhda →",
+          "href": "/rayoni/nadezhda"
+        },
+        {
+          "label": "Local SEO in Krasno selo →",
+          "href": "/rayoni/krasno-selo"
+        },
+        {
           "label": "All districts →",
           "href": "/rayoni"
         }
@@ -3340,7 +3348,7 @@
   },
   "areasHubPage": {
     "metadataTitle": "Service Areas in Sofia - Local SEO by District | Atlas Fold",
-    "metadataDesc": "Local SEO by Sofia district: Center, Lozenets, Mladost, Lyulin and Iztok. Google Business Profile, website and citation optimization for better Google Maps visibility.",
+    "metadataDesc": "Local SEO by Sofia district: Center, Lozenets, Mladost, Lyulin, Iztok, Nadezhda and Krasno selo. Google Business Profile, website and citation optimization for better Google Maps visibility.",
     "breadcrumb": {
       "home": "Home",
       "current": "Service areas"
@@ -3381,6 +3389,16 @@
           "name": "Iztok",
           "href": "/rayoni/iztok",
           "body": "Neighborhood businesses with high standards and strong competition around Tsarigradsko shose."
+        },
+        {
+          "name": "Nadezhda",
+          "href": "/rayoni/nadezhda",
+          "body": "Auto services, pharmacies, manufacturers, warehouses and neighborhood services in northern Sofia."
+        },
+        {
+          "name": "Krasno selo",
+          "href": "/rayoni/krasno-selo",
+          "body": "Shops, practices, venues and garages around Tsar Boris III Blvd and in Borovo."
         }
       ]
     },
@@ -3394,7 +3412,7 @@
     },
     "other": {
       "title": "If your district is not listed",
-      "body": "We work with businesses across the city, including Krasno Selo, Geo Milev, Nadezhda, Ovcha Kupel, Studentski Grad and elsewhere. If your business is in another district, get in touch - we will check the competition there and tell you honestly whether and how we can help."
+      "body": "We work with businesses across the city, including Geo Milev, Ovcha Kupel, Studentski Grad and elsewhere. If your business is in another district, get in touch - we will check the competition there and tell you honestly whether and how we can help."
     },
     "faq": {
       "title": "Districts - frequently asked",
@@ -3522,8 +3540,392 @@
         {
           "label": "Iztok",
           "href": "/rayoni/iztok"
+        },
+        {
+          "label": "Nadezhda",
+          "href": "/rayoni/nadezhda"
+        },
+        {
+          "label": "Krasno selo",
+          "href": "/rayoni/krasno-selo"
         }
       ]
     }
+  },
+  "nadezhdaAreaPage": {
+    "metadataTitle": "Local SEO in Nadezhda, Sofia | Atlas Fold",
+    "metadataDesc": "Local SEO for businesses in Nadezhda district, Sofia: auto services, pharmacies, manufacturers, warehouses and neighborhood services. Google Business Profile, website and citation optimization for better Google Maps visibility.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "areas": "Service areas",
+      "current": "Nadezhda"
+    },
+    "badge": "Service area - Nadezhda",
+    "headline": "Local SEO for businesses in",
+    "headlineAccent": "Nadezhda, Sofia.",
+    "subheadline": "Auto services, pharmacies, manufacturing and warehouse firms, practices and neighborhood services in Nadezhda - better Google Maps visibility for searches from northern Sofia.",
+    "image1Alt": "Atlas Fold - local SEO for businesses in Nadezhda, Sofia",
+    "nap": {
+      "title": "Atlas Fold - serving Nadezhda, Sofia",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0877268727",
+      "email": "antoan@atlasfold.com",
+      "hours": "Mon–Fri 09:00–18:00"
+    },
+    "hook": {
+      "p1": "Nadezhda is one of the largest districts of Sofia, lying in the northern part of the city along Lomsko shose. When someone in Nadezhda searches for an auto service, a pharmacy or a dentist, Google shows only three profiles on the map - and they are not always the closest to the searcher. Many businesses in the district are simply invisible.",
+      "p2": "This page is for business owners in Nadezhda whose profile exists but does not show up when people nearby search. We work on what Google actually evaluates: the right categories, described services, genuine reviews and consistent business data."
+    },
+    "whyCompetitive": {
+      "title": "What makes Nadezhda a distinct district for local SEO",
+      "p1": "The district includes the neighborhoods Nadezhda I, II, III and IV, Tolstoy, Svoboda, Triagalnika, Iliyantsi and Trebich. It is a large territory with many residential blocks, but also industrial and warehouse zones and a more spread-out commercial network than in the center.",
+      "p2": "Distances here are larger. The searcher is often a few kilometres from the business, and Google's map ranks by proximity to the search location. A profile that is not clearly tied to its area can easily sit below a competitor from a neighboring quarter.",
+      "p3": "The practical consequence is that the profile needs to say exactly what you offer and which neighborhoods you serve. For businesses that work at the customer's location, the service area is often a stronger signal than the address."
+    },
+    "howSearchesWork": {
+      "title": "How searches really work in Nadezhda",
+      "intro": "Three types of search meet in the district:",
+      "patterns": [
+        {
+          "label": "\"[Service] Nadezhda\"",
+          "body": "A search by district name. Suited to businesses that want to reach residents of Nadezhda I-IV."
+        },
+        {
+          "label": "\"[Service] near me\"",
+          "body": "The searcher is in the area right now - at work, at home or on the road. Google uses the phone's location and shows the most relevant profiles within range."
+        },
+        {
+          "label": "\"[Service] near [landmark]\"",
+          "body": "\"pharmacy near Nadezhda metro station\", \"garage near Lomsko shose\". A landmark in the profile and on the website helps Google connect you to the place."
+        }
+      ],
+      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - without promising a specific position."
+    },
+    "landmarks": {
+      "title": "The neighborhoods and landmarks of Nadezhda your profile should name",
+      "intro": "Customers describe your location through familiar neighborhoods, streets and landmarks. They should appear naturally in your profile and on your website:",
+      "streetsLabel": "Neighborhoods and main streets",
+      "streets": [
+        "Nadezhda I-IV",
+        "Tolstoy",
+        "Svoboda",
+        "Iliyantsi",
+        "Trebich",
+        "Lomsko shose"
+      ],
+      "landmarksLabel": "Landmarks",
+      "landmarks": [
+        "Nadezhda metro station",
+        "Lomsko shose metro station",
+        "Han Kubrat metro station"
+      ],
+      "outro": "One or two landmarks mentioned as natural context (\"five minutes from Nadezhda metro station\") are enough, not listed as keywords. If your business serves customers at their location, list it as a service area instead of an address."
+    },
+    "proximity": {
+      "title": "Why an address in Nadezhda alone is not enough",
+      "p1": "Many think being \"in the district\" is enough. But a profile with complete categories, described services, current photos and regularly answered reviews beats a profile that merely exists on the map.",
+      "p2": "If you operate as a service-area business and do not show your address, your profile is judged by the area you have set. Then a clear description of services and districts matters even more."
+    },
+    "services": {
+      "title": "What we do for businesses in Nadezhda",
+      "intro": "Every engagement includes:",
+      "items": [
+        "Google Business Profile optimization (categories, services, description, photos, posts)",
+        "On-page SEO for the website (titles, structure, internal links, structured data)",
+        "Consistent business data (name, address or service area, phone) in suitable directories",
+        "A plan for collecting genuine reviews and replying to them, within Google's rules",
+        "Competitor tracking in the area and a report every two weeks"
+      ],
+      "linkLabel": "See the full SEO optimization service →"
+    },
+    "struggles": {
+      "title": "What local businesses most often struggle with",
+      "intro": "Typical gaps in profiles of businesses in Nadezhda:",
+      "items": [
+        "Generic categories. The primary category is too general, so Google does not know which searches to show you for.",
+        "An empty services list. The profile does not describe what exactly you offer and from what price, so it does not match specific queries.",
+        "Unanswered reviews. Missing replies and recent reviews signal a neglected profile.",
+        "Different data in directories. An old phone number, a different spelling of the street or a former address confuses the business data.",
+        "A website with no local page. The site does not say which neighborhoods you serve and does not use the names people actually search with."
+      ],
+      "outro": "Most of these are fixed within a few weeks. How quickly an effect shows on the map depends on competition in your niche; we give an exact estimate after an audit."
+    },
+    "faq": {
+      "title": "Local SEO in Nadezhda - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Is the service only for businesses with an address in Nadezhda?",
+          "answer": "No. We work with any business that has customers in the area - with an address in Nadezhda, in another district, or as a service-area business with no address shown."
+        },
+        "q2": {
+          "question": "Do you work with manufacturing and warehouse firms in Nadezhda?",
+          "answer": "Yes. The district also has industrial zones, and for B2B businesses a local presence helps with searches like \"supplier\" or \"warehouse\" in Sofia. We approach it by which customers you want to reach - local or business."
+        },
+        "q3": {
+          "question": "How soon will I see results?",
+          "answer": "First movement is usually visible after 4-6 weeks in low competition and 8-12 weeks in high competition. These are guidelines, not promises."
+        },
+        "q4": {
+          "question": "Can I keep my current website?",
+          "answer": "In most cases yes. We apply on-page fixes to the existing site. We recommend a new site only if the current one is technically broken."
+        },
+        "q5": {
+          "question": "What if a nearby competitor has far more reviews?",
+          "answer": "Competitor analysis is the first step. We see what they have and what they lack, and build a plan for the gaps. More reviews is not the only signal."
+        },
+        "q6": {
+          "question": "Do you manage reviews and replies?",
+          "answer": "We set up the system and templates and train your team. Replies come from you so they stay authentic."
+        },
+        "q7": {
+          "question": "How much does the service cost in Nadezhda?",
+          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+        },
+        "q8": {
+          "question": "Do you guarantee a Top 3 position?",
+          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to climb in",
+      "titleAccent": "Nadezhda?",
+      "body": "We will record a short personalized video reviewing your business profile, website and the top 3 competitors in the area - in your inbox within 24 hours.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services and districts",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "SEO optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Citation building in Sofia",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
+        },
+        {
+          "label": "Local SEO in Lyulin",
+          "href": "/rayoni/lyulin"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
+        }
+      ]
+    },
+    "serviceType": "Local SEO - Nadezhda, Sofia",
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Nadezhda district, Sofia - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+  },
+  "krasnoSeloAreaPage": {
+    "metadataTitle": "Local SEO in Krasno selo, Sofia | Atlas Fold",
+    "metadataDesc": "Local SEO for businesses in Krasno selo and Borovo, Sofia: shops, practices, venues, garages and neighborhood services. Google Business Profile, website and citation optimization for better Google Maps visibility.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "areas": "Service areas",
+      "current": "Krasno selo"
+    },
+    "badge": "Service area - Krasno selo",
+    "headline": "Local SEO for businesses in",
+    "headlineAccent": "Krasno selo, Sofia.",
+    "subheadline": "Shops, practices, venues, garages and neighborhood services in Krasno selo and Borovo - better Google Maps visibility for searches in western Sofia.",
+    "image1Alt": "Atlas Fold - local SEO for businesses in Krasno selo, Sofia",
+    "nap": {
+      "title": "Atlas Fold - serving Krasno selo, Sofia",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0877268727",
+      "email": "antoan@atlasfold.com",
+      "hours": "Mon–Fri 09:00–18:00"
+    },
+    "hook": {
+      "p1": "Krasno selo is a densely populated district in western Sofia, with busy commercial streets around Tsar Boris III Blvd and markets that draw customers from the whole neighborhood. When someone in Krasno selo searches for a dentist, a hairdresser or a garage, Google shows only three profiles on the map. Everything else sits below the visibility line.",
+      "p2": "This page is for business owners in Krasno selo and Borovo whose profile is in a good location but does not show up. We work on what Google actually evaluates: the right categories, described services, genuine reviews and consistent business data."
+    },
+    "whyCompetitive": {
+      "title": "What makes Krasno selo a distinct district for local SEO",
+      "p1": "The district has a varied commercial environment: neighborhood shops, practices, hair and beauty salons, venues and garages along Tsar Boris III Blvd and its side streets, as well as in the Borovo quarter.",
+      "p2": "Most customers here search close to home. So the difference between a visible and an invisible profile is often in the details: an exact category, clear services, current opening hours and recent reviews that show the business is active.",
+      "p3": "With the opening of Krasno selo metro station in 2020 the district is also easier to reach from other parts of the city. That adds searches from people who do not live nearby but come for work or for a service."
+    },
+    "howSearchesWork": {
+      "title": "How searches really work in Krasno selo",
+      "intro": "Three types of search meet in the district:",
+      "patterns": [
+        {
+          "label": "\"[Service] Krasno selo\"",
+          "body": "A search by district name. High intent and the most direct route to residents of the neighborhood."
+        },
+        {
+          "label": "\"[Service] near me\"",
+          "body": "The searcher is in the area right now - at the market, at work or on the road. Google uses the phone's location and shows the most relevant profiles within range."
+        },
+        {
+          "label": "\"[Service] near [landmark]\"",
+          "body": "\"hairdresser near Krasno selo metro station\", \"garage near Krasno selo market\". A landmark in the profile and on the website helps Google connect you to the place."
+        }
+      ],
+      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - without promising a specific position."
+    },
+    "landmarks": {
+      "title": "The streets and landmarks of Krasno selo your profile should name",
+      "intro": "Customers describe your location through familiar streets and landmarks. They should appear naturally in your profile and on your website:",
+      "streetsLabel": "Neighborhoods and main streets",
+      "streets": [
+        "Tsar Boris III Blvd",
+        "Zhitnitsa St",
+        "Krasno selo (residential area)",
+        "Borovo"
+      ],
+      "landmarksLabel": "Landmarks",
+      "landmarks": [
+        "Krasno selo metro station",
+        "Krasno selo market",
+        "Borovo market"
+      ],
+      "outro": "One or two landmarks mentioned as natural context (\"two minutes from Krasno selo metro station\") are enough, not listed as keywords. If your business serves customers at their location, list it as a service area instead of an address."
+    },
+    "proximity": {
+      "title": "Why an address in Krasno selo alone is not enough",
+      "p1": "Many think being \"in the neighborhood\" is enough. But a profile with complete categories, described services, current photos and regularly answered reviews beats a profile that merely exists on the map.",
+      "p2": "If you operate as a service-area business and do not show your address, your profile is judged by the area you have set. Then a clear description of services and districts matters even more."
+    },
+    "services": {
+      "title": "What we do for businesses in Krasno selo",
+      "intro": "Every engagement includes:",
+      "items": [
+        "Google Business Profile optimization (categories, services, description, photos, posts)",
+        "On-page SEO for the website (titles, structure, internal links, structured data)",
+        "Consistent business data (name, address or service area, phone) in suitable directories",
+        "A plan for collecting genuine reviews and replying to them, within Google's rules",
+        "Competitor tracking in the area and a report every two weeks"
+      ],
+      "linkLabel": "See the full SEO optimization service →"
+    },
+    "struggles": {
+      "title": "What local businesses most often struggle with",
+      "intro": "Typical gaps in profiles of businesses in Krasno selo:",
+      "items": [
+        "Generic categories. The primary category is too general, so Google does not know which searches to show you for.",
+        "An empty services list. The profile does not describe what exactly you offer and from what price, so it does not match specific queries.",
+        "Unanswered reviews. Missing replies and recent reviews signal a neglected profile.",
+        "Outdated opening hours. Holidays and schedule changes not reflected in the profile lead to disappointed customers and bad ratings.",
+        "A website with no local page. The site does not say which neighborhoods you serve and does not use the names people actually search with."
+      ],
+      "outro": "Most of these are fixed within a few weeks. How quickly an effect shows on the map depends on competition in your niche; we give an exact estimate after an audit."
+    },
+    "faq": {
+      "title": "Local SEO in Krasno selo - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Is the service only for businesses with an address in Krasno selo?",
+          "answer": "No. We work with any business that has customers in the area - with an address in Krasno selo, in another district, or as a service-area business with no address shown."
+        },
+        "q2": {
+          "question": "Does the page also cover Borovo?",
+          "answer": "Yes. Borovo is part of the district and searches there often use both names. We adapt the profile and website to how your customers actually search."
+        },
+        "q3": {
+          "question": "How soon will I see results?",
+          "answer": "First movement is usually visible after 4-6 weeks in low competition and 8-12 weeks in high competition. These are guidelines, not promises."
+        },
+        "q4": {
+          "question": "Can I keep my current website?",
+          "answer": "In most cases yes. We apply on-page fixes to the existing site. We recommend a new site only if the current one is technically broken."
+        },
+        "q5": {
+          "question": "What if a nearby competitor has far more reviews?",
+          "answer": "Competitor analysis is the first step. We see what they have and what they lack, and build a plan for the gaps. More reviews is not the only signal."
+        },
+        "q6": {
+          "question": "Do you manage reviews and replies?",
+          "answer": "We set up the system and templates and train your team. Replies come from you so they stay authentic."
+        },
+        "q7": {
+          "question": "How much does the service cost in Krasno selo?",
+          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+        },
+        "q8": {
+          "question": "Do you guarantee a Top 3 position?",
+          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to climb in",
+      "titleAccent": "Krasno selo?",
+      "body": "We will record a short personalized video reviewing your business profile, website and the top 3 competitors in the area - in your inbox within 24 hours.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services and districts",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "SEO optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Citation building in Sofia",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
+        }
+      ]
+    },
+    "serviceType": "Local SEO - Krasno selo, Sofia",
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Krasno selo and Borovo, Sofia - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
   }
 }

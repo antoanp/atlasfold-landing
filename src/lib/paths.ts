@@ -26,6 +26,8 @@ export const paths = {
     lyulin: "rayoni/lyulin",
     iztok: "rayoni/iztok",
     sredets: "rayoni/sredets",
+    nadezhda: "rayoni/nadezhda",
+    krasnoselo: "rayoni/krasno-selo",
   },
   legal: {
     faq: "chzvo",
