@@ -25,6 +25,7 @@ export const paths = {
     mladost: "rayoni/mladost",
     lyulin: "rayoni/lyulin",
     iztok: "rayoni/iztok",
+    sredets: "rayoni/sredets",
   },
   legal: {
     faq: "chzvo",

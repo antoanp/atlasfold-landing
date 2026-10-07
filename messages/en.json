@@ -1191,6 +1191,10 @@
         {
           "label": "SEO agency in Sofia",
           "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -1374,6 +1378,10 @@
         {
           "label": "Marketing Agency in Sofia",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -1558,6 +1566,10 @@
         {
           "label": "Marketing Agency in Sofia",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -1742,6 +1754,10 @@
         {
           "label": "Marketing Agency in Sofia",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -1968,6 +1984,10 @@
         {
           "label": "SEO agency in Sofia",
           "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -2156,6 +2176,10 @@
         {
           "label": "Marketing Agency in Sofia",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -2567,6 +2591,10 @@
         {
           "label": "Marketing Agency in Sofia",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Center (Sredets)",
+          "href": "/rayoni/sredets"
         }
       ]
     },
@@ -3081,5 +3109,193 @@
     },
     "serviceType": "SEO agency (local SEO)",
     "serviceDescription": "SEO agency for local businesses in Sofia, specialising in Google Business Profile, on-page SEO, citations, reviews and Google Maps measurement."
+  },
+  "sredetsAreaPage": {
+    "metadataTitle": "Local SEO in Central Sofia (Sredets) | Atlas Fold",
+    "metadataDesc": "Local SEO for businesses in central Sofia (Sredets): offices, clinics, studios, cafés and firms. Google Business Profile, website and citation optimization for better Google Maps visibility.",
+    "backToHome": "Back to home",
+    "breadcrumb": {
+      "home": "Home",
+      "areas": "Service areas",
+      "current": "Center (Sredets)"
+    },
+    "badge": "Service area - Center (Sredets)",
+    "headline": "Local SEO for businesses in",
+    "headlineAccent": "central Sofia.",
+    "subheadline": "Law and notary offices, clinics, beauty studios, cafés, restaurants and offices in Sredets - better Google Maps visibility for searches in central Sofia.",
+    "image1Alt": "Atlas Fold - local SEO for businesses in central Sofia (Sredets)",
+    "nap": {
+      "title": "Atlas Fold - serving central Sofia",
+      "name": "Atlas Fold",
+      "city": "Sofia, Bulgaria",
+      "phone": "0877268727",
+      "phoneDisplay": "0877268727",
+      "email": "antoan@atlasfold.com",
+      "hours": "Mon–Fri 09:00–18:00"
+    },
+    "hook": {
+      "p1": "Central Sofia has the most businesses per square kilometre in the city - and so the densest competition on Google Maps. When someone searches for a notary, a dentist or a beauty studio near NDK, Vitosha Blvd or Sofia University, Google shows only three profiles on the map. Everything else sits below the visibility line.",
+      "p2": "This page is for business owners in Sredets whose profile is in a good location but does not show up. In the center, proximity is almost equal for everyone, so the difference is made by relevance and trust: the right categories, clear services, genuine reviews and consistent business data. That is exactly what we work on."
+    },
+    "whyCompetitive": {
+      "title": "Why the center is the hardest district for local SEO",
+      "p1": "Sredets holds the administrative and commercial core of Sofia: around Vitosha Blvd, Tsar Osvoboditel Blvd, Vasil Levski Blvd, Graf Ignatiev St and Shipka St. Ministries, universities, offices, hotels and countless small venues and practices are all here.",
+      "p2": "In this density every type of service has dozens of competitors within a few hundred metres. Law and notary offices, accounting firms, dentists, beauty and hair studios, cafés, restaurants, coworking spaces and real estate agencies fight for the same three spots on the map.",
+      "p3": "This has two practical consequences. First, proximity is not decisive: when both you and a competitor are two blocks from the searcher, Google looks at which profile seems more relevant and more trustworthy. Second, gaps in the profile - a wrong primary category, missing services, unanswered reviews, a different phone number in directories - cost more than in quiet neighborhoods."
+    },
+    "howSearchesWork": {
+      "title": "How searches really work in the center",
+      "intro": "Three types of search meet in the center:",
+      "patterns": [
+        {
+          "label": "\"[Service] center\" or \"[service] Sofia center\"",
+          "body": "A deliberate search for a service in the central part. High intent, but also the most competitors in the results."
+        },
+        {
+          "label": "\"[Service] near me\"",
+          "body": "The searcher is in the area right now - at work, on the way to the metro or out for a walk. Google uses the phone's location and shows the most relevant profiles within range."
+        },
+        {
+          "label": "\"[Service] near [landmark]\"",
+          "body": "\"café near NDK\", \"notary near Sofia University\". A landmark search, where the landmark name in the profile and on the website helps Google connect you to the place."
+        }
+      ],
+      "outro": "For each of them Google weighs relevance, distance and prominence. In the center distance rarely sets you apart, so the work is in relevance (categories, services, description) and prominence (reviews, citations, profile completeness). These are the things we can improve - without promising a specific position."
+    },
+    "landmarks": {
+      "title": "The streets and landmarks of Sredets your profile should name",
+      "intro": "Customers describe your location through familiar streets and landmarks. They should appear naturally in your profile and on your website:",
+      "streetsLabel": "Main streets",
+      "streets": [
+        "Vitosha Blvd",
+        "Tsar Osvoboditel Blvd",
+        "Vasil Levski Blvd",
+        "Graf Ignatiev St",
+        "Shipka St",
+        "Rakovski St",
+        "Dondukov Blvd",
+        "Moskovska St"
+      ],
+      "landmarksLabel": "Landmarks",
+      "landmarks": [
+        "NDK",
+        "TSUM",
+        "Sofia University \"St. Kliment Ohridski\"",
+        "National Assembly",
+        "St. Alexander Nevsky Cathedral",
+        "City Garden",
+        "Serdika metro station",
+        "Sofia University metro station"
+      ],
+      "outro": "Two or three landmarks mentioned as natural context (\"two minutes from Sofia University metro station\") are enough, not listed as keywords. If your business serves customers at their location, list it as a service area instead of an address."
+    },
+    "proximity": {
+      "title": "Why a central address alone is not enough",
+      "p1": "Many owners in Sredets think a central address is advantage enough. But dozens of competitors share it. A profile with complete categories, described services, current photos and regularly answered reviews beats a profile that merely \"is in the center\".",
+      "p2": "If you operate as a service-area business and do not show your address, your profile is judged by the area you have set. Then a clear description of services and districts matters even more, because there is no physical address for Google to lean on."
+    },
+    "services": {
+      "title": "What we do for businesses in Sredets",
+      "intro": "Every engagement for the center includes:",
+      "items": [
+        "Google Business Profile optimization (categories, services, description, photos, posts)",
+        "On-page SEO for the website (titles, structure, internal links, structured data)",
+        "Consistent business data (name, address or service area, phone) in suitable directories",
+        "A plan for collecting genuine reviews and replying to them, within Google's rules",
+        "Competitor tracking in the area and a report every two weeks"
+      ],
+      "linkLabel": "See the full SEO optimization service →"
+    },
+    "struggles": {
+      "title": "What businesses in the center most often struggle with",
+      "intro": "Typical gaps in profiles of offices, clinics, studios and venues in the central part:",
+      "items": [
+        "Generic categories. The primary category is \"Service\" or \"Consultant\" instead of the exact one (for example \"Notary\" or \"Dentist\"), so Google does not know which searches to show you for.",
+        "An empty services list. The profile does not describe what exactly you offer and from what price, so it does not match specific queries.",
+        "Unanswered reviews. In dense competition, missing replies and recent reviews signal a neglected profile.",
+        "Different data in directories. An old phone number, a different spelling of the street or a former address after a move confuses the business data.",
+        "A website with no local page. The site describes the service as nationwide and does not say which districts it serves."
+      ],
+      "outro": "Most of these are fixed within a few weeks. How quickly an effect shows on the map depends on competition in your niche; we give an exact estimate after an audit."
+    },
+    "faq": {
+      "title": "Local SEO in the center - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Is the service only for businesses with an address in Sredets?",
+          "answer": "No. We work with any business that has customers in the center - with an address in Sredets, in another district, or as a service-area business with no address shown."
+        },
+        "q2": {
+          "question": "Why is the center so competitive?",
+          "answer": "Because many businesses from the same niche sit in a small area. A small difference in the profile - category, services, reviews - often decides who makes the top three."
+        },
+        "q3": {
+          "question": "How soon will I see results in the center?",
+          "answer": "First movement is usually visible after 4-6 weeks in low competition and 8-12 weeks in high competition; in the center expect the longer end. These are guidelines, not promises."
+        },
+        "q4": {
+          "question": "Can I keep my current website?",
+          "answer": "In most cases yes. We apply on-page fixes to the existing site. We recommend a new site only if the current one is technically broken."
+        },
+        "q5": {
+          "question": "What if a nearby competitor has far more reviews?",
+          "answer": "Competitor analysis is the first step. We see what they have and what they lack, and build a plan for the gaps. More reviews is not the only signal."
+        },
+        "q6": {
+          "question": "Do you manage reviews and replies?",
+          "answer": "We set up the system and templates and train your team. Replies come from you so they stay authentic."
+        },
+        "q7": {
+          "question": "How much does the service cost in the center?",
+          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+        },
+        "q8": {
+          "question": "Do you guarantee a Top 3 position?",
+          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to climb in the",
+      "titleAccent": "center?",
+      "body": "We will record a short personalized video reviewing your business profile, website and the top 3 competitors in the center - in your inbox within 24 hours.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services and districts",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "SEO optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Citation building in Sofia",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/rayoni/lozenets"
+        }
+      ]
+    },
+    "serviceType": "Local SEO - Center (Sredets), Sofia",
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in central Sofia (Sredets) - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
   }
 }
