@@ -21,6 +21,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
+      path: `/${paths.services.seoServices}`,
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
+      path: `/${paths.services.seoAgency}`,
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
       path: `/${paths.services.localSeo}`,
       priority: 0.9,
       changeFrequency: "monthly",

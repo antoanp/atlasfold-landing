@@ -16,6 +16,8 @@ export const paths = {
     localSeo: "uslugi/lokalno-seo-sofia",
     googleMapsRanking: "uslugi/google-maps-klasirane-sofia",
     citationBuilding: "uslugi/izgrazhdane-citacii-sofia",
+    seoServices: "uslugi/seo-uslugi-sofia",
+    seoAgency: "uslugi/seo-agenciya-sofia",
   },
   areas: {
     hub: "rayoni",

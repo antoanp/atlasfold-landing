@@ -364,7 +364,9 @@
       "seoOptimization": "SEO Optimization Sofia",
       "localSeoSofia": "Local SEO Sofia",
       "googleMapsRanking": "Google Maps Ranking Sofia",
-      "citationBuilding": "Citation Building Sofia"
+      "citationBuilding": "Citation Building Sofia",
+      "seoServices": "SEO Services",
+      "seoAgency": "SEO Agency"
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
@@ -677,6 +679,14 @@
         {
           "label": "Local SEO in Lozenets",
           "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
         }
       ]
     }
@@ -733,6 +743,14 @@
         {
           "label": "Local SEO in Lozenets",
           "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
         }
       ]
     }
@@ -907,6 +925,14 @@
         {
           "label": "Local SEO in Lozenets",
           "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
         }
       ]
     },
@@ -1676,6 +1702,14 @@
         {
           "label": "Internet Marketing Service",
           "href": "/uslugi/internet-marketing-sofia"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
         }
       ]
     },
@@ -2292,5 +2326,502 @@
     ],
     "serviceType": "Local SEO and Google Maps Optimization - Iztok, Sofia",
     "serviceDescription": "Local SEO service for businesses serving Iztok, Sofia: Google Business Profile optimization, on-page SEO for neighborhood intent, citation building, review growth systems, and durable Top 3 Google Maps visibility backed by measurable monthly performance reporting and transparent execution milestones."
+  },
+  "seoServicesPage": {
+    "metadataTitle": "SEO Services in Sofia for Local Businesses - What They Include and Cost | Atlas Fold",
+    "metadataDesc": "What SEO services for a local business in Sofia include: Google Business Profile optimization, on-page SEO, citations, reviews and reporting. From 200 EUR a month, no setup fee.",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "current": "SEO Services Sofia"
+    },
+    "badge": "SEO services",
+    "headline": "SEO services in Sofia -",
+    "headlineAccent": "what you get for the monthly fee.",
+    "subheadline": "The concrete list of work, the limits of the service, the price and realistic timelines - so you can compare offers with open eyes.",
+    "imageSrc": "/images/og-image.png",
+    "image1Alt": "Atlas Fold - SEO services for local businesses in Sofia",
+    "hook": [
+      "When a business owner in Sofia searches for SEO services, they usually want one of two things: to know exactly what they will pay for, or to compare offers that all sound the same. The trouble is that SEO is such a broad word that two agencies can charge the same amount and do completely different work. This page explains what Atlas Fold's SEO services include, what they leave out, and how to judge whether they fit you.",
+      "We only do local SEO: the work that decides whether your business appears among the top three places on the Google map when a customer in Sofia searches for what you offer. We do not sell social media, ads or web design as an add-on. That keeps the list below short and measurable, and you can check every item on it yourself."
+    ],
+    "sections": [
+      {
+        "title": "What our SEO services include - six concrete activities",
+        "paragraphs": [
+          "Each month the work is split across six areas. They do not get equal attention every month: in the first weeks the profile and the website take most of the time, later it is reviews, steady activity and watching competitors."
+        ],
+        "cards": [
+          {
+            "title": "Google Business Profile optimization",
+            "body": "We set up the categories, description, hours, service areas, services list and products so they match how customers actually search. Services are described with a real price or clearly marked as having none. We do not change the primary category without evidence from competitors, because that mistake can sink your position."
+          },
+          {
+            "title": "On-page SEO for your website",
+            "body": "We review page titles, main headings (H1 and H2), contact details in the footer, opening hours, the call button and mobile speed. We prepare a separate page for each core service and for the districts you serve - but only when the page has real value for the searcher. If you have no website, we say so openly: some results are possible without one, just slower."
+          },
+          {
+            "title": "Citations and consistent business data",
+            "body": "Your name, phone and website should look identical everywhere: business registries, maps and directories. We prepare and maintain these listings, starting with the most important platforms and the Bulgarian directories. You approve every listing before it is submitted."
+          },
+          {
+            "title": "Reviews and reputation",
+            "body": "We help you ask real customers for reviews in a way that follows Google's rules, and reply to every review quickly and in a human voice. We never write or suggest review text and never buy reviews - that is the surest way to lose a profile."
+          },
+          {
+            "title": "Steady activity on the profile",
+            "body": "We publish updates, prepare photo guidance with sensible file names and track what competitors change. A profile Google sees as alive is more convincing than one updated once a year ago."
+          },
+          {
+            "title": "Measurement and reports",
+            "body": "We track your map position from many points across Sofia with heatmaps, your average position and your share of top-three placements. You get clear numbers every two weeks, including when they do not improve. We also check whether AI assistants such as ChatGPT and Gemini mention your business, without promising a particular outcome."
+          }
+        ]
+      },
+      {
+        "title": "What our SEO services do not include",
+        "paragraphs": [
+          "An honest list of exclusions prevents misunderstandings. We do not manage social media, run Google Ads campaigns, build websites from scratch as a main service, or buy links or reviews. If you need any of that, work with a specialist in that field - and we will tell you during the audit if we see that it matters more than SEO.",
+          "Local SEO also does not help businesses without local customers, such as an online shop that sells nationwide. Other approaches fit those cases better, and there is no point paying for a service that cannot help you."
+        ]
+      },
+      {
+        "title": "Which businesses these services suit",
+        "paragraphs": [
+          "They work best where the customer searches for the service near them and decides quickly: clinics, salons, car repair shops, vets and grooming studios, opticians, accounting and law offices, repair services and tradespeople. We work with businesses that have a street-facing location and with those that travel to the customer - for the latter, the address on the profile is hidden and the service areas are shown instead.",
+          "You do not need a large budget. You need a real service, at least a minimal presence on Google, and a willingness to collect reviews from your customers - the one part we cannot do for you."
+        ]
+      },
+      {
+        "title": "How much SEO services cost in Sofia",
+        "paragraphs": [
+          "Prices start from 200 EUR a month. There is no setup fee - you pay only the monthly fee, and the first month is paid before work begins. The exact amount depends on two things: how much one customer is worth to your business (the higher the value, the more intensive and competitive the work) and whether you have a website we can make changes to.",
+          "We call the first three months the initial growth phase - the period when we do the main work on the profile, the site and the citations. After that you continue month to month with 30 days' notice. You receive the exact price and terms in writing after a call, before you pay anything. For some niches we also offer a conditional guarantee - we discuss its terms after the free audit, not in an advertisement."
+        ]
+      },
+      {
+        "title": "How to compare offers for SEO services",
+        "paragraphs": [
+          "If you receive several offers, compare what stands behind the price, not the price itself. These six checks take an hour and save months of disappointment:"
+        ],
+        "items": [
+          "Does the offer list concrete work for the first 30 days, or only vague phrases such as \"a full strategy\"?",
+          "How will results be measured - map positions from many points, or a single check?",
+          "Who will actually make the changes to your profile and site, and can you speak to them directly?",
+          "Is a specific Google position promised without conditions? Nobody controls Google, and honest offers admit it.",
+          "Do the profile, the site and the data stay yours if you end the work?",
+          "What are the term, notice period and payment terms - and are they written down before the first payment?"
+        ],
+        "outro": "We are ready to answer each of these before you pay anything - and we recommend asking every agency you speak with."
+      },
+      {
+        "title": "Which results are realistic, and when",
+        "paragraphs": [
+          "Nobody can honestly promise a specific Google position and we do not. Our rule of thumb from practice is first measurable movement on the map after 4-6 weeks in low-competition niches and after 8-12 weeks in more competitive ones. These are guidelines, not a guarantee.",
+          "What speeds results up: reviews that name the service and the district in the customers' own words, a complete and accurate profile, and a website that answers customers' questions clearly. What slows them down: inconsistent business data, a primary category changed for no reason, and a lack of reviews."
+        ]
+      },
+      {
+        "title": "What a month of work looks like",
+        "paragraphs": [
+          "To avoid surprises, here is how a month usually looks after the initial phase. The first week we review heatmap positions and competitor changes - that shows where you lose visibility and whether a new player has appeared. The second and third weeks are for execution: new or updated services in the profile, additions to website pages, new directory listings, review replies and photo guidance.",
+          "The last week is for measurement and the report. We compare the new numbers with the previous ones, record what changed and why, and plan the next month. If something is not working - a page that earns no impressions, for example - we say so and replace it instead of continuing out of habit."
+        ]
+      },
+      {
+        "title": "The most common local SEO mistakes",
+        "paragraphs": [
+          "After reviewing dozens of business profiles in Sofia we see the same mistakes again and again. Most are quick to fix once you know where to look:"
+        ],
+        "items": [
+          "The primary category was changed because it \"sounds better\". It is the strongest signal on the profile and should change only with clear evidence from competitors.",
+          "The profile name contains keywords that are not part of the real business name. That breaks Google's rules and can lead to suspension.",
+          "Opening hours differ between the profile, the website and directories. Customers and Google see a contradiction and trust you less.",
+          "The services list is short and generic: \"repairs\", \"consulting\". Specific services with a description and a clear price appear for more precise searches.",
+          "There are few reviews and no replies. A profile without replies looks abandoned even when the business works well.",
+          "The website has no page for the specific service and district, so the profile has nothing to point to and loses part of its potential."
+        ],
+        "outro": "Our audit checks exactly these things and ranks them by impact - first what brings positions fastest, then the rest."
+      },
+      {
+        "title": "How work starts - four steps",
+        "ordered": true,
+        "cards": [
+          {
+            "title": "1. Free video audit",
+            "body": "We review your profile, website and nearest competitors and send you a short personalized video within 24 hours. No sales call."
+          },
+          {
+            "title": "2. Call and written offer",
+            "body": "If the video is useful, we talk by phone, agree the scope and price and send everything in writing."
+          },
+          {
+            "title": "3. Initial phase: profile, site, citations",
+            "body": "In the first weeks we put the foundations in order - the profile, the website pages and consistent business data."
+          },
+          {
+            "title": "4. Monthly work and reports",
+            "body": "After the foundations we work on reviews, activity and competition and measure the result every two weeks."
+          }
+        ]
+      }
+    ],
+    "localReferences": {
+      "title": "SEO services by district of Sofia",
+      "p1": "Sofia is not one market: customers in Lozenets, Mladost, Lyulin and Iztok search differently and meet different competitors. That is why our strategy is built at district level, not only at city level.",
+      "p2": "We have prepared separate pages for four districts. If your business serves one of them, start there:",
+      "links": [
+        {
+          "label": "Local SEO in Lozenets →",
+          "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "Local SEO in Mladost →",
+          "href": "/rayoni/mladost"
+        },
+        {
+          "label": "Local SEO in Lyulin →",
+          "href": "/rayoni/lyulin"
+        },
+        {
+          "label": "Local SEO in Iztok →",
+          "href": "/rayoni/iztok"
+        }
+      ]
+    },
+    "faq": {
+      "title": "SEO services in Sofia - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "What do SEO services for a small business in Sofia include?",
+          "answer": "Google Business Profile optimization, on-page improvements to the website, consistent business data in directories, help with reviews, steady profile activity and reports every two weeks. The exact scope depends on your business's needs after the audit."
+        },
+        "q2": {
+          "question": "How much do SEO services cost in Sofia?",
+          "answer": "With us prices start from 200 EUR a month, with no setup fee. The final price depends on the niche, the value of a customer and whether you have a website, and it is confirmed in writing before you pay."
+        },
+        "q3": {
+          "question": "Do I need a website to use SEO services?",
+          "answer": "Not necessarily. A Google profile alone can bring you positions and customers, but with a website results are steadier and faster because the pages support the profile. If you have no site, we will tell you honestly what is possible."
+        },
+        "q4": {
+          "question": "What is the difference between SEO services and Google Ads?",
+          "answer": "Google Ads is pay-per-click and stops working when you stop paying. SEO builds a position that stays, but moves more slowly. The two can run together - we only handle the SEO part."
+        },
+        "q5": {
+          "question": "How long until I see a result?",
+          "answer": "The guideline is 4-6 weeks for first measurable movement in low-competition niches and 8-12 weeks in more competitive ones. We do not promise a specific position because Google does not allow that."
+        },
+        "q6": {
+          "question": "Do I need to collect reviews for it to work?",
+          "answer": "Yes, reviews are the strongest signal we cannot create for you. We help you ask correctly and reply to them, but the text always belongs to the customer."
+        },
+        "q7": {
+          "question": "Can I stop if I am not satisfied?",
+          "answer": "After the initial three-month phase you continue month to month and can end with 30 days' notice. You receive the terms in writing before you pay."
+        },
+        "q8": {
+          "question": "How do I know whether my business is a fit?",
+          "answer": "The easiest way is to request the free video audit. Within 24 hours you will see where you stand against competitors and we can decide together whether working together makes sense."
+        }
+      }
+    },
+    "cta": {
+      "title": "Want to see what we would",
+      "titleAccent": "do for you?",
+      "body": "A free personalized video audit of your Google Business Profile, website and nearest competitors - in your inbox within 24 hours. No sales call.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services & areas",
+      "items": [
+        {
+          "label": "SEO Agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps Ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "Citation Building in Sofia",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/rayoni/lozenets"
+        }
+      ]
+    },
+    "serviceType": "SEO services (local SEO)",
+    "serviceDescription": "SEO services for local businesses in Sofia: Google Business Profile optimization, on-page SEO, citations, reviews and Google Maps position tracking."
+  },
+  "seoAgencyPage": {
+    "metadataTitle": "SEO Agency in Sofia - How to Choose and What to Ask | Atlas Fold",
+    "metadataDesc": "How to choose an SEO agency in Sofia: seven questions for every offer, red flags, realistic timelines and how Atlas Fold, a specialist local SEO agency, works. From 200 EUR a month.",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "current": "SEO Agency Sofia"
+    },
+    "badge": "SEO agency",
+    "headline": "SEO agency in Sofia -",
+    "headlineAccent": "how to choose the right one.",
+    "subheadline": "A guide to comparing agencies: what to ask, what to watch out for and where a specialist local SEO agency fits.",
+    "imageSrc": "/images/lighthouse_atlasfold.com_analyze_page_load.png",
+    "image1Alt": "Lighthouse audit of atlasfold.com - an example of measuring website speed",
+    "hook": [
+      "Choosing an SEO agency in Sofia is hard because most offers sound the same: \"first page\", \"Top 3\", \"organic growth\". Rarely does anyone show you how they will measure the result and what exactly they will do in the first 30 days. This page is not another advert full of promises but a guide: how to compare agencies and where we fit in that comparison.",
+      "Atlas Fold is a specialist local SEO agency. We work with businesses in Sofia that need more calls and visits from Google Maps and local results. If your goal is a nationwide online shop, there is probably a better-suited agency - and we will tell you so honestly during the audit."
+    ],
+    "sections": [
+      {
+        "title": "Seven questions to ask every SEO agency",
+        "paragraphs": [
+          "Use the list on us too. A good agency will not struggle with the answers, while a poor one will start speaking in generalities."
+        ],
+        "ordered": true,
+        "cards": [
+          {
+            "title": "1. How will you measure the result?",
+            "body": "Ask for concrete metrics: map position from many points, share of top-three placements, calls and requests from the profile. \"More traffic\" without numbers is not measurement."
+          },
+          {
+            "title": "2. What will you do in the first 30 days?",
+            "body": "A good answer is a list: profile audit, categories, services, website pages, citations. A poor answer is \"we will start with a strategy\"."
+          },
+          {
+            "title": "3. Who will work on my project?",
+            "body": "With us you work directly with the founder of Atlas Fold - no handoff to an unknown team. At larger agencies, ask for the person who actually makes the changes."
+          },
+          {
+            "title": "4. Do you promise a specific position?",
+            "body": "Nobody controls Google. If an agency guarantees a position without conditions, ask what happens if it does not deliver."
+          },
+          {
+            "title": "5. How do you collect reviews and citations?",
+            "body": "The right answer involves real customers and your approval. Buying reviews or publishing your data without your knowledge is a reason to say no."
+          },
+          {
+            "title": "6. What are the contract terms?",
+            "body": "Ask about term, notice and what happens to the profile and pages if you leave. The profile must stay yours in every case."
+          },
+          {
+            "title": "7. Can I see what was done?",
+            "body": "Ask for access to reports, heatmaps and the change history. You own the profile and have the right to see everything."
+          }
+        ]
+      },
+      {
+        "title": "Red flags when choosing an SEO agency",
+        "paragraphs": [
+          "These six signals are the ones we most often see in offers that later disappoint:"
+        ],
+        "items": [
+          "It guarantees a specific Google position with no conditions and no explanation of how.",
+          "It does not ask for access to your profile and offers to create a new one under its own control.",
+          "It offers to buy reviews or \"packages\" of hundreds of citations for a few euros.",
+          "It does not explain which steps it will take or in what order.",
+          "It shows results as \"keyword positions\" without saying where the check was made from.",
+          "It pressures you to sign a long-term contract on the first call."
+        ],
+        "outro": "No single flag is a final verdict, but three of them together are reason enough to look for another offer."
+      },
+      {
+        "title": "Why specialising in local SEO matters",
+        "paragraphs": [
+          "A general agency spreads its attention across ads, social media, websites and SEO. Local SEO is a different discipline: map position depends on the searcher's proximity, categories, reviews and consistent data - not only the text of a website. From different points in Sofia the same business can be first in one district and outside the top twenty in another.",
+          "That is why we measure with heatmaps from points across the whole Sofia grid, not a single check from an office computer. It is the most common flaw in reports that look good but do not reflect what the customer on the street sees.",
+          "Specialisation has a limit too. We do not do everything: if you need Google Ads campaigns or social media, we will recommend someone who does that every day."
+        ]
+      },
+      {
+        "title": "How Atlas Fold works",
+        "paragraphs": [
+          "We start with a free video audit: we review your profile, website and nearest competitors and send a short personalized video within 24 hours. No sales call. If the audit is useful, we talk by phone and agree the scope.",
+          "For work on your profile we need manager access through Google's settings. We do not ask for a password and do not need one. You can remove the access at any time, and the profile always remains yours.",
+          "The work covers profile optimization, website improvements, consistent business data in directories, help with reviews and steady activity. Every two weeks you receive a report with map positions, share of top-three placements and a description of what was done - including when the numbers do not improve.",
+          "The price also includes a check of how AI assistants such as ChatGPT and Gemini mention your business. We do not promise a specific result from it - it is an additional signal, not a guarantee."
+        ]
+      },
+      {
+        "title": "What to expect in the first 90 days",
+        "ordered": true,
+        "cards": [
+          {
+            "title": "Month one: the foundations",
+            "body": "Audit, categories and services in order, a description in Bulgarian, first website pages and consistent business data. At this stage there is often no movement on the map yet."
+          },
+          {
+            "title": "Month two: reviews and citations",
+            "body": "We start systematically asking real customers for reviews, submit the directory listings and add activity and photos to the profile."
+          },
+          {
+            "title": "Month three: measurement and corrections",
+            "body": "We compare the heatmaps from the start and now, keep what works and replace what does not. In low-competition niches the first measurable movement is often seen in this period."
+          }
+        ]
+      },
+      {
+        "title": "How to read a report from an SEO agency",
+        "paragraphs": [
+          "The report is the quickest way to see what you actually get. A good report is short, comparable with the previous one and does not hide bad numbers. Pay attention to the following:"
+        ],
+        "items": [
+          "The data source: where the checks were made from and from how many points. A single check from one computer does not show what your customers see in different districts.",
+          "Comparison over time: new numbers next to old ones for the same keywords and measurement conditions.",
+          "Related business metrics: calls, direction requests and website visits - not only positions.",
+          "A description of the work done: what was changed in the profile, site and directories, and why.",
+          "An admission of failures: what did not work and what will change."
+        ],
+        "outro": "If the reports you receive now do not meet these five points, you have reason to ask for a change - whichever agency you work with."
+      },
+      {
+        "title": "What to prepare before the first call",
+        "paragraphs": [
+          "A conversation with an agency is more useful when you have a few numbers at hand. They need not be exact - just honest:"
+        ],
+        "items": [
+          "How much a new customer is worth to you and how often they return.",
+          "Where your customers come from now - referrals, Google, ads, social media.",
+          "The two or three competitors you see most often in your area.",
+          "Whether you have a website and who has access to make changes to it.",
+          "How many Google reviews you have and how many have been replied to."
+        ]
+      },
+      {
+        "title": "Agency selection mistakes you can avoid",
+        "paragraphs": [
+          "The most common mistake is choosing on price alone. The cheaper offer often means less attention to your profile or services that cannot be measured. The second is choosing on promises: the more categorical the promise, the more carefully you should check it. The third is not asking in writing what is included - when something is not written down, you rely only on the other side's goodwill.",
+          "The fourth mistake is expecting a result in two weeks and changing agency before the work has had time to act. Local SEO accumulates: the profile, reviews and data support one another and the effect appears in stages. Agree realistic timelines and demand clear interim metrics - that way you know whether the direction is right before the enquiries arrive."
+        ]
+      },
+      {
+        "title": "Contract, price and transparency",
+        "paragraphs": [
+          "Our prices start from 200 EUR a month, with no setup fee. The first three months are the initial growth phase, after which you continue month to month with 30 days' notice. You receive all terms in writing before the first payment.",
+          "The profile, website and data stay yours. For some niches we offer a conditional guarantee after a check of the competition; we discuss its terms after the audit, not in an advertisement."
+        ]
+      },
+      {
+        "title": "When Atlas Fold is not the right choice",
+        "paragraphs": [
+          "No agency suits everyone and we prefer to say so up front. We are not the right choice if you:"
+        ],
+        "items": [
+          "run a nationwide online shop with no local customers;",
+          "are looking for an agency for social media, video or ads;",
+          "expect a result in a week or a position guaranteed without conditions;",
+          "do not want to collect reviews from your customers."
+        ]
+      }
+    ],
+    "localReferences": {
+      "title": "An SEO agency for businesses in your district",
+      "p1": "The agency you choose should know the district where your business operates. Customers in Lozenets, Mladost, Lyulin and Iztok search differently and meet different competitors, so the strategy is built by district.",
+      "p2": "Browse our pages for the districts we serve most often:",
+      "links": [
+        {
+          "label": "Local SEO in Lozenets →",
+          "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "Local SEO in Mladost →",
+          "href": "/rayoni/mladost"
+        },
+        {
+          "label": "Local SEO in Lyulin →",
+          "href": "/rayoni/lyulin"
+        },
+        {
+          "label": "Local SEO in Iztok →",
+          "href": "/rayoni/iztok"
+        }
+      ]
+    },
+    "faq": {
+      "title": "SEO agency in Sofia - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "How do I choose an SEO agency in Sofia?",
+          "answer": "Compare agencies on how they measure results, the plan for the first 30 days, who works on the project, the exit terms and whether they promise things that are not in their control. Ask the seven questions above to every agency, including us."
+        },
+        "q2": {
+          "question": "How much does an SEO agency cost in Sofia?",
+          "answer": "Market prices vary widely. At Atlas Fold local SEO starts from 200 EUR a month with no setup fee; the final price depends on the niche and whether you have a website, and is confirmed in writing."
+        },
+        "q3": {
+          "question": "What is the difference between an SEO agency and a marketing agency?",
+          "answer": "A marketing agency usually covers many channels - social media, ads, content. An SEO agency focuses on organic visibility in search. Atlas Fold focuses only on local SEO and Google Maps."
+        },
+        "q4": {
+          "question": "What is the difference between local SEO and regular SEO?",
+          "answer": "Regular SEO aims for positions in the main results nationwide, while local SEO aims for the map and local results when someone searches from a specific district. The signals and the reports are different."
+        },
+        "q5": {
+          "question": "Do I need to give you my profile password?",
+          "answer": "No. Adding us as a manager from Google's settings is enough. We never need your password and do not ask for it."
+        },
+        "q6": {
+          "question": "Will I have access to the reports?",
+          "answer": "Yes. You receive reports every two weeks with map positions, share of top-three placements and a description of the work done."
+        },
+        "q7": {
+          "question": "Can I stop working together?",
+          "answer": "After the initial three-month phase, at any time with 30 days' notice. The profile and the data stay yours."
+        },
+        "q8": {
+          "question": "How do I get started?",
+          "answer": "Request the free video audit. Within 24 hours you receive a short personalized video about your profile, website and nearest competitors, with no sales call."
+        }
+      }
+    },
+    "cta": {
+      "title": "Need a second opinion on an",
+      "titleAccent": "SEO agency?",
+      "body": "Send your business details and you will receive a free video audit - we show where you stand against competitors, whether or not we end up working together. No sales call.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services & areas",
+      "items": [
+        {
+          "label": "SEO Services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "Marketing Agency in Sofia",
+          "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "SEO Optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps Ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "Local SEO in Lozenets",
+          "href": "/rayoni/lozenets"
+        }
+      ]
+    },
+    "serviceType": "SEO agency (local SEO)",
+    "serviceDescription": "SEO agency for local businesses in Sofia, specialising in Google Business Profile, on-page SEO, citations, reviews and Google Maps measurement."
   }
 }

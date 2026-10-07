@@ -77,6 +77,18 @@ export function Footer({ localeAlternates }: FooterProps = {}) {
                 {t("services.seoOptimization")}
               </Link>
               <Link
+                href={localePath(locale, paths.services.seoServices)}
+                className="hover:text-text-primary"
+              >
+                {t("services.seoServices")}
+              </Link>
+              <Link
+                href={localePath(locale, paths.services.seoAgency)}
+                className="hover:text-text-primary"
+              >
+                {t("services.seoAgency")}
+              </Link>
+              <Link
                 href={localePath(locale, paths.services.localSeo)}
                 className="hover:text-text-primary"
               >
