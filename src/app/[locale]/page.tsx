@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Hero } from "@/components/home/hero";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { Explore } from "@/components/home/explore";
 import { HomePageJsonLd } from "@/components/home/json-ld";
 import { getVisitorLocation } from "@/lib/geo";
 
@@ -42,6 +43,7 @@ export default async function HomePage({ params }: Props) {
         <RoiCalculator />
         <Process />
         <Faq />
+        <Explore locale={locale} />
       </main>
       <Footer />
     </Fragment>

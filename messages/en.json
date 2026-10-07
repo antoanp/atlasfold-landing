@@ -354,6 +354,14 @@
         {
           "label": "Local SEO in Mladost →",
           "href": "/rayoni/mladost"
+        },
+        {
+          "label": "Local SEO in Center (Sredets) →",
+          "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All districts →",
+          "href": "/rayoni"
         }
       ]
     },
@@ -1195,6 +1203,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -1382,6 +1394,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -1570,6 +1586,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -1758,6 +1778,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -1988,6 +2012,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -2180,6 +2208,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -2595,6 +2627,10 @@
         {
           "label": "Local SEO in Center (Sredets)",
           "href": "/rayoni/sredets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
@@ -3292,10 +3328,202 @@
         {
           "label": "Local SEO in Lozenets",
           "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "All service areas",
+          "href": "/rayoni"
         }
       ]
     },
     "serviceType": "Local SEO - Center (Sredets), Sofia",
     "serviceDescription": "Local SEO and Google Maps optimization for businesses in central Sofia (Sredets) - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+  },
+  "areasHubPage": {
+    "metadataTitle": "Service Areas in Sofia - Local SEO by District | Atlas Fold",
+    "metadataDesc": "Local SEO by Sofia district: Center, Lozenets, Mladost, Lyulin and Iztok. Google Business Profile, website and citation optimization for better Google Maps visibility.",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Service areas"
+    },
+    "badge": "Service areas",
+    "headline": "Local SEO by district in",
+    "headlineAccent": "Sofia.",
+    "subheadline": "Google Maps searches are local to the neighborhood. That is why we approach each district separately.",
+    "hook": {
+      "p1": "When someone searches for a service on Google Maps they usually want it nearby. Results are ordered by the district the search comes from, not by the city as a whole. The same business can be visible in one district and completely invisible in the next.",
+      "p2": "This page gathers the districts of Sofia we have dedicated pages for. On each one we describe how searches work, which streets and landmarks matter and what local businesses usually struggle with."
+    },
+    "areas": {
+      "title": "Districts we have pages for",
+      "cta": "See the district →",
+      "items": [
+        {
+          "name": "Center (Sredets)",
+          "href": "/rayoni/sredets",
+          "body": "Offices, clinics, studios, cafés and firms in the densest competition in the city."
+        },
+        {
+          "name": "Lozenets",
+          "href": "/rayoni/lozenets",
+          "body": "Dental clinics, cafés, salons, fitness studios and professional services."
+        },
+        {
+          "name": "Mladost",
+          "href": "/rayoni/mladost",
+          "body": "Medical centers, auto services, fitness studios, language schools and B2B firms."
+        },
+        {
+          "name": "Lyulin",
+          "href": "/rayoni/lyulin",
+          "body": "Auto shops, dental clinics, pharmacies and family businesses."
+        },
+        {
+          "name": "Iztok",
+          "href": "/rayoni/iztok",
+          "body": "Neighborhood businesses with high standards and strong competition around Tsarigradsko shose."
+        }
+      ]
+    },
+    "how": {
+      "title": "How we work in each district",
+      "paragraphs": [
+        "We start with an audit of your Google Business Profile and of the three strongest competitors in the district. That shows what gives them an edge - categories, services, reviews, citations - and what they lack.",
+        "Then we put the profile, the website and the business data in order and tie them to the real district: the streets, landmarks and service areas customers actually use. We report every two weeks and show what has not changed as well.",
+        "We do not promise a specific position. The timeline depends on competition in your niche and district; the guidelines are 4-6 weeks to first movement in low competition and 8-12 weeks in high competition. We discuss a conditional guarantee only after an audit."
+      ]
+    },
+    "other": {
+      "title": "If your district is not listed",
+      "body": "We work with businesses across the city, including Krasno Selo, Geo Milev, Nadezhda, Ovcha Kupel, Studentski Grad and elsewhere. If your business is in another district, get in touch - we will check the competition there and tell you honestly whether and how we can help."
+    },
+    "faq": {
+      "title": "Districts - frequently asked",
+      "titleAccent": "questions.",
+      "items": {
+        "q1": {
+          "question": "Do I need an address in the district for you to work with me?",
+          "answer": "No. We work with any business that has customers in the district - with an address there, in another district, or as a service-area business with no address shown."
+        },
+        "q2": {
+          "question": "Can I rank in several districts at once?",
+          "answer": "Yes, but we usually start with one or two priority districts because a profile's strength builds gradually. The others come later."
+        },
+        "q3": {
+          "question": "Why do different districts have different pages?",
+          "answer": "Because searches, competition and landmarks differ. A page that describes the real district is more useful to customers and to Google than generic text about all of Sofia."
+        },
+        "q4": {
+          "question": "How much does the service cost?",
+          "answer": "From 200 € per month with no setup fee. Pricing is the same for every district. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+        },
+        "q5": {
+          "question": "Do you guarantee a Top 3 position?",
+          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to show up in your",
+      "titleAccent": "district?",
+      "body": "We will record a short personalized video reviewing your business profile, website and the top 3 competitors in your district - in your inbox within 24 hours.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "Related services",
+      "items": [
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps ranking in Sofia",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "SEO optimization in Sofia",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "SEO services in Sofia",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency in Sofia",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Citation building in Sofia",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        }
+      ]
+    }
+  },
+  "homeExplore": {
+    "badge": "Explore",
+    "title": "Services and districts",
+    "titleAccent": "we cover.",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "label": "SEO services",
+          "href": "/uslugi/seo-uslugi-sofia"
+        },
+        {
+          "label": "SEO agency",
+          "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "SEO optimization",
+          "href": "/uslugi/seo-optimizaciya-sofia"
+        },
+        {
+          "label": "Local SEO",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "Google Maps ranking",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "Citation building",
+          "href": "/uslugi/izgrazhdane-citacii-sofia"
+        },
+        {
+          "label": "Internet marketing",
+          "href": "/uslugi/internet-marketing-sofia"
+        },
+        {
+          "label": "Marketing agency",
+          "href": "/uslugi/marketing-agenciya-sofia"
+        }
+      ]
+    },
+    "areas": {
+      "title": "Districts of Sofia",
+      "hubLabel": "All districts →",
+      "items": [
+        {
+          "label": "Center (Sredets)",
+          "href": "/rayoni/sredets"
+        },
+        {
+          "label": "Lozenets",
+          "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "Mladost",
+          "href": "/rayoni/mladost"
+        },
+        {
+          "label": "Lyulin",
+          "href": "/rayoni/lyulin"
+        },
+        {
+          "label": "Iztok",
+          "href": "/rayoni/iztok"
+        }
+      ]
+    }
   }
 }

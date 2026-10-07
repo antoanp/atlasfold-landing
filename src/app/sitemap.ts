@@ -56,6 +56,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
+      path: `/${paths.areas.hub}`,
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+    {
       path: `/${paths.areas.lozenets}`,
       priority: 0.7,
       changeFrequency: "monthly",
