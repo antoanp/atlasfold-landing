@@ -14,14 +14,11 @@ const REQUIRED_FIELDS = [
   "email",
   "city",
   "industry",
-  "budget",
   "timeline",
-  "tier",
 ] as const;
 
 const OPTIONAL_FIELDS = ["company"] as const;
 
-const BUDGET_VALUES = ["low", "mid", "high"] as const;
 const TIMELINE_VALUES = ["now", "soon", "later"] as const;
 
 export async function submitLead(
@@ -55,10 +52,6 @@ export async function submitLead(
     return { success: false, error: "Invalid email address" };
   }
 
-  if (!BUDGET_VALUES.includes(fields.budget as (typeof BUDGET_VALUES)[number])) {
-    return { success: false, error: "Invalid budget" };
-  }
-
   if (
     !TIMELINE_VALUES.includes(
       fields.timeline as (typeof TIMELINE_VALUES)[number],
@@ -87,7 +80,7 @@ export async function submitLead(
           process.env.RESEND_FROM_EMAIL ??
           "Atlas Fold Leads <onboarding@resend.dev>",
         to: [notificationEmail],
-        subject: `New audit request — ${fields.fullName}${fields.company ? `, ${fields.company}` : ""} (${fields.budget}, ${fields.timeline})`,
+        subject: `New audit request — ${fields.fullName}${fields.company ? `, ${fields.company}` : ""} (${fields.timeline})`,
         html: `
           <h2>New audit request from Atlas Fold</h2>
           <table style="border-collapse:collapse">
@@ -97,9 +90,7 @@ export async function submitLead(
             ${row("Phone", fields.phone)}
             ${row("City", fields.city)}
             ${row("Industry", fields.industry)}
-            ${row("Budget", fields.budget)}
             ${row("Timeline", fields.timeline)}
-            ${row("Tier", fields.tier)}
             ${row("Consent", "yes")}
           </table>
         `,
@@ -126,9 +117,7 @@ export async function submitLead(
           Phone: { phone_number: fields.phone },
           City: { rich_text: [{ text: { content: fields.city } }] },
           Industry: { rich_text: [{ text: { content: fields.industry } }] },
-          Budget: { select: { name: fields.budget } },
           Timeline: { select: { name: fields.timeline } },
-          Tier: { select: { name: fields.tier } },
           Consent: { checkbox: true },
           "Submitted At": { date: { start: new Date().toISOString() } },
         },

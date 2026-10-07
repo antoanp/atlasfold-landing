@@ -4,14 +4,13 @@ type FaqPageJsonLdProps = {
   locale: string;
 };
 
-const categoryKeys = ["basics", "service", "results", "pricing"] as const;
+const categoryKeys = ["basics", "service", "results"] as const;
 type CategoryKey = (typeof categoryKeys)[number];
 
 const questionKeys: Record<CategoryKey, string[]> = {
   basics: ["q1", "q2", "q3"],
   service: ["q1", "q2", "q3", "q4"],
   results: ["q1", "q2", "q3", "q4"],
-  pricing: ["q1", "q2", "q3", "q4"],
 };
 
 export async function FaqPageJsonLd({ locale }: FaqPageJsonLdProps) {

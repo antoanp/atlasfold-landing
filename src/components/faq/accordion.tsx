@@ -4,14 +4,13 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 
-const categoryKeys = ["basics", "service", "results", "pricing"] as const;
+const categoryKeys = ["basics", "service", "results"] as const;
 type CategoryKey = (typeof categoryKeys)[number];
 
 const questionKeys: Record<CategoryKey, string[]> = {
   basics: ["q1", "q2", "q3"],
   service: ["q1", "q2", "q3", "q4"],
   results: ["q1", "q2", "q3", "q4"],
-  pricing: ["q1", "q2", "q3", "q4"],
 };
 
 type OpenKey = `${CategoryKey}-${string}` | null;

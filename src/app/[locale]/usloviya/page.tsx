@@ -139,40 +139,9 @@ export default async function TermsPage({ params }: Props) {
             <h2 className="mb-4 font-display text-2xl font-bold text-text-primary">
               {t("section2.title")}
             </h2>
-            <p className="mb-4 font-body leading-relaxed text-text-secondary">
+            <p className="font-body leading-relaxed text-text-secondary">
               {t("section2.p1")}
             </p>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 font-body text-sm">
-              <table className="w-full">
-                <thead className="bg-card">
-                  <tr>
-                    {t
-                      .raw("section2.tableHeaders")
-                      .map((th: string, i: number) => (
-                        <th
-                          key={i}
-                          className="px-4 py-3 text-left font-bold text-text-primary"
-                        >
-                          {th}
-                        </th>
-                      ))}
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-100 text-text-secondary">
-                  {t
-                    .raw("section2.tableRows")
-                    .map((row: string[], i: number) => (
-                      <tr key={i}>
-                        {row.map((td, j) => (
-                          <td key={j} className="px-4 py-3">
-                            {td}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                </tbody>
-              </table>
-            </div>
             <ul className="mt-4 space-y-2 font-body leading-relaxed text-text-secondary">
               {t.raw("section2.items").map((item: string, i: number) => (
                 <li key={i}>• {item}</li>

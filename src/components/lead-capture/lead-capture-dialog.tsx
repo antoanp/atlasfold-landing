@@ -14,28 +14,21 @@ import { Label } from "@/components/ui/label";
 import { paths, localePath } from "@/lib/paths";
 import { submitLead, type LeadFormState } from "@/components/lead-capture/submit-lead";
 
-export type LeadTier = "minimum" | "standard" | "quarterly";
-
-const BUDGET_OPTIONS = ["low", "mid", "high"] as const;
 const TIMELINE_OPTIONS = ["now", "soon", "later"] as const;
 
 const inputClass =
   "rounded-lg border border-gray-200 bg-white px-3 py-2.5 font-body text-sm text-text-primary outline-none transition-colors placeholder:text-text-secondary/50 focus:border-accent focus:ring-1 focus:ring-accent";
 
 interface LeadCaptureDialogProps {
-  tier: LeadTier;
-  showTierSummary?: boolean;
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
 
 export function LeadCaptureDialog({
-  tier,
-  showTierSummary = true,
   open,
   onOpenChange,
 }: LeadCaptureDialogProps) {
-  const t = useTranslations("pricing");
+  const t = useTranslations("leadCapture");
   const locale = useLocale();
   const [state, action, isPending] = useActionState<LeadFormState, FormData>(
     submitLead,
@@ -45,13 +38,7 @@ export function LeadCaptureDialog({
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-3xl">
-        <div className={showTierSummary ? "grid gap-0 sm:grid-cols-5" : ""}>
-          {/* ---- Left: Form (3 cols) ---- */}
-          <div
-            className={
-              showTierSummary ? "p-6 sm:col-span-3 sm:p-8" : "p-6 sm:p-8"
-            }
-          >
+        <div className="p-6 sm:p-8">
             <DialogHeader>
               <DialogTitle>{t("dialog.title")}</DialogTitle>
               <DialogDescription>{t("dialog.subtitle")}</DialogDescription>
@@ -63,8 +50,6 @@ export function LeadCaptureDialog({
               </div>
             ) : (
               <form action={action} className="mt-6 flex flex-col gap-4">
-                <input type="hidden" name="tier" value={tier} />
-
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="flex flex-col gap-1.5">
                     <Label htmlFor="fullName">
@@ -145,29 +130,6 @@ export function LeadCaptureDialog({
 
                 <fieldset className="flex flex-col gap-1.5">
                   <legend className="mb-1.5 font-body text-sm font-medium text-text-primary">
-                    {t("dialog.fields.budget")}
-                  </legend>
-                  <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5">
-                    {BUDGET_OPTIONS.map((key) => (
-                      <label
-                        key={key}
-                        className="flex items-center gap-2 font-body text-sm text-text-primary"
-                      >
-                        <input
-                          type="radio"
-                          name="budget"
-                          value={key}
-                          required
-                          className="accent-accent"
-                        />
-                        {t(`dialog.budgetOptions.${key}`)}
-                      </label>
-                    ))}
-                  </div>
-                </fieldset>
-
-                <fieldset className="flex flex-col gap-1.5">
-                  <legend className="mb-1.5 font-body text-sm font-medium text-text-primary">
                     {t("dialog.fields.timeline")}
                   </legend>
                   <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-x-5">
@@ -227,47 +189,6 @@ export function LeadCaptureDialog({
                 </button>
               </form>
             )}
-          </div>
-
-          {showTierSummary && (
-            <div className="flex flex-col justify-center border-t border-gray-100 bg-page p-6 sm:col-span-2 sm:rounded-r-2xl sm:border-l sm:border-t-0 sm:p-8">
-              <p className="mb-3 font-body text-xs font-medium uppercase tracking-wider text-text-secondary">
-                {t("dialog.tierLabel")}
-              </p>
-
-              <h3 className="font-display text-lg font-bold">
-                {t(`tiers.${tier}.name`)}
-              </h3>
-
-              <div className="mt-2">
-                <span className="font-display text-2xl font-extrabold">
-                  {t(`tiers.${tier}.price`)}
-                </span>
-                <span className="font-body text-sm text-text-secondary">
-                  {" "}
-                  {t(`tiers.${tier}.period`)}
-                </span>
-              </div>
-
-              <p className="mt-2 font-body text-sm text-text-secondary">
-                {t(`tiers.${tier}.description`)}
-              </p>
-
-              <ul className="mt-4 flex flex-col gap-1.5">
-                {(t.raw(`tiers.${tier}.features`) as string[]).map(
-                  (feature: string, i: number) => (
-                    <li
-                      key={i}
-                      className="flex items-start gap-2 font-body text-xs text-text-secondary"
-                    >
-                      <span className="mt-0.5 text-success">✓</span>
-                      {feature}
-                    </li>
-                  ),
-                )}
-              </ul>
-            </div>
-          )}
         </div>
       </DialogContent>
     </Dialog>

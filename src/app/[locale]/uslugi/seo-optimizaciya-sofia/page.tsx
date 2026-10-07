@@ -57,7 +57,6 @@ type Reason = string;
 type OnPageItem = string;
 type MetricItem = string;
 type Step = { title: string; body: string };
-type FaqItem = { question: string; answer: string };
 type RelatedItem = { label: string; href: string };
 
 /**
@@ -334,16 +333,6 @@ export default async function SeoOptimizationSofiaPage({ params }: Props) {
                     {t("localReferences.areaLinkLabel")}
                   </Link>
                 </p>
-              </div>
-            </section>
-
-            <section id="pricing-details" className="mt-14">
-              <h2 className="font-display text-2xl font-extrabold text-text-primary lg:text-3xl">
-                {t("pricing.title")}
-              </h2>
-              <div className="mt-6 space-y-4 font-body text-base leading-relaxed text-text-secondary">
-                <p>{t("pricing.p1")}</p>
-                <p>{t("pricing.p2")}</p>
               </div>
             </section>
 

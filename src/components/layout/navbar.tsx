@@ -16,7 +16,6 @@ const allLinks = [
   { href: "#roi-calculator", key: "links.roiCalculator" },
   { href: "#process", key: "links.process" },
   { href: "#faq", key: "links.faq" },
-  { href: "#pricing", key: "links.pricing" },
 ] as const;
 
 type NavbarProps = {

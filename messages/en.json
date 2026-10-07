@@ -12,7 +12,6 @@
       "roiCalculator": "ROI",
       "process": "Process",
       "faq": "FAQ",
-      "pricing": "Pricing",
       "blog": "Blog"
     },
     "phone": "0877268727",
@@ -204,70 +203,7 @@
       }
     }
   },
-  "pricing": {
-    "phoneLink": "tel:0877268727",
-    "badge": "Packages",
-    "title": "Local SEO packages for more",
-    "titleAccent": "clients.",
-    "tiers": {
-      "minimum": {
-        "name": "Minimum",
-        "price": "345€",
-        "period": "/ month",
-        "commitment": "3-month commitment. Cancellable monthly thereafter.",
-        "description": "First page on Google within 90 days.",
-        "noGuarantee": "No money-back guarantee.",
-        "visibility": "Visible on 30% of search results.",
-        "features": [
-          "Full competitor's analysis",
-          "Updates every two weeks",
-          "No money-back guarantee",
-          "Ranking for main search term",
-          "Limited website optimisation",
-          "High-quality authority signals"
-        ],
-        "cta": "Get Started",
-        "ctaCall": "Call"
-      },
-      "standard": {
-        "name": "Standard",
-        "price": "445€",
-        "period": "/ month",
-        "commitment": "3-month commitment. Cancellable monthly thereafter.",
-        "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
-        "visibility": "Visible on 75%+ of search results.",
-        "features": [
-          "Full competitor's analysis",
-          "Updates every two weeks",
-          "Money-back guarantee",
-          "Ranking for main search term",
-          "Full website optimisation",
-          "High-quality authority signals"
-        ],
-        "cta": "Get Started",
-        "ctaCall": "Call",
-        "recommended": true
-      },
-      "quarterly": {
-        "name": "Quarterly (3 Months)",
-        "saveBadge": "Save 150€",
-        "price": "1185€",
-        "period": "/ quarter",
-        "commitment": "Cancellable every 3 months.",
-        "description": "Top 3 on Google within 90 days. Guaranteed or you don't pay.",
-        "visibility": "Visible on 75%+ of search results.",
-        "features": [
-          "Full competitor's analysis",
-          "Updates every two weeks",
-          "Money-back guarantee",
-          "Ranking for main search term",
-          "Full website optimisation",
-          "High-quality authority signals"
-        ],
-        "cta": "Get Started",
-        "ctaCall": "Call"
-      }
-    },
+  "leadCapture": {
     "dialog": {
       "title": "Request your free video audit",
       "subtitle": "Fill in your details. Within 24 hours we'll send you a short personalized video with your audit — no sales call.",
@@ -278,21 +214,14 @@
         "email": "Business email",
         "city": "City",
         "industry": "Industry",
-        "budget": "Monthly marketing budget",
         "timeline": "When do you want to solve this?",
         "consent": "I agree to be contacted about my audit and accept the <link>privacy policy</link>."
-      },
-      "budgetOptions": {
-        "low": "Under €500",
-        "mid": "€500–€1,500",
-        "high": "Over €1,500"
       },
       "timelineOptions": {
         "now": "Right now",
         "soon": "In the next few weeks",
         "later": "Just exploring"
       },
-      "tierLabel": "Selected Package",
       "submit": "Submit",
       "submitting": "Submitting…",
       "success": "Thank you! Your personalized video will arrive by email within 24 hours.",
@@ -460,19 +389,12 @@
       "p2": "We do not manage Google Ads, Meta Ads, or any paid advertising channels. Our services are exclusively organic local SEO."
     },
     "section2": {
-      "title": "2. Pricing & Payment Terms",
-      "p1": "The following packages are available:",
-      "tableHeaders": ["Package", "Price", "Commitment"],
-      "tableRows": [
-        ["Minimum", "345 € / month", "3 months, then monthly"],
-        ["Standard", "445 € / month", "3 months, then monthly"],
-        ["Quarterly", "1 185 € / quarter", "Renews every 3 months"]
-      ],
+      "title": "2. Billing & Payment Terms",
+      "p1": "The scope and billing schedule for each engagement are confirmed in writing before work begins.",
       "items": [
         "Invoices are issued at the start of each billing period and are payable within 5 business days.",
-        "All prices are in euros (EUR) and exclude any applicable VAT.",
         "Failure to pay within the agreed period may result in suspension of services.",
-        "Prices may be revised with 30 days' written notice for ongoing clients."
+        "Any changes to an ongoing engagement require 30 days' written notice."
       ]
     },
     "section3": {
@@ -540,8 +462,7 @@
         "<highlight>Full name</highlight> - so we know who we are contacting.",
         "<highlight>Phone number</highlight> - to call you within 24 hours as stated on the form.",
         "<highlight>City</highlight> - to understand your service area and tailor our analysis.",
-        "<highlight>Industry</highlight> - to assess your niche competition before we call.",
-        "<highlight>Selected package</highlight> - the pricing tier you indicated interest in."
+        "<highlight>Industry</highlight> - to assess your niche competition before we call."
       ],
       "p2": "We do not collect sensitive personal data (e.g., health, financial account details, national ID numbers)."
     },
@@ -592,7 +513,7 @@
   },
   "faqPage": {
     "metadataTitle": "Local SEO - Full FAQ | Atlas Fold",
-    "metadataDesc": "Answers to every question about local SEO and Google Maps optimisation - what it is, how it works, pricing, tracking results, and how the guarantee works.",
+    "metadataDesc": "Answers to every question about local SEO and Google Maps optimisation - what it is, how it works, tracking results, and how the guarantee works.",
     "backToHome": "Back to home",
     "badge": "Full FAQ",
     "title": "Everything you need to know about",
@@ -655,27 +576,6 @@
           "q4": {
             "question": "What are citations and why do they matter?",
             "answer": "A citation is any online mention of your business that includes your name, address, and phone number (NAP). Google uses the consistency and quality of these mentions as a trust signal. We build high-quality citations in authoritative, industry-specific directories relevant to your location."
-          }
-        }
-      },
-      "pricing": {
-        "title": "Pricing & Guarantee",
-        "items": {
-          "q1": {
-            "question": "How exactly does the money-back guarantee work?",
-            "answer": "For the Standard and Quarterly packages: if we do not achieve a Top 3 ranking for the agreed keyword within 90 days, you receive a full refund of all amounts paid. The guarantee applies provided you granted us the required access on time and did not make changes to your profile without our knowledge."
-          },
-          "q2": {
-            "question": "Are there any hidden setup fees or additional costs?",
-            "answer": "None. The price you see is everything you pay. No setup fees, no hidden add-ons, no performance charges. The monthly fee covers all work - analysis, optimisation, citations, and updates."
-          },
-          "q3": {
-            "question": "Can I upgrade or switch plans later?",
-            "answer": "Yes. If you decide to move from Minimum to Standard, or switch to quarterly billing - just get in touch. The price difference is calculated on a pro-rata basis with no penalties."
-          },
-          "q4": {
-            "question": "What payment methods do you accept?",
-            "answer": "We accept bank transfers in euros (EUR). The quarterly plan automatically saves you €150 compared to three monthly payments - €1,185 instead of €1,335."
           }
         }
       }
@@ -937,18 +837,13 @@
       "p2": "We publish dedicated neighborhood pages for the areas we know best. Every SEO optimization engagement starts with a neighborhood-level strategy, not a city-wide one.",
       "areaLinkLabel": "Read more: Local SEO in Lozenets →"
     },
-    "pricing": {
-      "title": "How much does SEO optimization cost in Sofia?",
-      "p1": "We publish transparent monthly packages on the pricing page. Sofia SEO optimization starts at 345 EUR/month for the Minimum package, 445 EUR/month for Standard (with the Top 3 guarantee), and 1,185 EUR/quarter for the Quarterly plan (best value).",
-      "p2": "No retainer tricks, no hidden 'setup fees', no 12-month contracts. Standard and Quarterly packages carry the 90-day Top 3 guarantee: if your business isn't in the Top 3 on Google Maps for the agreed primary search term within 90 days, you don't pay for that period."
-    },
     "faq": {
       "title": "SEO optimization in Sofia - frequently asked",
       "titleAccent": "questions.",
       "items": {
         "q1": {
-          "question": "How much does SEO optimization cost in Sofia?",
-          "answer": "Entry tier 345 EUR/month, Standard 445 EUR/month (with Top 3 guarantee), Quarterly 1,185 EUR/quarter. No setup fees. All prices exclude VAT."
+          "question": "How is the scope for SEO optimization in Sofia defined?",
+          "answer": "We define the scope after reviewing your Google Business Profile, website, market competition, and the areas you need to reach."
         },
         "q2": {
           "question": "How long does SEO take to show results?",
@@ -1134,8 +1029,8 @@
           "answer": "No. We serve any business with customers in Lozenets - whether your address is in Lozenets, Studentski grad, or Iztok. The Google Business Profile service area is adjustable."
         },
         "q2": {
-          "question": "What's the typical budget for Lozenets SEO?",
-          "answer": "345-445 EUR/month for most Lozenets SMBs. Premium niches (aesthetic clinics, private dental, legal) sometimes use the Quarterly plan at 1,185 EUR/quarter for faster prominence building."
+          "question": "What determines the SEO approach for a Lozenets business?",
+          "answer": "The approach depends on your current Google Business Profile, website, competition, and the services and areas you need to reach."
         },
         "q3": {
           "question": "How long to reach Top 3 in Lozenets specifically?",
@@ -1326,8 +1221,8 @@
           "answer": "Typically 60-110 days in medium competition and 90-140 days in high competition niches. First 4-6 weeks are critical: technical fixes, GBP optimization, review process, and neighborhood page deployment."
         },
         "q4": {
-          "question": "What budget is realistic for SEO in Mladost?",
-          "answer": "For most SMBs: 345-445 EUR per month. Competitive niches and B2B-heavy segments often choose a stronger quarterly package for faster authority growth."
+          "question": "What determines the SEO approach for a Mladost business?",
+          "answer": "The approach depends on your current Google Business Profile, website, competition, and the services and areas you need to reach."
         },
         "q5": {
           "question": "Do I need a new website or can we keep current one?",
@@ -1502,8 +1397,8 @@
           "answer": "Not always. If you truly serve customers in Lyulin, we can configure service area correctly and build clear neighborhood relevance signals without fake address claims."
         },
         "q2": {
-          "question": "What SEO budget is realistic for a small Lyulin business?",
-          "answer": "Most SMBs perform well in the 345-445 EUR monthly range. High-competition niches may benefit from a stronger quarterly investment to accelerate authority growth."
+          "question": "What determines the SEO approach for a Lyulin business?",
+          "answer": "The approach depends on your current Google Business Profile, website, competition, and the services and areas you need to reach."
         },
         "q3": {
           "question": "How hard is Top 3 in Lyulin compared to central Sofia?",
@@ -1608,8 +1503,8 @@
       },
       "vsPaid": {
         "title": "Why Google Maps is more valuable than paid advertising",
-        "p1": "Google Ads is a tap: you pay, you get visitors. You stop paying - the tap stops. The average CPC for competitive keywords in Sofia (dentistry, legal services, auto repair) ranges from €0.80 to €3.50 per click. At a 3-5% conversion rate, acquiring one customer from paid traffic alone costs €25-100.",
-        "p2": "Once in the Top 3 on Google Maps through local SEO, a business receives calls and visits at zero CPC. A profile at position 1 in Lozenets for 'dentist Lozenets' receives on average 80-150 profile calls per month. The value of those calls at 15% conversion and an average client value of €300 is €3,600-6,750 per month - from an organic position maintained for under €450/month."
+        "p1": "Google Ads delivers visitors only while a campaign is active. Local SEO focuses on building an organic position that can keep attracting calls and visits over time.",
+        "p2": "Once a business becomes more visible in Google Maps, it can attract calls and visits without relying on a payment for every click. Results still depend on the market, the profile, and the quality of the service."
       }
     },
     "whoWins": {
@@ -1665,7 +1560,7 @@
     "vsAds": {
       "title": "Local SEO in Sofia vs. Google Ads - an honest comparison",
       "p1": "Google Ads works. If you have an unlimited budget and want customers tomorrow, paid advertising is faster. That's the honest answer. The problem is that most small Sofia businesses don't have unlimited budgets, and the issue with Ads is structural - not just financial. When you pause the campaign, the customers stop. No asset is built.",
-      "p2": "Local SEO builds an asset. A position 1 on Google Maps achieved in 90 days remains stable with maintenance for 10-20% of the spend required for an equivalent Ads campaign. A dental clinic in Lozenets that reaches position 1 for 'dentist Lozenets' through local SEO doesn't pay €2.50 per click - it receives calls organically.",
+      "p2": "Local SEO builds an asset. A strong Google Maps position can continue to attract organic calls while it is maintained with consistent profile, website, review, and citation work.",
       "p3": "The optimal strategy for most Sofia SMBs: Ads for short-term customer flow during the first 3 months while SEO builds the position. After 90 days, the Ads budget reduces or stops, and the organic position takes the load. The two aren't mutually exclusive - they just have different time horizons and different ROI profiles."
     },
     "engagement": {

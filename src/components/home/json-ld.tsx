@@ -95,7 +95,6 @@ export async function HomePageJsonLd({ locale }: HomePageJsonLdProps) {
           ]
       ).map((name) => ({ "@type": "AdministrativeArea", name })),
     ],
-    priceRange: "$$",
     sameAs: ["https://www.instagram.com/atlas.fold/"],
     knowsAbout: [
       "Local SEO",

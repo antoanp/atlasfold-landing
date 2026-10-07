@@ -22,9 +22,6 @@ const Process = dynamic(() =>
   import("@/components/home/process").then((m) => m.Process),
 );
 const Faq = dynamic(() => import("@/components/home/faq").then((m) => m.Faq));
-const Pricing = dynamic(() =>
-  import("@/components/home/pricing").then((m) => m.Pricing),
-);
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -45,7 +42,6 @@ export default async function HomePage({ params }: Props) {
         <RoiCalculator />
         <Process />
         <Faq />
-        <Pricing />
       </main>
       <Footer />
     </Fragment>
