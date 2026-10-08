@@ -38,6 +38,9 @@ export const paths = {
   blog: {
     hub: "blog",
   },
+  pages: {
+    bestMarketingAgency: "naj-dobrata-marketingova-agenciya-v-sofia",
+  },
 } as const;
 
 /** Prefix a registry path with a locale segment: `("bg", "chzvo") -> "/bg/chzvo"`. */

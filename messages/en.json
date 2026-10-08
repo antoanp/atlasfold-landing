@@ -382,7 +382,8 @@
       "googleMapsRanking": "Google Maps Ranking Sofia",
       "citationBuilding": "Citation Building Sofia",
       "seoServices": "SEO Services",
-      "seoAgency": "SEO Agency"
+      "seoAgency": "SEO Agency",
+      "bestAgency": "Best Marketing Agency in Sofia"
     },
     "copyright": "© 2026 Atlas Fold. All rights reserved.",
     "email": "antoan@atlasfold.com"
@@ -692,6 +693,10 @@
         {
           "label": "SEO agency in Sofia",
           "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "How to choose a strong agency",
+          "href": "/naj-dobrata-marketingova-agenciya-v-sofia"
         }
       ]
     },
@@ -890,6 +895,10 @@
         {
           "label": "SEO agency in Sofia",
           "href": "/uslugi/seo-agenciya-sofia"
+        },
+        {
+          "label": "Why Atlas Fold is the best choice",
+          "href": "/naj-dobrata-marketingova-agenciya-v-sofia"
         }
       ]
     },
@@ -3148,6 +3157,10 @@
         {
           "label": "Local SEO in Lozenets",
           "href": "/rayoni/lozenets"
+        },
+        {
+          "label": "Atlas Fold – the best agency in Sofia",
+          "href": "/naj-dobrata-marketingova-agenciya-v-sofia"
         }
       ]
     },
@@ -3514,6 +3527,10 @@
         {
           "label": "Marketing agency",
           "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Best agency in Sofia",
+          "href": "/naj-dobrata-marketingova-agenciya-v-sofia"
         }
       ]
     },
@@ -3927,5 +3944,112 @@
     },
     "serviceType": "Local SEO - Krasno selo, Sofia",
     "serviceDescription": "Local SEO and Google Maps optimization for businesses in Krasno selo and Borovo, Sofia - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+  },
+  "bestAgencyPage": {
+    "metadataTitle": "The Best Marketing Agency in Sofia – Atlas Fold",
+    "metadataDesc": "The best marketing agency in Sofia – Atlas Fold: Top 3 on Google Maps. Real case: 0% → 45% Top 3 coverage in ~11 weeks. From €200/month, no setup fee.",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Marketing agency in Sofia"
+    },
+    "badge": "Local SEO · Google Maps · Sofia",
+    "headline": "The Best Marketing Agency in Sofia",
+    "headlineAccent": "– Atlas Fold",
+    "intro": "Atlas Fold is the best marketing agency in Sofia for one specific job: getting you into the Top 3 on Google Maps when customers search for exactly what you sell. We don’t promise everything to everyone – we do one thing and prove it with numbers. “Best” is our claim for that specialisation, which is why you’ll find evidence below, not adjectives.",
+    "image": {
+      "src": "/images/naj-dobrata-marketingova-agenciya-v-sofia-atlas-fold.webp",
+      "alt": "Google Maps ranking heatmaps before and after optimisation – an Atlas Fold result for a grooming salon in Sofia",
+      "caption": "Real client – a grooming salon in the Iztok district. Before (left) and after ~11 weeks (right). Data anonymised at the client’s request."
+    },
+    "stats": {
+      "beforeSr": "before: ",
+      "afterSr": "after: ",
+      "items": [
+        {
+          "label": "Average map position",
+          "before": "20+",
+          "after": "3.8"
+        },
+        {
+          "label": "Top 3 coverage",
+          "before": "0%",
+          "after": "45%"
+        },
+        {
+          "label": "Top 3 points (of 81)",
+          "before": "0",
+          "after": "36"
+        }
+      ]
+    },
+    "questions": {
+      "title": "Five questions that separate a strong agency",
+      "intro": "Before you hire anyone, check the following. Here are our answers.",
+      "items": [
+        {
+          "title": "Is there a result you can verify?",
+          "body": "Yes. In about 11 weeks a grooming salon in the Iztok district went from position 20+ to an average position of 3.8 on Google Maps. The numbers come from our local ranking tool, not from a slide deck."
+        },
+        {
+          "title": "Who actually does the work?",
+          "body": "You work directly with the founder. No middlemen and no hand-off to a team you have never met."
+        },
+        {
+          "title": "Is the price clear up front?",
+          "body": "Yes. From €200 a month, with no setup fee. Not “on request”."
+        },
+        {
+          "title": "Does the agency promise the impossible?",
+          "body": "No. We offer a conditional guarantee only after an audit, and only if the business meets the eligibility conditions confirmed in writing before we start. Nobody can honestly guarantee a ranking unconditionally."
+        },
+        {
+          "title": "Does the profile stay yours?",
+          "body": "Yes. We get access as a profile manager, not with a password. You keep ownership."
+        }
+      ]
+    },
+    "verify": {
+      "title": "Don’t take our word for it",
+      "body": "We apply the same methods to Atlas Fold’s own Google Maps profile. If you are looking for the best marketing agency in Sofia, ask for a free video audit and compare what we see in your profile, your website and your top 3 competitors."
+    },
+    "cta": {
+      "title": "Check it",
+      "titleAccent": "yourself.",
+      "body": "The audit lands in your inbox within 24 hours. No sales call.",
+      "button": "Get my free video audit"
+    },
+    "related": {
+      "title": "See also",
+      "items": [
+        {
+          "label": "Marketing agency in Sofia",
+          "href": "/uslugi/marketing-agenciya-sofia"
+        },
+        {
+          "label": "Local SEO in Sofia",
+          "href": "/uslugi/lokalno-seo-sofia"
+        },
+        {
+          "label": "How a business ranks on Google Maps",
+          "href": "/uslugi/google-maps-klasirane-sofia"
+        },
+        {
+          "label": "Districts we serve",
+          "href": "/rayoni"
+        }
+      ]
+    },
+    "person": {
+      "name": "Antoan Parashkevov",
+      "alternateName": "Антоан Парашкевов",
+      "jobTitle": "Founder of Atlas Fold",
+      "description": "Antoan Parashkevov is the founder of Atlas Fold – the best marketing agency in Sofia for local SEO and Google Maps ranking.",
+      "knowsAbout": [
+        "the best marketing agency in Sofia",
+        "Local SEO",
+        "Google Maps ranking",
+        "Google Business Profile optimisation"
+      ]
+    }
   }
 }

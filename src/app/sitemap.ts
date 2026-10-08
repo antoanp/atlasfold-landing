@@ -56,6 +56,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
+      path: `/${paths.pages.bestMarketingAgency}`,
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
       path: `/${paths.areas.hub}`,
       priority: 0.8,
       changeFrequency: "monthly",
