@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Internet Marketing Service in Sofia - Local SEO & Google Maps | Atlas Fold",
-    "description": "Local SEO and Google Maps ranking for businesses in Sofia: Google Business Profile, website and citations. No ad spend, no pay-per-click. From 200 € a month, no setup fee.",
+    "description": "Local SEO and Google Maps ranking for businesses in Sofia: Google Business Profile, website and citations. No ad spend, no pay-per-click. From 150 € a month, no setup fee.",
     "keywords": "local SEO Sofia, SEO optimization, SEO services, SEO agency Sofia, Google Maps optimization, Google Maps ranking, Top 3 Google, local ranking, local SEO"
   },
   "nav": {
@@ -71,8 +71,8 @@
       ]
     },
     "stats": {
-      "clients": "50+",
-      "clientsLabel": "happy clients",
+      "clients": "1",
+      "clientsLabel": "business per niche per district",
       "years": "4+",
       "yearsLabel": "years of experience",
       "guarantee": "90",
@@ -179,7 +179,7 @@
       },
       "q3": {
         "question": "What makes your SEO agency stand out from others in Sofia?",
-        "answer": "Atlas Fold is an SEO agency in Sofia specialising in local SEO and Google Maps ranking. We do not promise a specific position; we discuss a conditional guarantee only after an audit."
+        "answer": "Atlas Fold is an SEO agency in Sofia specialising in local SEO and Google Maps ranking. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
       },
       "q4": {
         "question": "What is the difference between SEO and Google Ads?",
@@ -390,7 +390,7 @@
   },
   "termsPage": {
     "metadataTitle": "Terms of Service | Atlas Fold",
-    "metadataDesc": "Read the Terms of Service for Atlas Fold local SEO services - service scope, payment terms, conditional guarantee and termination policy.",
+    "metadataDesc": "Read the Terms of Service for Atlas Fold local SEO services - service scope, payment terms, guarantee and termination policy.",
     "backToHome": "Back to home",
     "lastUpdated": "Last updated: March 2026",
     "title": "Terms of Service",
@@ -417,23 +417,24 @@
       ]
     },
     "section3": {
-      "title": "3. Conditional Guarantee",
-      "p1": "A conditional guarantee is offered only after an audit, only with the 90-day initial growth phase option, and only if the business meets the eligibility conditions confirmed in writing before work begins. In that case, if the business does not reach the Top 3 on Google Maps for the agreed primary search term within 90 days of access being granted, Atlas Fold refunds all monthly fees paid up to day 90.",
+      "title": "3. Guarantee",
+      "p1": "Every agreement with the 90-day initial growth phase includes one of the two guarantees below. Which one applies to you is confirmed in writing before work begins. (a) Top 3 guarantee - for businesses that pass the eligibility check: if on day 90 the business is not in the Top 3 on Google Maps for the agreed primary search term in at least 40% of the points of the agreed map, Atlas Fold refunds all monthly fees paid up to day 90. (b) Movement guarantee - for everyone else: if on day 90 the average position on Google Maps for the agreed primary search term on the agreed map is not at least one position better than the starting position measured when access was granted, Atlas Fold continues the regular work without a monthly fee until it is, for up to 90 more days. Free work is not paid out in cash. If the goal is still not reached after those 90 days, the parties decide together how to continue.",
       "p2": "Guarantee conditions - the guarantee applies only when:",
       "items": [
         "You have granted us the necessary access to your Google Business Profile and website within 7 days of confirming the agreement.",
         "You have not made material changes to your Google Business Profile, website, or business name without our knowledge during the 90-day period.",
         "Your Google Business Profile was not suspended during the engagement for any reason attributable to you.",
-        "Payment has been made on time for all billing periods.",
-        "The agreed primary search term was not changed after the start of the engagement."
+        "All three months of the initial phase have been paid on time - monthly or at once. If a payment is 7 or more days late, work pauses until payment and day 90 moves by the same number of days.",
+        "The agreed primary search term was not changed after the start of the engagement.",
+        "The agreement was not terminated before the end of the third month."
       ],
-      "p3": "The guarantee does not cover visibility in AI assistant answers and does not apply to the option without an initial phase. Beyond what is described here we do not promise a specific position."
+      "p3": "Day 90 is counted from the day access to the Google Business Profile (and the website, where applicable) is granted. The guarantee does not cover visibility in AI assistant answers. Beyond what is described here the guarantee does not apply."
     },
     "section4": {
       "title": "4. Cancellation & Contract Term",
       "items": [
         "<highlight>Initial growth phase (90 days)</highlight>: the first three months. After it the contract continues month to month and you may terminate it with written notice (email) of at least 30 days.",
-        "<highlight>Flexible option (no initial phase)</highlight>: month to month from the start, with 30 days' notice and no entitlement to the guarantee under Section 3.",
+        "<highlight>Paying the initial phase at once</highlight>: you may pay the three months in one payment at the same price, with no discount. In that case work starts within 24 hours of payment and includes one bonus at no extra charge - one extra page on the website or, with no website, 4 extra posts on the Google Business Profile.",
         "Termination during the initial phase does not entitle you to a refund of amounts already paid, unless the conditions of Section 3 are met.",
         "Upon termination, we will remove our access credentials from your Google Business Profile and website within 5 business days."
       ]
@@ -448,7 +449,7 @@
     },
     "section6": {
       "title": "6. Limitation of Liability",
-      "p1": "Local search rankings are determined by Google's algorithms, which are outside our control. While we apply industry best practices, we cannot guarantee specific ranking positions beyond the conditional guarantee outlined in Section 3. In no event shall Atlas Fold be liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of revenue or business opportunities. Our total liability is limited to the amounts paid by you in the most recent billing period."
+      "p1": "Local search rankings are determined by Google's algorithms, which are outside our control. While we apply industry best practices, we cannot guarantee specific ranking positions beyond the guarantee outlined in Section 3. In no event shall Atlas Fold be liable for any indirect, incidental, or consequential damages arising from the use of our services, including but not limited to loss of revenue or business opportunities. Our total liability is limited to the amounts paid by you in the most recent billing period."
     },
     "section7": {
       "title": "7. Governing Law",
@@ -532,12 +533,12 @@
   },
   "faqPage": {
     "metadataTitle": "Local SEO - Full FAQ | Atlas Fold",
-    "metadataDesc": "Answers to questions about local SEO and Google Maps optimisation - what it is, how it works, tracking results, and how the conditional guarantee works.",
+    "metadataDesc": "Answers to questions about local SEO and Google Maps optimisation - what it is, how it works, tracking results, and how the guarantee works.",
     "backToHome": "Back to home",
     "badge": "Full FAQ",
     "title": "Everything you need to know about",
     "titleAccent": "Local SEO",
-    "subtitle": "Answers to the most common questions about Google Maps optimisation, our service, and the conditional guarantee.",
+    "subtitle": "Answers to the most common questions about Google Maps optimisation, our service, and the guarantee.",
     "categories": {
       "basics": {
         "title": "Local SEO Basics",
@@ -582,7 +583,7 @@
         "items": {
           "q1": {
             "question": "How quickly will we see movement in rankings?",
-            "answer": "First movement is usually visible within 4–6 weeks in low competition and 8–12 weeks in higher competition. These are guidelines, not promises. We discuss a conditional guarantee only after an audit."
+            "answer": "First movement is usually visible within 4–6 weeks in low competition and 8–12 weeks in higher competition. These are guidelines. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
           },
           "q2": {
             "question": "How do you track and report progress?",
@@ -646,7 +647,7 @@
   },
   "internetMarketingPage": {
     "metadataTitle": "Internet Marketing Service Sofia | Atlas Fold - Local SEO & Google Maps",
-    "metadataDesc": "Internet marketing service in Sofia by Atlas Fold: local SEO, Google Business Profile and Google Maps for local businesses - no ads, no pay-per-click. From 200 € a month.",
+    "metadataDesc": "Internet marketing service in Sofia by Atlas Fold: local SEO, Google Business Profile and Google Maps for local businesses - no ads, no pay-per-click. From 150 € a month.",
     "badge": "Internet Marketing Service",
     "headline": "Internet Marketing Service in",
     "headlineAccent": "Sofia",
@@ -723,7 +724,7 @@
         "title": "Where local SEO fits",
         "paragraphs": [
           "When someone searches for a service with intent to buy, often the same day, the local results in Google Maps are among the first things they see. That is where Atlas Fold works: we optimise the Google Business Profile, the website and local citations so the business is clearly described and appears for relevant searches.",
-          "The advantage is that the effort accumulates: a well-built profile and website keep working after the active work ends. The limitation is that results are not instant and depend on competition in your niche and district. That is why we do not promise a specific position - we show what is realistic after auditing your case."
+          "The advantage is that the effort accumulates: a well-built profile and website keep working after the active work ends. The limitation is that results are not instant and depend on competition in your niche and district. That is why our guarantee has conditions and a deadline - after auditing your case we show what is realistic and put it in writing."
         ]
       },
       {
@@ -757,8 +758,8 @@
       {
         "title": "Price and terms",
         "paragraphs": [
-          "Work starts from 200 € per month with no setup fee. The first month is paid before work begins. The first three months are the 90-day initial growth phase, after which the contract continues month to month with 30 days' notice.",
-          "We discuss a conditional ranking guarantee only after an audit and only if the business meets the conditions. Without an audit we make no promise about position."
+          "Work starts from 150 € per month with no setup fee. The first month is paid before work begins. The first three months are the 90-day initial growth phase, after which the contract continues month to month with 30 days' notice. You can pay monthly or pay the three months at once - same price, no discount. If you pay at once, we start work within 24 hours of payment and build one extra page on your website - for a service or a district - at no extra charge (no website: 4 extra posts on your Google profile).",
+          "Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         ]
       },
       {
@@ -825,7 +826,7 @@
         },
         "q4": {
           "question": "How much does it cost?",
-          "answer": "From 200 € per month with no setup fee. The first month is paid before work begins."
+          "answer": "From 150 € per month with no setup fee. The first month is paid before work begins. You can also pay the three months at once - same price, no discount: we then start within 24 hours of payment and build one extra page on your website (or 4 extra posts on your Google profile if you have no website) at no extra charge."
         },
         "q5": {
           "question": "Is there a minimum term?",
@@ -833,7 +834,7 @@
         },
         "q6": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         },
         "q7": {
           "question": "Is it suitable for an online shop?",
@@ -848,7 +849,7 @@
   },
   "marketingAgencyPage": {
     "metadataTitle": "Marketing Agency for Local SEO in Sofia | Atlas Fold",
-    "metadataDesc": "Atlas Fold is a marketing agency in Sofia specialising in local SEO and Google Maps. You work directly with the founder. From 200 € a month, no setup fee.",
+    "metadataDesc": "Atlas Fold is a marketing agency in Sofia specialising in local SEO and Google Maps. You work directly with the founder. From 150 € a month, no setup fee.",
     "badge": "Marketing Agency",
     "headline": "Marketing Agency in",
     "headlineAccent": "Sofia",
@@ -949,7 +950,7 @@
           "We do not run Google Ads or Meta Ads campaigns.",
           "We do not manage social profiles or build websites from scratch.",
           "We do not buy reviews, use fake profiles or put your profile at risk.",
-          "We do not give unconditional promises about a Google position."
+          "We do not make promises without conditions or a deadline - our guarantee is in writing, with clear conditions, and is measured on day 90."
         ],
         "outro": "If you need something from this list we will say so openly and point out when a specialist agency is not the right choice."
       },
@@ -957,13 +958,13 @@
         "title": "How we work with clients",
         "paragraphs": [
           "You work directly with the founder of Atlas Fold, with no intermediaries. We get manager access to your profile, not a password - you keep ownership. Before work we run an audit and show you what is realistic.",
-          "The initial phase is 90 days and covers putting the profile, website and citations in order; after it you continue month to month with 30 days' notice. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "The initial phase is 90 days and covers putting the profile, website and citations in order; after it you continue month to month with 30 days' notice. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
         ]
       },
       {
         "title": "Price",
         "paragraphs": [
-          "Work starts from 200 € per month with no setup fee. The first month is paid before work begins. A check of your presence in AI assistant answers is included - with no promise of results there."
+          "Work starts from 150 € per month with no setup fee. The first month is paid before work begins. A check of your presence in AI assistant answers is included - with no promise of results there. You can pay monthly or pay the three months at once - same price, no discount. If you pay at once, we start work within 24 hours of payment and build one extra page on your website - for a service or a district - at no extra charge (no website: 4 extra posts on your Google profile)."
         ]
       },
       {
@@ -1017,7 +1018,7 @@
         },
         "q4": {
           "question": "How much does it cost?",
-          "answer": "From 200 € per month with no setup fee. The first month is paid before work begins."
+          "answer": "From 150 € per month with no setup fee. The first month is paid before work begins. You can also pay the three months at once - same price, no discount: we then start within 24 hours of payment and build one extra page on your website (or 4 extra posts on your Google profile if you have no website) at no extra charge."
         },
         "q5": {
           "question": "How long is the contract?",
@@ -1025,7 +1026,7 @@
         },
         "q6": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         },
         "q7": {
           "question": "Do you serve all districts?",
@@ -1148,7 +1149,7 @@
         },
         "q2": {
           "question": "How long does SEO take to show results?",
-          "answer": "First measurable movement in the map ranking typically happens within 4-6 weeks for small-competition niches in Sofia, 8-12 weeks for competitive niches. These are guidelines, not promises; we discuss a conditional guarantee only after an audit."
+          "answer": "First measurable movement in the map ranking typically happens within 4-6 weeks for small-competition niches in Sofia, 8-12 weeks for competitive niches. These are guidelines. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
         },
         "q3": {
           "question": "Is SEO better than Google Ads for a Sofia business?",
@@ -1228,7 +1229,7 @@
       ]
     },
     "serviceType": "Search Engine Optimization (Local SEO)",
-    "serviceDescription": "SEO optimization service for local businesses in Sofia - Google Business Profile optimization, on-page SEO, citation building and Google Maps ranking, with a conditional guarantee only after an audit."
+    "serviceDescription": "SEO optimization service for local businesses in Sofia - Google Business Profile optimization, on-page SEO, citation building and Google Maps ranking, with a guarantee measured on day 90."
   },
   "lozenetsAreaPage": {
     "metadataTitle": "Local SEO in Lozenets, Sofia | Atlas Fold",
@@ -1367,7 +1368,7 @@
         },
         "q7": {
           "question": "Is there separate Lozenets-only pricing?",
-          "answer": "No. Pricing is the same city-wide and starts from 200 € per month with no setup fee. The strategy is localized to your neighborhood."
+          "answer": "No. Pricing is the same city-wide and starts from 150 € per month with no setup fee. The strategy is localized to your neighborhood."
         },
         "q8": {
           "question": "Do you work with foreign-owned businesses in Lozenets?",
@@ -1920,7 +1921,7 @@
       "month3": {
         "title": "Month 3 - measurement and decision",
         "p1": "Month three is for finalizing the position and building defense. Competitor monitoring is active - if a competitor makes moves (new photo batch, review surge), we respond. We add content - a neighborhood page on the website, FAQ, additional GBP posts.",
-        "p2": "On day 90, we measure position for the agreed primary search term from 5 points in the neighborhood. If you have a conditional guarantee (only after an audit and if eligible) and you are not in the Top 3, we refund the monthly fees paid up to day 90."
+        "p2": "On day 90 we measure the position for the agreed primary search term from the points of the agreed map. If your average position is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The exact terms are written into your offer."
       }
     },
     "chooseAgency": {
@@ -1942,7 +1943,7 @@
           "Explains the three signals (relevance, authority, distance) with concrete examples from your niche.",
           "Offers a free GBP and competitor audit before you sign anything.",
           "Reports map position, profile calls, direction requests, and site clicks from the profile.",
-          "Honest promises: no unconditional ranking guarantee; a conditional guarantee only after an audit.",
+          "An honest guarantee: written conditions, a deadline, and exactly what you get if the result does not come.",
           "Specializes only in local SEO, not everything for everyone."
         ]
       }
@@ -2037,7 +2038,7 @@
       ]
     },
     "serviceType": "Local SEO Optimization in Sofia",
-    "serviceDescription": "Local SEO service for Sofia businesses - Google Business Profile optimization, citation building, on-page SEO and Google Maps ranking, with a conditional guarantee only after an audit."
+    "serviceDescription": "Local SEO service for Sofia businesses - Google Business Profile optimization, citation building, on-page SEO and Google Maps ranking, with a guarantee measured on day 90."
   },
   "googleMapsRankingPage": {
     "metadataTitle": "SEO Optimization Sofia for Google Maps Rankings | Atlas Fold",
@@ -2185,7 +2186,7 @@
         },
         "q8": {
           "question": "What happens if ranking targets are not reached?",
-          "answer": "Work is executed against transparent milestones and measurable KPIs. If expected movement does not occur after the agreed implementation scope, strategy is revised and corrective actions are applied. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Work is executed against transparent milestones and measurable KPIs. If expected movement does not occur after the agreed implementation scope, strategy is revised and corrective actions are applied. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
         }
       }
     },
@@ -2668,7 +2669,7 @@
   },
   "seoServicesPage": {
     "metadataTitle": "SEO Services in Sofia for Local Businesses - What They Include and Cost | Atlas Fold",
-    "metadataDesc": "What SEO services for a local business in Sofia include: Google Business Profile optimization, on-page SEO, citations, reviews and reporting. From 200 EUR a month, no setup fee.",
+    "metadataDesc": "What SEO services for a local business in Sofia include: Google Business Profile optimization, on-page SEO, citations, reviews and reporting. From 150 EUR a month, no setup fee.",
     "breadcrumb": {
       "home": "Home",
       "services": "Services",
@@ -2734,8 +2735,8 @@
       {
         "title": "How much SEO services cost in Sofia",
         "paragraphs": [
-          "Prices start from 200 EUR a month. There is no setup fee - you pay only the monthly fee, and the first month is paid before work begins. The exact amount depends on two things: how much one customer is worth to your business (the higher the value, the more intensive and competitive the work) and whether you have a website we can make changes to.",
-          "We call the first three months the initial growth phase - the period when we do the main work on the profile, the site and the citations. After that you continue month to month with 30 days' notice. You receive the exact price and terms in writing after a call, before you pay anything. For some niches we also offer a conditional guarantee - we discuss its terms after the free audit, not in an advertisement."
+          "Prices start from 150 EUR a month. There is no setup fee - you pay only the monthly fee, and the first month is paid before work begins. The exact amount depends on two things: how much one customer is worth to your business (the higher the value, the more intensive and competitive the work) and whether you have a website we can make changes to. You can pay monthly or pay the three months at once - same price, no discount. If you pay at once, we start work within 24 hours of payment and build one extra page on your website - for a service or a district - at no extra charge (no website: 4 extra posts on your Google profile).",
+          "We call the first three months the initial growth phase - the period when we do the main work on the profile, the site and the citations. After that you continue month to month with 30 days' notice. You receive the exact price and terms in writing after a call, before you pay anything. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days. You receive the exact conditions in writing."
         ]
       },
       {
@@ -2756,7 +2757,7 @@
       {
         "title": "Which results are realistic, and when",
         "paragraphs": [
-          "Nobody can honestly promise a specific Google position and we do not. Our rule of thumb from practice is first measurable movement on the map after 4-6 weeks in low-competition niches and after 8-12 weeks in more competitive ones. These are guidelines, not a guarantee.",
+          "Nobody controls Google, so we do not promise a position without conditions - we promise a result with conditions and a deadline. Our rule of thumb from practice is first measurable movement on the map after 4-6 weeks in low-competition niches and after 8-12 weeks in more competitive ones. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days.",
           "What speeds results up: reviews that name the service and the district in the customers' own words, a complete and accurate profile, and a website that answers customers' questions clearly. What slows them down: inconsistent business data, a primary category changed for no reason, and a lack of reviews."
         ]
       },
@@ -2838,7 +2839,7 @@
         },
         "q2": {
           "question": "How much do SEO services cost in Sofia?",
-          "answer": "With us prices start from 200 EUR a month, with no setup fee. The final price depends on the niche, the value of a customer and whether you have a website, and it is confirmed in writing before you pay."
+          "answer": "With us prices start from 150 EUR a month, with no setup fee. The final price depends on the niche, the value of a customer and whether you have a website, and it is confirmed in writing before you pay."
         },
         "q3": {
           "question": "Do I need a website to use SEO services?",
@@ -2850,7 +2851,7 @@
         },
         "q5": {
           "question": "How long until I see a result?",
-          "answer": "The guideline is 4-6 weeks for first measurable movement in low-competition niches and 8-12 weeks in more competitive ones. We do not promise a specific position because Google does not allow that."
+          "answer": "The guideline is 4-6 weeks for first measurable movement in low-competition niches and 8-12 weeks in more competitive ones. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
         },
         "q6": {
           "question": "Do I need to collect reviews for it to work?",
@@ -2906,7 +2907,7 @@
   },
   "seoAgencyPage": {
     "metadataTitle": "SEO Agency in Sofia - How to Choose and What to Ask | Atlas Fold",
-    "metadataDesc": "How to choose an SEO agency in Sofia: seven questions for every offer, red flags, realistic timelines and how Atlas Fold, a specialist local SEO agency, works. From 200 EUR a month.",
+    "metadataDesc": "How to choose an SEO agency in Sofia: seven questions for every offer, red flags, realistic timelines and how Atlas Fold, a specialist local SEO agency, works. From 150 EUR a month.",
     "breadcrumb": {
       "home": "Home",
       "services": "Services",
@@ -3047,8 +3048,8 @@
       {
         "title": "Contract, price and transparency",
         "paragraphs": [
-          "Our prices start from 200 EUR a month, with no setup fee. The first three months are the initial growth phase, after which you continue month to month with 30 days' notice. You receive all terms in writing before the first payment.",
-          "The profile, website and data stay yours. For some niches we offer a conditional guarantee after a check of the competition; we discuss its terms after the audit, not in an advertisement."
+          "Our prices start from 150 EUR a month, with no setup fee. The first three months are the initial growth phase, after which you continue month to month with 30 days' notice. You receive all terms in writing before the first payment. You can pay monthly or pay the three months at once - same price, no discount. If you pay at once, we start work within 24 hours of payment and build one extra page on your website - for a service or a district - at no extra charge (no website: 4 extra posts on your Google profile).",
+          "The profile, website and data stay yours. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days. You receive the exact conditions in writing."
         ]
       },
       {
@@ -3097,7 +3098,7 @@
         },
         "q2": {
           "question": "How much does an SEO agency cost in Sofia?",
-          "answer": "Market prices vary widely. At Atlas Fold local SEO starts from 200 EUR a month with no setup fee; the final price depends on the niche and whether you have a website, and is confirmed in writing."
+          "answer": "Market prices vary widely. At Atlas Fold local SEO starts from 150 EUR a month with no setup fee; the final price depends on the niche and whether you have a website, and is confirmed in writing."
         },
         "q3": {
           "question": "What is the difference between an SEO agency and a marketing agency?",
@@ -3217,7 +3218,7 @@
           "body": "\"café near NDK\", \"notary near Sofia University\". A landmark search, where the landmark name in the profile and on the website helps Google connect you to the place."
         }
       ],
-      "outro": "For each of them Google weighs relevance, distance and prominence. In the center distance rarely sets you apart, so the work is in relevance (categories, services, description) and prominence (reviews, citations, profile completeness). These are the things we can improve - without promising a specific position."
+      "outro": "For each of them Google weighs relevance, distance and prominence. In the center distance rarely sets you apart, so the work is in relevance (categories, services, description) and prominence (reviews, citations, profile completeness). These are the things we can improve - with a guarantee measured on day 90."
     },
     "landmarks": {
       "title": "The streets and landmarks of Sredets your profile should name",
@@ -3305,11 +3306,11 @@
         },
         "q7": {
           "question": "How much does the service cost in the center?",
-          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+          "answer": "Pricing is the same city-wide - from 150 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
         },
         "q8": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         }
       }
     },
@@ -3357,7 +3358,7 @@
       ]
     },
     "serviceType": "Local SEO - Center (Sredets), Sofia",
-    "serviceDescription": "Local SEO and Google Maps optimization for businesses in central Sofia (Sredets) - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in central Sofia (Sredets) - Google Business Profile, on-page SEO, citations and review management, with a guarantee measured on day 90."
   },
   "areasHubPage": {
     "metadataTitle": "Service Areas in Sofia - Local SEO by District | Atlas Fold",
@@ -3420,7 +3421,7 @@
       "paragraphs": [
         "We start with an audit of your Google Business Profile and of the three strongest competitors in the district. That shows what gives them an edge - categories, services, reviews, citations - and what they lack.",
         "Then we put the profile, the website and the business data in order and tie them to the real district: the streets, landmarks and service areas customers actually use. We report every two weeks and show what has not changed as well.",
-        "We do not promise a specific position. The timeline depends on competition in your niche and district; the guidelines are 4-6 weeks to first movement in low competition and 8-12 weeks in high competition. We discuss a conditional guarantee only after an audit."
+        "The timeline depends on competition in your niche and district; the guidelines are 4-6 weeks to first movement in low competition and 8-12 weeks in high competition. Every offer with the 90-day initial phase comes with a guarantee measured on day 90: if your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days."
       ]
     },
     "other": {
@@ -3445,11 +3446,11 @@
         },
         "q4": {
           "question": "How much does the service cost?",
-          "answer": "From 200 € per month with no setup fee. Pricing is the same for every district. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+          "answer": "From 150 € per month with no setup fee. Pricing is the same for every district. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
         },
         "q5": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         }
       }
     },
@@ -3619,7 +3620,7 @@
           "body": "\"pharmacy near Nadezhda metro station\", \"garage near Lomsko shose\". A landmark in the profile and on the website helps Google connect you to the place."
         }
       ],
-      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - without promising a specific position."
+      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - with a guarantee measured on day 90."
     },
     "landmarks": {
       "title": "The neighborhoods and landmarks of Nadezhda your profile should name",
@@ -3700,11 +3701,11 @@
         },
         "q7": {
           "question": "How much does the service cost in Nadezhda?",
-          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+          "answer": "Pricing is the same city-wide - from 150 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
         },
         "q8": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         }
       }
     },
@@ -3756,7 +3757,7 @@
       ]
     },
     "serviceType": "Local SEO - Nadezhda, Sofia",
-    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Nadezhda district, Sofia - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Nadezhda district, Sofia - Google Business Profile, on-page SEO, citations and review management, with a guarantee measured on day 90."
   },
   "krasnoSeloAreaPage": {
     "metadataTitle": "Local SEO in Krasno selo, Sofia | Atlas Fold",
@@ -3808,7 +3809,7 @@
           "body": "\"hairdresser near Krasno selo metro station\", \"garage near Krasno selo market\". A landmark in the profile and on the website helps Google connect you to the place."
         }
       ],
-      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - without promising a specific position."
+      "outro": "For each of them Google weighs relevance, distance and prominence. These are the things we can improve - with a guarantee measured on day 90."
     },
     "landmarks": {
       "title": "The streets and landmarks of Krasno selo your profile should name",
@@ -3887,11 +3888,11 @@
         },
         "q7": {
           "question": "How much does the service cost in Krasno selo?",
-          "answer": "Pricing is the same city-wide - from 200 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
+          "answer": "Pricing is the same city-wide - from 150 € per month with no setup fee. The first month is paid before work begins, and after the first three months you continue month to month with 30 days' notice."
         },
         "q8": {
           "question": "Do you guarantee a Top 3 position?",
-          "answer": "We do not give an unconditional guarantee. We discuss a conditional guarantee only after an audit and if the business meets the conditions."
+          "answer": "Yes. Every offer with the 90-day initial phase comes with a guarantee: if on day 90 your average position on Google Maps for your main keyword is not at least one place better than at the start, we keep working for free until it is, for up to 90 more days. The guarantee applies when all three months are paid on time, because Google needs 60 to 90 days to reflect the changes. You receive the exact terms in writing before the first payment."
         }
       }
     },
@@ -3943,11 +3944,11 @@
       ]
     },
     "serviceType": "Local SEO - Krasno selo, Sofia",
-    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Krasno selo and Borovo, Sofia - Google Business Profile, on-page SEO, citations and review management, with a conditional guarantee only after an audit."
+    "serviceDescription": "Local SEO and Google Maps optimization for businesses in Krasno selo and Borovo, Sofia - Google Business Profile, on-page SEO, citations and review management, with a guarantee measured on day 90."
   },
   "bestAgencyPage": {
     "metadataTitle": "The Best Marketing Agency in Sofia – Atlas Fold",
-    "metadataDesc": "The best marketing agency in Sofia – Atlas Fold: Top 3 on Google Maps. Real case: 0% → 45% Top 3 coverage in ~11 weeks. From €200/month, no setup fee.",
+    "metadataDesc": "The best marketing agency in Sofia – Atlas Fold: Top 3 on Google Maps. Real case: 0% → 45% Top 3 coverage in ~11 weeks. From €150/month, no setup fee.",
     "breadcrumb": {
       "home": "Home",
       "current": "Marketing agency in Sofia"
@@ -3996,11 +3997,11 @@
         },
         {
           "title": "Is the price clear up front?",
-          "body": "Yes. From €200 a month, with no setup fee. Not “on request”."
+          "body": "Yes. From €150 a month, with no setup fee. Not “on request”. The three months can also be paid at once - same price, no discount."
         },
         {
           "title": "Does the agency promise the impossible?",
-          "body": "No. We offer a conditional guarantee only after an audit, and only if the business meets the eligibility conditions confirmed in writing before we start. Nobody can honestly guarantee a ranking unconditionally."
+          "body": "No. We promise a result with conditions and a deadline: if on day 90 your average position on Google Maps is not at least one place better than at the start, we keep working for free for up to 90 more days - with three months paid on time. Nobody can honestly guarantee a ranking unconditionally."
         },
         {
           "title": "Does the profile stay yours?",
